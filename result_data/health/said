@@ -1,14 +1,40 @@
-CONAKRY Guinea is targeting double-digit GDP growth by 2020 as it seeks to rebound after the Ebola virus slowed investment and hurt the mining sector, Prime Minister Mamady Youla said on Wednesday.
-The country was one of three West African states at the center of the outbreak, with more than 2,500 people in Guinea dying of Ebola in 2014 and 2015.
-Guinea was declared Ebola free in December but at least five people have since died of the disease.
-"Ebola has not only killed people, it has also killed businesses and jobs", Youla said in a speech.
-Growth fell to 0.6 percent in 2015 from 3.9 percent in 2012.
-He gave no projection for this year's GDP growth.
-"We have restored major macroeconomic balance, (but) Ebola has hampered investment, slowed growth and affected several sectors," he said.
-The Simandou iron ore project, worth an estimated $21 billion, would be crucial in reaching the 2020 goal, he said.
-A senior official in the Mines Ministry said it would take time before the project could proceed because of a drop in commodity prices.
-Rio Tinto (RIO.L) said in February it would seek financing for its Simandou project, despite writing down its value because of low commodity prices and funding uncertainties.
-(Reporting by Saliou Samb; Writing by Marine Pennetier; Editing by Matthew Mpoke Bigg and Peter Cooney)
-Donald Trump is the last man standing in the race for the Republican presidential nomination.
-Full Coverage
-The Most Influential Scientific Minds Using citation analysis to identify authors whose papers wield outsized influence
+WEDNESDAY, May 4, 2016 (HealthDay News) -- A surgical robot outperformed human surgeons in stitching the small intestines of pigs back together, researchers report.
+Without any direct human interaction, the Smart Tissue Autonomous Robot (STAR) reconnected the intestines with sutures that proved more accurate, evenly spaced and durable than those created by human hands, the machine's developers said.
+The test shows it's possible to create a smart robot that will be able to perform an entire surgical procedure on its own, much as robot technology is now used to assemble complex machinery or safely steer airplanes and automobiles, said senior researcher Dr. Peter C.W.
+Kim.
+"Our hypothesis is you should be able to eventually program the entire surgical procedure beginning-to-end, intelligently and autonomously," said Kim, who is a pediatric surgeon and vice president of the Sheikh Zayed Institute for Pediatric Surgical Innovation at Children's National Health System, in Washington, D.C.
+Robots currently are used in many surgical procedures, including heart bypass surgery, kidney transplants, prostate removal, hysterectomy and hip replacement, according to the U.S. National Institutes of Health.
+However, these robots are directly guided by a surgeon sitting at a computer station, with their movements matching those of their human operator.
+"When you look at the current robot, it simply is a motorized tool at the end of surgeons' fingertips," Kim explained.
+"It has no intelligence whatsoever."
+Kim and his colleagues set out to create a robot that could perform a challenging surgical procedure without any human guidance.
+They settled on reconnecting two ends of a small intestine as their test case, since the procedure involves soft tissue that moves around during surgery.
+"The procedure is like trying to put together a garden hose which has been cut.
+It's a tube structure which has some type of liquid flowing through it," said study co-author Ryan Decker, a senior engineer with the Sheikh Zayed Institute.
+"You want the spacing between sutures to be very consistent, and you want them to be tensioned very well and consistently," Decker said.
+"You also want them to be strong enough that when the pressure increases inside the garden hose, in this example, the garden hose will not leak."
+Surgeons use sharp vision, deft hands and a deep reservoir of knowledge and experience to perform their procedures, Kim said.
+He and his colleagues set out to recreate all three of these features in their experimental robot:
+They equipped STAR with infrared vision and a 3-D camera, so the robot would have better vision than humans and be able to locate structures in a three-dimensional space.
+The STAR robot also was built with the best minimally invasive surgical tools, and researchers added a force sensor so the robot would know how tight its sutures are.
+"When it pulls the suture, it knows how hard it is pulling," Kim said.
+Finally, the researchers programmed the robot with the best-practice surgical techniques for reconnecting two ends of a small intestine, "so the machine independently chooses how the task might best be accomplished," Kim said.
+For the study, the researchers opened up the bellies of pigs and divided their small intestines in two.
+They then had either the STAR or a human surgeon reconnect the two ends.
+The STAR outperformed humans in reconnecting small intestines whether the humans used their own hands, a robot assistant or laparoscopic techniques, the researchers found.
+The sutures reconnecting the small intestines were better spaced, more accurate and better withstood "leak" testing when performed by STAR, the researchers found.
+These postsurgical intestinal leaks can cause dire complications in humans who have undergone open bowel surgery.
+About 60 percent of the time, the STAR robot performed the surgery without even minor adjustments from researchers prior to the procedure, Kim said.
+"At the end of the day, when this machine puts two ends together, it does it consistently," he said.
+"It does it perfectly, all the time."
+This technology could be easily adapted to perform procedures like gall bladder removal or appendectomy, Kim said.
+"The goal is not to replace surgeons, but by having a tool like this and by making the procedures more intelligent, we can ensure better outcomes for patients," he said, noting that surgeons would oversee the robot's operations and step in when needed.
+The study was published May 4 in the journal Science Translational Medicine .
+Dr. Rasa Zarnegar, an associate professor of surgery at Weill Cornell Medical College in New York City, said that automated robotic surgery is "where it's eventually going to go anyway."
+"There are certain steps in surgery like suturing that could probably become automated using a robotic system," Zarnegar said.
+"I don't think it's far-fetched, and I don't think people will be concerned about it as long as the data support there are better outcomes."
+Zarnegar did note that STAR only performed surgery on four pigs in the study.
+Research on animals doesn't always produce similar results in humans.
+"Robotics has potentially a very bright future as far as automation goes, but you have to see how it pans out in larger studies," he said.
+Megan Frisk, a senior editor with the journal, said the elusive "promise of going hands-free in surgery and allowing the robot to do all of the work" appears nearer to reality with this research.
+"This achievement represents a new era of robotic surgery that could reduce error and complications for patients undergoing everything from tumor removal to airway reconstruction," Frisk said.

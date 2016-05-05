@@ -9,8 +9,9 @@ import hashlib
 import re
 import sqlite3
 import threading
-
+from datetime import datetime
 import feedparser
+from setuptools.command.sdist import re_finder
 
 from data_fetcher.fetcher import GetTextFromUrl
 from generals import readFile
@@ -56,9 +57,21 @@ def fetchRss(category=None,name = ""):
             for i in range(0, len(fp['entries']) - 1):
                 title = fp['entries'][i]['title']
                 link = fp['entries'][i]['link']
-                datetime = fp['entries'][i]['published'] or ""
-                date = re.findall('[0-9]+[ ][A-Za-z]+[ ][0-9]+', datetime)[0] or ""
-                time = re.findall('[0-9]+:[0-9]+:[0-9]+', datetime)[0] or ""
+                datetime_var = fp['entries'][i]['published']
+                date = "NULL"
+                time = "NULL"
+
+                if datetime_var:
+                    datetime_var = re.sub('[ ][0-9A-Z+-]+$', '', datetime_var, 1)
+                    #print(datetime_var)
+                    date_object = datetime.strptime(datetime_var, '%a, %d %b %Y %X')
+                    date = str(date_object.date())
+                    time = str(date_object.time())
+                '''
+                date = re.findall('[0-9]+[ ][A-Za-z]+[ ][0-9]+', datetime)[0] or "NULL"
+                time = re.findall('[0-9]+:[0-9]+:[0-9]+', datetime)[0] or "NULL"
+                '''
+
                 print(name, " --> ", title,link,date,time)
                 cursor.execute("select count(*) from News where title = ?", (title,))
                 count = int(cursor.fetchone()[0])
@@ -77,8 +90,8 @@ def fetchRss(category=None,name = ""):
                 newCount += 1
             print(name, " - Done")
         except Exception as e:
-            print("Exception occured for ",name)
-            print(str(e))
+            print("Exception occured for ",link or "")
+            print(e)
     print("Finished....","New Documents = ",newCount)
 
 
