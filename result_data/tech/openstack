@@ -1,0 +1,14 @@
+Rackspace predicts all Fortune 100 companies will move to adopt OpenStack in the next three years, given the current levels of enterprise interest in the cloud software.
+The infrastructure-as-a-service (IaaS) provider co-founded OpenStack with Nasa in 2010, and has remained a staunch supporter of the open source cloud platform ever since.
+Speaking to Computer Weekly at the recent OpenStack Summit in Austin, Texas, Van Lindberg , Rackspace’s OpenStack board member, compared the development and acceptance of the cloud operating system with the rise of Linux in the late 1990s.
+“If you were around in the early days of Linux, there were times when people were saying ‘this is a toy, nobody is ever going to deploy anything’, and by 1999 there was a lot of hype around it, although it wasn’t quite there,” he said.
+“OpenStack has been moving at up to three times that pace in terms of acceptance, hype and despair,” said Van Lindberg.
+He added that where it took Linux around eight years to move beyond the hype and hit mainstream adoption, OpenStack has already become the “de facto choice” for many enterprises in just six years.
+That said, RackSpace CTO John Engates told Computer Weekly there were still a couple of misconceptions around using OpenStack that need to be overcome, the most serious being that “it’s free and I can move all of my workloads onto it tomorrow and save 60% of my IT costs”.
+“I see that less and less as customers educate themselves on what OpenStack is, but that oversimplification is a recipe for disaster,” he added.
+People also have “an image of it in their head” of what we do and are, but as “time goes by and we hear more successful user stories, people will take another look and challenge their own beliefs”, he added.
+How far OpenStack has come – in terms of adoption and maturity – has been one of the themes of the week-long summit, which has seen the company frequently name-drop flagship users, such as HMRC, Volkswagen and AT&T.
+And, given the current rate of adoption, Engates estimated it would not be long before every member of the Fortune 100 become an OpenStack user, in some form or another.
+“I’d like to get to 100% and that won’t take very many years, if it took six years to get halfway there.
+I think it will take two or three more years, so it’s going to keep accelerating exponentially,” he added.
+“Once companies get a taste for it, it’s going to spread through organisations like wildfire,” said Engates.
