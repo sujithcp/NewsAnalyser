@@ -4,6 +4,8 @@ import re
 
 import sqlite3
 
+from generals import fetchNewsFromDb
+
 date_object = datetime.strptime('Thu, 05 May 2016 17:14:47 +0530', '%a, %d %b %Y %X %z')
 print(date_object.date(), date_object.time())
 
@@ -15,10 +17,6 @@ cur = con.cursor()
 
 data = cur.execute('''select * from News where date not like "%-%-%" ''').fetchall()
 
-for t in data:
-    old_date = t[4]
-    print(old_date)
-    new_date = datetime.strptime(old_date,'%d %b %Y').date()
-    print(new_date)
-    cur.execute('''update News set date = ? where title = ? and id = ?''',(new_date,t[2],t[1],))
-con.commit()
+
+
+

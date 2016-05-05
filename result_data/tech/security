@@ -1,9 +1,21 @@
-“Just about everything companies do in terms of digital transformation means that all these new information security risks are effectively business risks,” he told Computer Weekly.
-“Sensors in the production line, for example, are now being connected to business processes for the first time.”
-Kuppinger said companies need to recognise that business transformation and information security are connected, and this means “we have to do information security differently”.
-“When organisations look at digital transformation, they need to restructure so that information security is responsible for the security of everything, including the internet of things (IoT), the organisation’s operational technology (OT) and the business,” said Kuppinger.
-“The execution of information security needs to move to where organisations use IT, meaning IT departments will have to become more decentralised and services-based, while information security is independently responsible for security governance across everything,” he said.
-As everything becomes connected, organisations need to understand which people, systems and devices are working together, said Kuppinger.
-“Identity and access management is increasingly about … managing identities of everyone and everything in a connected world, and supporting organisations in their governance, risk and compliance [GRC] initiatives,” he said.
-Organisations also need to understand that the traditional, siloed IT body will be capable of “handling all the requirements and the changes as a result of digital transformation”, he said.
-Essentially, this means organisations will have to rethink their IT, which will probably move more into the centre of the business, with the IT department becoming more of an underlying service provider.
+The skills gap reported by cyber security professionals worldwide is often discussed as purely a supply-side issue, or a “talent shortage”.
+What is rarely discussed is whether the organisations hiring cyber security staff are actually looking for the right skills, asking the right questions and looking in the right places.
+A government Cyber Security Skills survey found that most UK cyber security recruiters prioritise experience over qualifications, which means they are not opening enough entry-level doors into the profession.
+This has led to a greying cyber security workforce with an average age of 42 , and a shortage of young people entering the profession.
+Experience is important, but companies should realise that they have a responsibility to provide that experience, rather than expect to pick up fully fledged professionals “off the shelf”.
+Organisations should try to develop their own talent by partnering with universities to provide cyber security work experience and internships to undergraduates, and hold jobs fairs to advertise career opportunities at colleges and universities.
+Employers should drop IT experience as a pre-requisite for cyber security jobs, and instead examine the specific attributes that make an excellent cyber security professional and match them to candidates from a range of backgrounds.
+Cyber security professionals say communication skills and analytical skills are the most important ingredients of career success.
+With these skills found in fields as varied as business management and psychology, organisations should develop aptitude tests that attempt to find these abilities in prospective employees, regardless of their background.
+Some 94% of the UK cyber security workforce is male.
+This is not surprising, since women are more likely to study social sciences than computing subjects.
+Yet research has also shown that female cyber security employees attach more importance to communication skills than technical knowledge, and communication skills are ranked as the most important quality for career success in cyber security.
+By changing their entrance criteria to reflect both gender and ethnicity, employers would be able to help diversify the profession.
+Companies often struggle to articulate their needs.
+Part of the problem is that, in a connected economy, cyber security touches every aspect of an organisation, so it is no longer confined to one area or one skillset.
+When considering taking on new hires, organisations must conduct a cyber security audit to build a clear profile of the specific skills and competencies their particular organisation needs.
+Organisations should examine where their skills gap lies.
+There is a misconception that the problem of a cyber security skills deficit refers only to a shortage of dedicated specialists, but the government’s Cyber Security Skills survey found that businesses see an equal requirement for more cyber skills “amongst those who create, purchase and use technology”.
+This demonstrates that companies encountering cyber security problems may not actually need more dedicated infosecurity professionals, but rather a more even spread of security knowledge across the organisation.
+Organisations should therefore consider job rotation, where staff are temporarily transferred to the security function to develop their cyber competence and job enrichment, where cyber is added as a competence or skill to be developed.
+Having a broad knowledge base of security throughout organisations can go a long way towards fulfilling their talent needs.

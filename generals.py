@@ -4,6 +4,7 @@ import re
 import sys
 import os
 
+import sqlite3
 from nltk.corpus import stopwords
 from stemming.porter2 import stem
 
@@ -70,3 +71,15 @@ def getFileList(dir):
             list.append(dir+f)
 
     return list
+
+
+def fetchNewsFromDb(start_date=None, end_date=None):
+    connection = sqlite3.connect('data/news_data.db')
+    cursor = connection.cursor()
+    if not start_date or not end_date:
+        query = '''select * from News'''
+    else:
+        query = '''select * from News where ? <= date and date <= ? ''', (start_date, end_date,)
+    data = cursor.execute(query).fetchall()
+    return data
+

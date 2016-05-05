@@ -2,7 +2,381 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f28fd3e-47e9-4bc5-ac9d-d7b4059908e6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/alberta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/app" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/applications" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/apr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/australia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/barren" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/br" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/capital" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/car" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/case" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/cbi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/clean" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/countries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/direct" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/exchange" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/financial" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/food" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/judge" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/kejriwal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/kim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/kumar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/may" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/mhz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/minister" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/odisha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/officials" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/parrikar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/police" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/probe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/ramadi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/reuben" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/security" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/seed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/spyder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/standard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/third" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/tiny" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/trading" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/trinamool" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/waqf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/business/website" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/abram" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/actor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/afeni" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/attorney" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/balmain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/ben" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/blue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/butt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/cannes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/captain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/china" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/chrissy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/clinic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/clooney" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/co" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/colombia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/concert" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/deepika" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/desirable" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/dutt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/dylan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/ealey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/energy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/fashion" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/films" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/followers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/getty" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/hari" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/hospital" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/hung" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/jaden" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/jr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/jude" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/kalanilayam" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/katrina" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/khan" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/maybe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/nuclear" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/outfits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/perry" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/power" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/sarabjit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/says" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/set" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/sharpe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/shroff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/sidharth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/singh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/songs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/statement" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/stefani" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/stones" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/sushant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/theme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/tour" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/trishul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/uncharted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/way" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/woman" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/entertainment/women" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/air" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/allergy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/app" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/arsenic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/brca1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/cream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/ias" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/ill" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/likely" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/may" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/mistakes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/physical" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/ratings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/spending" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/stents" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/supplements" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/uv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/health/vaccine" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/470" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/april" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/bt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/bull" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/chelsea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/club" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/compound" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/fife" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/forest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/game" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/hampshire" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/heavyweight" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/january" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/jiangsu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/jun" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/lancashire" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/leishman" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/mcilroy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/minister" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/murray" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/oliver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/rail" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/rankin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/real" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/russell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/semi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/sevilla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/tendulkar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/uthappa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/walsh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/sports/win" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/2016" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/addresses" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/battery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/blockchain" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/bradford" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/bt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/business" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/contracts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/european" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/idea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/imagemagick" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/lapbook" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/mercedes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/mi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/middle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/nbiot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/oneplus" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/petrol" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/phone" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/pluto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/prince" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/production" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/questions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/robot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/slides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/team" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/try" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/universal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/users" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result_data/tech/whatsapp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/cairn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/cent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/contracts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/developing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/economy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/end" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/estate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/gopalakrishnan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/inbev" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/opportunities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/order" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/party" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/plans" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/proof" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/ratings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/unwell" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/updated" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/america" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/bengali" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/brien" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/challenge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/dea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/first" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/flowers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/gail" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/girls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/hayward" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/hollyoaks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/jada" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kanye" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kapoor" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kenner" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/live" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/many" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/marathon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/met" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/nicholas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/one" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/really" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/red" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/ridley" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/shows" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/sonam" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/tiger" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/us" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/drug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/ebola" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/esophagus" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/low" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/new" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/officer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/quit" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/secretary" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/tape" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/2004" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/24" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/bale" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/bhatia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/coach" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/cup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/fidel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/goal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/got" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/hundreds" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/ioa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/ipl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/jan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/lineker" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/moment" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/patience" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/riders" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/round" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/rovers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/six" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/somerset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/supporters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/wright" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/08" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/3rd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/credit" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/delivery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/dementia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/east" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/financial" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/gls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/iot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/judge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/leeds" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/payments" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/rover" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/service" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/smart" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/space" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/value" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/business/crore" afterPath="$PROJECT_DIR$/result_data/business/innova" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/business/quarter" afterPath="$PROJECT_DIR$/result_data/business/hair" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/entertainment/also" afterPath="$PROJECT_DIR$/result_data/entertainment/series" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/entertainment/like" afterPath="$PROJECT_DIR$/result_data/entertainment/hough" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/entertainment/photo" afterPath="$PROJECT_DIR$/result_data/entertainment/kloss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/entertainment/star" afterPath="$PROJECT_DIR$/result_data/entertainment/vikander" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/health/cancer" afterPath="$PROJECT_DIR$/result_data/health/treatment" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/health/obesity" afterPath="$PROJECT_DIR$/result_data/health/gene" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/sports/delhi" afterPath="$PROJECT_DIR$/result_data/sports/team" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/sports/freestyle" afterPath="$PROJECT_DIR$/result_data/sports/advertising" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/sports/team" afterPath="$PROJECT_DIR$/result_data/sports/gold" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/tech/data" afterPath="$PROJECT_DIR$/result_data/tech/graph" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/result_data/tech/nagaland" afterPath="$PROJECT_DIR$/result_data/tech/amur" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/news_data.db" afterPath="$PROJECT_DIR$/data/news_data.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generals.py" afterPath="$PROJECT_DIR$/generals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/air" afterPath="$PROJECT_DIR$/result_data/business/air" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/aircraft" afterPath="$PROJECT_DIR$/result_data/business/aircraft" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/company" afterPath="$PROJECT_DIR$/result_data/business/company" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/congress" afterPath="$PROJECT_DIR$/result_data/business/congress" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/court" afterPath="$PROJECT_DIR$/result_data/business/court" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/crore" afterPath="$PROJECT_DIR$/result_data/business/crore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/government" afterPath="$PROJECT_DIR$/result_data/business/government" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/india" afterPath="$PROJECT_DIR$/result_data/business/india" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/issue" afterPath="$PROJECT_DIR$/result_data/business/issue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/listing" afterPath="$PROJECT_DIR$/result_data/business/listing" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/market" afterPath="$PROJECT_DIR$/result_data/business/market" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/ministry" afterPath="$PROJECT_DIR$/result_data/business/ministry" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/oil" afterPath="$PROJECT_DIR$/result_data/business/oil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/per" afterPath="$PROJECT_DIR$/result_data/business/per" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/percent" afterPath="$PROJECT_DIR$/result_data/business/percent" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/polling" afterPath="$PROJECT_DIR$/result_data/business/polling" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/quarter" afterPath="$PROJECT_DIR$/result_data/business/quarter" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/rs" afterPath="$PROJECT_DIR$/result_data/business/rs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/rural" afterPath="$PROJECT_DIR$/result_data/business/rural" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/said" afterPath="$PROJECT_DIR$/result_data/business/said" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/swamy" afterPath="$PROJECT_DIR$/result_data/business/swamy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/water" afterPath="$PROJECT_DIR$/result_data/business/water" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/wheat" afterPath="$PROJECT_DIR$/result_data/business/wheat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/2016" afterPath="$PROJECT_DIR$/result_data/entertainment/2016" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/also" afterPath="$PROJECT_DIR$/result_data/entertainment/also" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/bachchan" afterPath="$PROJECT_DIR$/result_data/entertainment/bachchan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/battlefield" afterPath="$PROJECT_DIR$/result_data/entertainment/battlefield" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/comments" afterPath="$PROJECT_DIR$/result_data/entertainment/comments" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/cramer" afterPath="$PROJECT_DIR$/result_data/entertainment/cramer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/film" afterPath="$PROJECT_DIR$/result_data/entertainment/film" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/fox" afterPath="$PROJECT_DIR$/result_data/entertainment/fox" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/jackson" afterPath="$PROJECT_DIR$/result_data/entertainment/jackson" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/like" afterPath="$PROJECT_DIR$/result_data/entertainment/like" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/photo" afterPath="$PROJECT_DIR$/result_data/entertainment/photo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/roshan" afterPath="$PROJECT_DIR$/result_data/entertainment/roshan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/star" afterPath="$PROJECT_DIR$/result_data/entertainment/star" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/tai" afterPath="$PROJECT_DIR$/result_data/entertainment/tai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/technology" afterPath="$PROJECT_DIR$/result_data/entertainment/technology" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/trump" afterPath="$PROJECT_DIR$/result_data/entertainment/trump" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/alcohol" afterPath="$PROJECT_DIR$/result_data/health/alcohol" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/blood" afterPath="$PROJECT_DIR$/result_data/health/blood" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/cancer" afterPath="$PROJECT_DIR$/result_data/health/cancer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/care" afterPath="$PROJECT_DIR$/result_data/health/care" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/countries" afterPath="$PROJECT_DIR$/result_data/health/countries" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/dengue" afterPath="$PROJECT_DIR$/result_data/health/dengue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/fat" afterPath="$PROJECT_DIR$/result_data/health/fat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/heart" afterPath="$PROJECT_DIR$/result_data/health/heart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/medical" afterPath="$PROJECT_DIR$/result_data/health/medical" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/must" afterPath="$PROJECT_DIR$/result_data/health/must" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/obesity" afterPath="$PROJECT_DIR$/result_data/health/obesity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/percent" afterPath="$PROJECT_DIR$/result_data/health/percent" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/products" afterPath="$PROJECT_DIR$/result_data/health/products" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/progeria" afterPath="$PROJECT_DIR$/result_data/health/progeria" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/robot" afterPath="$PROJECT_DIR$/result_data/health/robot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/said" afterPath="$PROJECT_DIR$/result_data/health/said" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/tobacco" afterPath="$PROJECT_DIR$/result_data/health/tobacco" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/weight" afterPath="$PROJECT_DIR$/result_data/health/weight" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/2016" afterPath="$PROJECT_DIR$/result_data/sports/2016" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/city" afterPath="$PROJECT_DIR$/result_data/sports/city" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/delhi" afterPath="$PROJECT_DIR$/result_data/sports/delhi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/freestyle" afterPath="$PROJECT_DIR$/result_data/sports/freestyle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/gayle" afterPath="$PROJECT_DIR$/result_data/sports/gayle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/icc" afterPath="$PROJECT_DIR$/result_data/sports/icc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/law" afterPath="$PROJECT_DIR$/result_data/sports/law" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/league" afterPath="$PROJECT_DIR$/result_data/sports/league" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/red" afterPath="$PROJECT_DIR$/result_data/sports/red" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/side" afterPath="$PROJECT_DIR$/result_data/sports/side" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/app" afterPath="$PROJECT_DIR$/result_data/tech/app" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/bank" afterPath="$PROJECT_DIR$/result_data/tech/bank" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/data" afterPath="$PROJECT_DIR$/result_data/tech/data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/game" afterPath="$PROJECT_DIR$/result_data/tech/game" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/google" afterPath="$PROJECT_DIR$/result_data/tech/google" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/india" afterPath="$PROJECT_DIR$/result_data/tech/india" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/nagaland" afterPath="$PROJECT_DIR$/result_data/tech/nagaland" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/said" afterPath="$PROJECT_DIR$/result_data/tech/said" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/security" afterPath="$PROJECT_DIR$/result_data/tech/security" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/services" afterPath="$PROJECT_DIR$/result_data/tech/services" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/us" afterPath="$PROJECT_DIR$/result_data/tech/us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/viv" afterPath="$PROJECT_DIR$/result_data/tech/viv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wastes/date.py" afterPath="$PROJECT_DIR$/wastes/date.py" />
     </list>
     <ignored path="NewsPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +400,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="140">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -38,30 +412,52 @@
       <file leaf-file-name="news_classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-336">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rss_fetcher.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_fetcher/rss_fetcher.py">
+      <file leaf-file-name="generals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+            <state relative-caret-position="144">
+              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding>
-                <element signature="e#157#171#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="date.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wastes/date.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="164">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/event.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rss_fetcher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_fetcher/rss_fetcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,14 +488,18 @@
         <option value="$PROJECT_DIR$/wates/termf.py" />
         <option value="$PROJECT_DIR$/data_fetcher/rss_fetcher.py" />
         <option value="$PROJECT_DIR$/wates/date.py" />
+        <option value="$PROJECT_DIR$/wastes/test.py" />
+        <option value="$PROJECT_DIR$/generals.py" />
+        <option value="$PROJECT_DIR$/wastes/date.py" />
+        <option value="$PROJECT_DIR$/event.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="654" />
-    <option name="width" value="630" />
-    <option name="height" value="626" />
+    <option name="x" value="56" />
+    <option name="y" value="-4" />
+    <option name="width" value="1311" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,6 +546,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_fetcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -164,7 +578,75 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test2">
+  <component name="RunManager" selected="Python.event">
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wastes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewsPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wastes/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="generals" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewsPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="date (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wastes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewsPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wastes/date.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="event" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NewsPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/event.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="rss_fetcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,74 +660,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NewsPro" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_fetcher/rss_fetcher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewsPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewsPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="date" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wates" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewsPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wates/date.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="termf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wates" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NewsPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wates/termf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -385,19 +799,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.rss_fetcher" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.date" />
-      <item index="4" class="java.lang.String" itemvalue="Python.termf" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.generals" />
+      <item index="2" class="java.lang.String" itemvalue="Python.date (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.event" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rss_fetcher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.date" />
-        <item index="2" class="java.lang.String" itemvalue="Python.termf" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rss_fetcher" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.event" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rss_fetcher" />
+        <item index="2" class="java.lang.String" itemvalue="Python.date (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.generals" />
       </list>
     </recent_temporary>
   </component>
@@ -423,16 +837,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="654" width="630" height="626" extended-state="0" />
-    <editor active="true" />
+    <frame x="56" y="-4" width="1311" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4888535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23453018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13238288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4341693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -463,28 +877,9 @@
     <entry file="file://$PROJECT_DIR$/data_fetcher/fetcher.py" />
     <entry file="file://$PROJECT_DIR$/result_data/health/players" />
     <entry file="file://$PROJECT_DIR$/train.py" />
-    <entry file="file://$PROJECT_DIR$/generals.py" />
     <entry file="file://$PROJECT_DIR$/nltk_news_classifier.py" />
     <entry file="file://$PROJECT_DIR$/test" />
     <entry file="file://$PROJECT_DIR$/main">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -500,30 +895,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wastes/termf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding>
-            <element signature="e#172#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wastes/date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#172#209#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,13 +913,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wastes/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wastes/date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_fetcher/rss_fetcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-          <folding>
-            <element signature="e#157#171#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

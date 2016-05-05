@@ -1,34 +1,11 @@
-Whether you are setting about customer analytics, fraud detection, risk assessment or building complex social networking applications, you need connected data.
-Today’s enterprises are spending more time looking to answer complex business questions.
-Linking a few data sources is often simple – but to do so with significant amounts of heterogeneous data requires a radical approach.
-Without doubt, it is critical to re-envision your business not as a standalone entity but as part of an ecosystem where customers assemble suppliers according to their needs, using businesses that collaborate and share data and services.
-And the need to support customer interactions across multiple touch points is forcing enterprises to analyse data more intelligently and in an integrated manner.
-A graph database allows organisations to think differently and create intelligence-based business opportunities that weren’t possible before.
-Such a database constitutes a powerful, optimised technology that links billions of pieces of connected data to create sources of value for customers and increase operational agility for customer service.
-Graph databases excel in navigating or processing large amounts of connected data, giving customers insights and intelligence that were next to impossible with traditional technologies.
-Enterprise architects who champion investment in graph databases will be ready to use data to create customer insights, respond quickly to changing market demands and competitive threats, and grow their organisations faster than their competitors by delivering innovative products and services.
-Many use cases use graph databases, including customer recommendation engines, big data analytics, fraud detection, master data management, social networking, internet of things (IoT) analysis and real-time data analytics .
-The graph database market is expected to see significant success in the coming years as organisations combine people, processes and technology to close the gap between insights and action.
-The adoption for graph databases stands at 15% worldwide but is likely to double in the next three years.
-Although there are more than a dozen graph database suppliers, these are the leading ones:
-Neo Technology first released Neo4j, an open source NoSQL property graph database in 2007, under an open source licence and then as a generally available commercial version in 2010.
-It supports transactional operations in the context of mission-critical systems running real-time queries.
-Customer feedback indicates that Neo Technology’s key strengths are its ability to support native storage and processing of graph data models and its full Acid (atomicity, consistency, isolation, durability) compliance, flexible data models, and high performance for connected data.
-Customers often use it for real-time recommendations, graph-based search, social networking, fraud detection, network and identity management, and MDM.
-Neo Technology has many enterprise customers, including CenturyLink, Cisco Systems, eBay, HP, Lufthansa.
-Snap Interactive, a dating app company, uses Neo4j to support a social graph with one billion people and more than seven billion relationships.
-DataStax’s acquisition of Aurelius – the startup behind open graph database Titan – will enable it to add a graph component to its DataStax Enterprise data platform built on Apache Cassandra.
-The graph database functionality offers enterprises multimodel capabilities to store, process, and access various data sets to support broader use cases for transactional and operational applications.
-Organisations are likely to use the platform for recommendation and personalisation engines, fraud detection, risk assessment, mobile data management and IoT applications.
-Global connected data is becoming critical for all enterprises and DataStax’s scalable distributed platform along with graph capabilities is likely to appeal to many.
-Orient Technologies is the key contributor to and supporter of OrientDB, an open source NoSQL graph database written in Java released in 2010.
-OrientDB supports schema-less and schema-based data modes and uses SQL as its query language for both structured and unstructured data, on top of the traditional Gremlin and Sparol.
-Customers often mention its multimodel engine, ease of use, reliable performance, and small footprint as core strengths.
-OrientDB has a fully Acid-compliant graph database to support transactional and operational use cases.
-Key use cases for OrientDB include social networking, recommendation engines and fraud detection.
-Customers deploying OrientDB include CenturyLink, Ericsson, Pitney Bowes, Sky and Warner Music.
-FlockDB is an open source distributed graph database that Twitter built to store relationships and later released to the community.
-Currently, no commercial suppliers support it, so businesses are cautious about its support and roadmap.
-However, it’s suitable when a team of developers is looking to get its hands dirty with code and customise it for specific graph applications where commercial systems fall short.
-FlockDB is suitable for set operations requiring horizontal scalability with low-latency environments, such as social networking or fraud detection.
-This is an extract of the Forrester Research report, “ Market Overview: Graph Databases ” (May 2015), written by Noel Yuhanna , principal analyst at Forrester.
+Image: Brian Klug It may be a good time to update your email password.
+A report from Reuters suggests that over 270 million hacked email credentials—including those from Gmail, Hotmail and Yahoo—are circulating among Russian digital crime rings.
+Reuters reports that an investigation by Hold Security revealed the huge stash of login details, that are said to be being traded among criminals.
+Most of the credentials relate to the Russian email service Mail.ru, but the team has also identified “smaller fractions”—but still “tens of millions”—of details from Google, Yahoo and Microsoft.
+The team from Hold Security was offered a tranche of 1.17 billion email user records in an online forum, and asked to pay just $1 for a copy of the data.
+The team refuses to pay for stolen data, but was given the information anyway when it offered to post positive comments about the hacker online.
+The team has since sifted through the data set to remove duplicates, revealing that it contains 270 million unique records.
+Alex Holden, the founder of Hold Security, told Reuters that the data was “potent,” adding that the “credentials can be abused multiple times.”
+Hold Security has apparently alerted all of the affected email providers.
+It may be that the stash is out of date and doesn’t present too much of a security threat—though, of course, it could be a new pool of data, in which case the accounts included in the tranche could be at risk.
+It may be a good time to refresh your password either way,

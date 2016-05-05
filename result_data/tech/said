@@ -1,28 +1,54 @@
-Cyber criminals are increasingly designing attacks for specific countries to trick victims into downloading malware, according to research by SophosLabs .
-Analysis of data from millions of endpoints worldwide revealed a growing trend of crafting spam to deliver malware that uses vernacular, brands and payment methods for better cultural compatibility.
-Ransomware disguised as an authentic email or notification, complete with local logos, is more believable, and therefore more financially rewarding to cyber criminals, the researchers said.
-To be as effective as possible, scam emails are also impersonating local postal companies, tax and law enforcement agencies and utility firms through phony shipping notices, refunds, speeding tickets and electricity bills.
-SophosLabs noted a rise in spam where the grammar was more often properly written and perfectly punctuated.
-“You have to look harder to spot fake emails,” said Chester Wisniewski, senior security advisor at Sophos .
-“Being aware of the tactics used in your region is becoming an important aspect of security.”
-Researchers also saw historic trends of different ransomware strains that targeted specific locations.
-Versions of CryptoWall predominantly hit victims in the US, UK, Canada, Australia, Germany and France; TorrentLocker attacked primarily the UK, Italy, Australia and Spain; and TeslaCrypt honed in on the UK, US, Canada, Singapore and Thailand.
-Ransomware disguised as an authentic email or notification, complete with local logos, is more believable, and therefore more financially rewarding to cyber criminals Sophos
-The analysis also showed the level of malware infections and attacks per 1,000 Sophos endpoints for countries in the first three months of 2016, also known as threat exposure rates (TER).
-Although western economies were more highly targeted, they typically had a lower TER.
-Countries ranked with the lowest TER included France at 5.2%, Canada at 4.6%, Australia at 4.1%, the US at 3% and the UK at 2.8%.
-Algeria at 30.7%, Bolivia at 20.3%, Pakistan at 19.9%, China at 18.5% and India at 16.9% were among the countries with the highest percentage of endpoints exposed to malware attacks.
-“Even money laundering is localised to be more lucrative.
-Credit card processing can be risky for criminals, so they started using anonymous internet payment methods to extort money from ransomware victims,” said Wisniewski.
-“We have seen cyber crooks using local online cash-equivalent cards and purchasing locations, such as prepaid Green Dot MoneyPak cards from Walgreens in the US, and Ukash, which is now paysafecard, from various retail outlets in the UK,” he said.
-The concept of filtering out specific countries also emerged as a trend.
-“Cyber criminals are programming attacks to avoid certain countries or keyboards with a particular language,” said Wisniewski.
-“This could be happening for many reasons.
-Maybe the crooks don’t want attacks anywhere near their launch point to better avoid detection.
-It could be national pride.
-Or perhaps there’s a conspiratorial undertone to create suspicion about a country by omitting it from an attack,” he said.
-Banking is an example of how cyber criminals are using location-based malware to be more prosperous.
-The Sophos research revealed historically how Trojans and malware used to infiltrate banks and financial institutions converges on specific regions.
-Brazilian banker Trojans and variants pinpoint Brazil, and Dridex is predominant in the US and Germany, for example, while Trustezeb is most prevalent in German-speaking countries, Yebot is popular in Hong Kong and Japan, and Zbot is found mostly in the US, UK, Canada, Germany, Australia, Italy, Spain and Japan.
-“There is an entire cottage industry of uniquely crafted Trojans just targeting banks in Brazil,” said Wisniewski.
-With cyber criminals having a deliberate hand in creating threats that look authentic and are specifically targeted, Sophos researchers said it is more difficult to recognise malicious spam.
+BRUSSELS: With the India-EU FTA negotiations deadlocked, a top European Parliament member has said the two sides could explore the option of a "less ambitious" trade pact and indicated that there could be a separate negotiator for the crucial talks.
+"May be some of the riders (in the proposed free trade agreement) are a bit too ambitious in certain areas," Geoffrey Van Orden, a Member of the European Parliament (MEP) and the Chair of the European Parliament's Delegation for relations with India, told a visiting group of Indian journalists here.
+He said the two sides could look at "exploring something slightly less ambitious" but asserted that first it is important to ascertain that why is there this "great holdup" and why there is a "lack of enthusiasm" for the pact.
+Asked if it was Brexit or the ongoing talks on the Transatlantic Trade and Investment Partnership (TTIP) between the EU and the US holding the Broad-based Trade and Investment Agreement (BTIA), Van Orden said, "there is a certain validity" to the notion that TTIP was having an impact on the progress of the BTIA.
+"I think because a lot of effort is going into TTIP and for a long time we have the same negotiator responsible for all of these agreements and we called upon the commission to appoint a separate negotiator for the BTIA.
+So I do think the capacity to deal with several major free trade agreements may be is lacking," the British Conservative Party politician and a former Army officer said.
+Asked if there will now be a separate negotiator for the BTIA talks, Van Orden did not give a direct answer saying, "I understand that now the arrangements are slightly different."
+Van Orden said that there was expectation that trade representatives from the two sides would be meeting on the sidelines of the G20 meeting in China in September.
+"One of the things we hoped would come out of that summit (India-EU) would be a real new impulse to the negotiations on the free trade agreement.
+Formally it doesn't seem to have been that great impulse on either side," the MEP said.
+"There is some very weak language in the communique and the expectation is that there would be further meetings on the margins of the G20 Summit that is to take place in China in early September," Van Orden said.
+He said as a member of the European Parliament, he has put in a question to the European Commission to know when will the next round of FTA talks take place.
+"I have not yet had a response to my question," he said.
+Asked if a watered down agreement would be good, Cora van Nieuwenhuizen, vice chair of the Delegation for Relations with India, also answered in the affirmative.
+Asked if it would be prudent to go for a less ambitious deal considering the progress on the FTA is sluggish, she said, "I would prefer that".
+"Opening up of some of the service sectors, these sorts of things, it goes on.
+Everything just doesn't stop because of the BTIA.
+There are a lot of other things that are going on," Van Orden said.
+Asked if the FTA was a make or break agreement, he said, "It's one of the number of arrangements".
+Describing him as an "excellent" Prime Minister, Van Orden lauded Modi's vision and schemes.
+"I am a great fan of Mr Narendra Modi.
+I think he is just what India needs at this moment.
+That might be controversial to some of you for me to say that and I know he can be controversial at home but he has got the energy and vitality that is needed to arouse India from a certain sort of a stupor it was in some recent years and get it moving," Van Orden said.
+Prime Minister Modi is the first to recognise he has a lot of difficulties but if you take some of these projects like "'Make in India' or the clean Ganges, the new generation sustainable energy, getting out to all the villages with the electricity and all these sorts of things, there are a lot of big infrastructure projects.
+There is a lot that we can offer and that free trade agreement is not going to be the answer to everything.
+I am not that naive but it would help get things moving," he said.
+Nieuwenhuizen also praised Prime Minister Modi for his mantra of removing red tape and rolling out the red carpet for investors.
+However, talking about the practical application of the mantra in India, she said, "For what I hear it is not a 100 per cent success but we know from our experiences here its an uphill battle.
+For what I hear, efforts are good but it is not finished."
+Total bilateral trade between India and the EU, which is India's largest trading partner, stands at 78 billion euros in 2015.
+"It is better to take small steps and move on than aiming for very high goal that is not achievable in the near future.
+So any progress is progress.
+I think we should try to take small steps if the big ones are not possible yet," she told the journalists at an interaction here.
+"I would like it (the FTA) to be more ambitious but if that is not possible...I think we should relate more on other topics because if you are among friends you move faster on all the files and if you never meet, you never become friends," Nieuwenhuizen said.
+She stressed that there should be meetings on other topics and if that is done probably the atmosphere will change and it could become easier to make progress on trade as well.
+At the India-EU Summit in March, for which Prime Minister Narendra Modi travelled to Brussels, both sides failed to make the much-awaited announcement on resumption of long stalled negotiations for a free trade agreement as many bottlenecks still remain.
+Van Orden criticised the "vague" reference to the BTIA in the communique issued after the summit.
+"The trouble with those communiques is that they are drafted in advance of summits.
+There might be a few odd changes here and there, another sentence, or something like that.
+The paragraph that was there about BTIA.
+You couldn't have found more vague language," he said.
+Asked if Brexit, Britain's exit from the 28-nation bloc that was to be decided in a referendum on June 23, was holding BTIA, Van Orden said, "I don't think so at all.
+There is no reason why progress should not be made on this, meetings should not take place.
+We can't hold our breadth waiting for one thing to happen."
+Also last week, Daniel Rosario, Spokesperson Trade, Directorate-General Communication -- European Commission, had asserted that automobiles and wines continue to be the sticking points in the long-stalled negotiations for the proposed FTA with India.
+He had said the two sides should restart talks only after they have "something meaningful" to deliberate upon.
+India had deferred FTA talks with the bloc in August last year over the European Union (EU) banning sale of around 700 pharma products clinically tested by GVK Biosciences.
+Speaking on the issue, Rosario had said India's decision to defer the talks was "not justified".
+Talking about President of the European Parliament Martin Schulz's visit to India, Van Orden said, "My understanding is that he is visiting in December."
+On reports that he could visit in June, Van Orden said, "so much the better"
+He emphasised that the FTA was important for the EU-India relationship but pointed out that there are "a lot of other things" happening and were talked about in the joint communique in terms of strategic partnership, in terms of terrorism and in terms of European Investment Bank's investments.
+"There were a whole range of issues that were covered in that communique.
+So there is a good strong relationship there on various fronts.
+Don't forget many things which have happened on a bilateral basis," Van Orden said.
