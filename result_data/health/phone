@@ -1,0 +1,24 @@
+In testing SpiroSmart in clinics in India and Bangladesh, University of Washington doctoral student Mayank Goel(front row, centre) and collaborators learned that many patients did not have access to a smartphone
+For reach in developing countries, SpiroCall works with all phones, not just smartphones Most people in the developing world who have asthma, cystic fibrosis or other chronic lung diseases have no way to measure how well their lungs are functioning outside of a clinic or doctor visit.
+But many do have access to a phone, though it may be a 10-year-old flip phone or a communal village landline instead of the latest app-driven smartphone.
+That's why University of Washington computer science and engineering and electrical engineering researchers have developed SpiroCall, a new health sensing tool that can accurately measure lung function over a simple phone call.
+A paper to be presented in May at the Association for Computing Machinery's CHI 2016 conference in San Jose, California, shows that SpiroCall's results came within 6.2 per cent of results from clinical spirometers used in hospitals and doctor's offices, meaning it meets the medical community's standards for accuracy.
+"We wanted to be able to measure lung function on any type of phone you might encounter around the world — smartphones, dumb phones, landlines, pay phones," said Shwetak Patel, Washington Research Foundation Endowed Professor of Computer Science & Engineering and Electrical Engineering at the UW.
+"With SpiroCall, you can call a 1-800 number, blow into the phone and use the telephone network to test your lung function," he said.
+In 2012, researchers from the UW's UbiComp Lab introduced SpiroSmart — which lets people monitor their lung function by blowing into their smartphones.
+The patients take a deep breath in and exhale as hard and fast as they can until they can't exhale any more.
+The phone's microphone senses sound and pressure from that exhalation and sends the data to a central server, which uses machine learning algorithms to convert the data into standard measurements of lung function.
+"People have to manage chronic lung diseases for their entire lives," said lead author Mayank Goel, a UW computer science and engineering doctoral student.
+"So there's a real need to have a device that allows patients to accurately monitor their condition at home without having to constantly visit a medical clinic, which in some places requires hours or days of travel."
+Over the last four years, the team has collected data from more than 4,000 patients who have visited clinics in Seattle and Tacoma as well as in India and Bangladesh, where clinicians have measured lung function using both SpiroSmart and a commercial spirometer.
+That comparative data has improved the performance of the machine learning algorithms and laid the groundwork for team's current FDA clearance process.
+In surveying patients from India and Bangladesh, though, the team realised that a significant percentage did not own smartphones and would be unable to use SpiroSmart in their own homes — which was a key goal of the project.
+The team realised that the only sensor they were using was a microphone, which all phones have.
+So the researchers decided to develop a system that would work with any phone anywhere in the world by having the patient use a call-in service.
+SpiroCall transmits the collected audio using a standard phone channel — as opposed to a sound file that is transferred by a smartphone app over the Internet.
+The team combined multiple regression algorithms to provide reliable lung function estimates despite the degraded audio quality.
+"We had to account for the fact that the sound quality you get over a phone line is worse," said co-author Elliot Saba, a UW electrical engineering doctoral student.
+"You can imagine how listening to someone play a song over a phone line would sound compared to listening to it on your music app — there's a similar difference with a spirometry test."
+Despite those challenges, SpiroCall delivered results over a standard cellphone voice channel that were within 6.2 per cent of the same patient's test results from a commercial spirometer.
+Because of variability in the way a patient exhales during each spirometry test, the industry considers anywhere from 5 to 10 percent to be within an acceptable margin of error.
+The research team also developed a 3-D printed whistle that can be used in conjunction with SpiroCall that changes pitch when the patient exhales.
