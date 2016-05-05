@@ -1,0 +1,18 @@
+Ransomware attacks are on the rise, and now account for around a quarter of cyber threats targeting internet users in the UK, according to security firm Eset .
+The majority of the code consists of crypto-ransomware, including some well-known groupings, such as Teslacrypt .
+The most recent wave of attacks has been focused on victims in the UK, where it accounted for roughly every fourth threat in the third week of April 2016, said the security firm.
+“To reach as many potential victims as possible, attackers are spamming inboxes in various parts of the world,” said Ondrej Kubovič, security specialist at Eset.
+“Therefore, users should be very cautious about which messages they open.”
+Laurance Dine, managing principal of investigative response at Verizon Enterprise Solutions, said: “Ransomware is going crazy.
+It is everywhere.
+As an incident response team we are dealing with ransomware attacks all the time.”
+Eset’s Kubovič recommends that companies should train their employees to report incidents to their internal security departments.
+“Users should keep their operating systems and software up to date, as well as install a reliable security suite offering multiple layers of protection and regular updates,” he added.
+“Last but not least, users need to back up all their important and valuable data, allowing for its recovery in case of ransomware infection,” he said.
+While ransomware is becoming an increasing problem for businesses, a recent spate of attacks on hospitals in the past few months – mainly in the US , but also in Canada , Germany and New Zealand – has underlined the potentially life-threatening impact of ransomware, which works by encrypting data and demanding a ransom to be paid for its release.
+A report by Institute for Critical Infrastructure Technology (ICIT) has also highlighted the fact that internet of things (IoT) devices offer a potential growth opportunity to any ransomware operation , given the devices are interconnected by design and many lack any form of security.
+According to the report, while a lot of traditional malware will be too large to ever run on many IoT devices, ransomware (predominantly consisting of a few commands and an encryption algorithm) is much lighter.
+Many medical devices, such as insulin pumps and other medication dispersion systems, are internet- or Bluetooth-enabled, the report pointed out, and warned that ransomware could used to open connections to infect the IoT device.
+“This issue is not too far fetched,” independent security consultant, Graham Cluley wrote in a blog post .
+“Whether ransomware attacks against IoT devices are going to be as regular a part of our future as attacks on traditional computer systems remains to be seen,” he wrote.
+“But, it is surely another reason for us to be even more concerned that security is treated as a priority by all companies manufacturing internet-enabled devices,” he added.

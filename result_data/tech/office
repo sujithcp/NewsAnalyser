@@ -1,0 +1,24 @@
+The Met Office has moved its on-premise infrastructure for web applications to Amazon Web Services (AWS) in a bid to improve flexibility.
+Chris Beighton, systems architect at the Met Office, said: “The problem we are trying to solve is that there is unpredictable demand for our weather information services.
+People will watch the news and go online to reconfirm how weather report will affect them .”
+This results in a peak in traffic on the Met Office website, as the public search for forecasts based in their local area.
+While data that is requested more than once is cached, the initial lookup is unique and requires direct access to the Met Office servers.
+As people increasingly use location-based weather services, Beighton said the processing puts extra load on the servers.
+By moving the less predictable public load onto independent cloud infrastructure, he said the Met Office can ensure that its services to critical government and business customers are much less likely to be affected by the public demand.
+During Storm Katie 2016, the Met Office received a 200% increase in traffic, with more than eight million visits during the Easter weekend.
+The Weather Cloud will ensure the mobile app, along with the rest of the Met Office’s public-facing web pages, can handle increasing traffic and facilitate better planning for short-term weather events.
+The increased flexibility will also help save public money by scaling down hardware when demand reduces during the summer months.
+This capability will help to ensure that the first customer experiences the same level of service as the last.
+This will allow users to gather the information they need – whether that’s an individual learning about the winds near their home, or the ambulance service discovering how the weather will affect demand.
+Beighton said the Met Office has put a cap on horizontal expansion in AWS to avoid incurring extra costs if there is massive demand for its service, as it would need to expand the number of virtual machines.
+“Without expansion, we should be capable of taking most of our extreme loads,” he added.
+According to Beighton, the Weather Cloud offers the Met Office a flexible platform.
+Leveraging some of the power of the new supercomputer, the Weather Cloud will enable faster access to detailed forecasts at more locations through increased geospatial data density.
+It also provides the Met Office with a platform to experiment and develop its services for new technologies that are embraced by consumers and businesses.
+“It is relatively easy to for us to innovate and tear up [instances],” added Beighton.
+The Met Office is also able to help its business partners access the infrastructure more easily – for example, by enabling external services to collect and exchange Met Office weather and climate data.
+In the past, the Met Office would have needed to give third parties access to its internal systems to support weather-aware devices and applications.
+“It is always a challenge to get data to a connected car, and this also poses a security risk,” said Beighton.
+The Weather Cloud abstracts the data and services, and so protects the internal infrastructure.
+This opens up opportunities for the Met Office to keep its internal IT systems at arms when working with partners.
+A hypothetical example would be if Samsung decided to collect data from its fridges and required weather information, said Beighton.
