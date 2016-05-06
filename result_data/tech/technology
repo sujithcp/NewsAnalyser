@@ -1,24 +1,33 @@
-Financial services firms should treat blockchain as a lab project and prepare for another decade before the technology hits the mainstream, according to Forrester Research.
-The IT analyst company said full-scale, industrial-strength blockchain deployments “aren’t imminent” and predicted a three-phase evolution of the technology.
-The peer-to-peer technology uses distributed ledger and advanced encryption to guarantee the provenance of every transaction.
-It could potentially eliminate back-end processing to provide a secure, provable transaction in near real time.
-In a world where digital disruption is rampant, this cannot be brushed aside.
-According to Forrester, organisations have been on the first part of the journey for some time, which it labelled “irrational exuberance”.
-“We are reaching the end of this first phase, as many companies have already realised, from their own hands-on evaluations and pilot projects, that for the use cases under investigation there are no ready-made solutions that can achieve enterprise-scale and also fulfil other key requirements around security, exception handling and regulatory compliance, to mention just a few factors,” said Forrester.
-Forrester said many organisations have moved to the next phase, “rational assessment”.
-“Judging by some of the inquiries, some organisations are still hoping for the imminent appearance of suitable off-the-shelf solutions,” said Forrester.
-“By the end of 2016, we’ll firmly be in the phase of assessing in detail which technology components need to be developed, or stitched together, for particular use cases.
-“Alongside, companies will focus on cost/benefit calculations and business models.
-This will be ongoing for a number of years, depending on the use case.
-It’s likely that for some of these, blockchain technology will turn out not to be the most optimal solution after all, either because of technical complexity or because the business case doesn’t stack up.”
-Then comes phase three, “practical deployment”.
-Forrester said for straightforward use cases, such as those involving a small number of parties and few or no regulatory concerns, the transition to this phase will be smooth.
-But it added: “For the key use cases around things like securities settlement, remittances and foreign exchange, trade finance, companies will need to cross a second chasm – achieving the required network effect.
-“Whether it’s through a common platform or a standard for interoperability between blockchains, without a critical mass of industry players participating, the envisioned efficiency gains and cost savings won’t happen.”
-Firms are participating as groups already, and financial services companies have announced various trials and investments in the technology.
-In March 2016, for example, a global banking consortium – which included Barclays, Royal Bank of Scotland and HSBC – completed cloud-based tests of five different blockchain technologies .
-Working with IT supplier R3, the banks, from all over the world, tested trading using blockchain and cloud technology.
-The aim of the pilot was to see how distributed ledgers could be used commercially in global financial markets.
-Then there are investments among the IT supplier community.
-French IT services firm Capgemini plans to have 100 blockchain specialists globally in its financial services division by the end of 2016.
-Through this team, the supplier will offer blockchain services, to include feasibility studies, business case assessments and full systems integration.
+Technology companies are moving too fast for governments to keep up, according to a former chief of the US Defense Advanced Research Projects Agency (Darpa).
+In an interview with Computer Weekly at the EIT Innovation Forum in Budapest, Gabriel said export controls on certain so-called dual-use tech were sensible and practical.
+“Export control of dual-use technology is a very important area.
+It is a serious issue that we have to be careful very about.
+Yes, the field is level from the point of view of commercial tech, but that doesn’t mean all bets are off and we should just dump all technologies on the marketplace,” he said.
+“I think we are far from that utopia.
+There are certain elements that should be thoughtfully and carefully controlled and restricted by export.
+“One of the things people and governments need to understand is that the private sector is moving [with a lot of] speed, energy and economic power.
+The days when government could leapfrog encryption with federally funded or defence-funded technologies are gone,” Gabriel added.
+“It’s going to be very hard to fight and to push against those trends.
+The reality is that when people, for good or ill, get their hands on a technology, it is very hard to take it away from them.
+Overall, that’s a good thing.
+“It will be a constant escalation – the government will come up with a way to break it and someone else will come up with a way to further encrypt.”
+Gabriel, a former Google executive and now president and CEO of the Charles Stark Draper Laboratory, thinks companies outpacing governments on encryption is no bad thing.
+On the question of the FBI’s attempts to force Apple to hack into an iPhone owned by an alleged terrorist, he said he was firmly on the side of privacy.
+“The reality is that we – as countries and companies – have had the technology to effectively encrypt things to the point where even nation states can’t necessarily decrypt them for some time now.
+In general, that is a good thing,” he said.
+“Even though I make the statement that the commercial world is moving fast, there are certain technologies made by companies such as mine, or others in the defence sector in Europe or the US, that must be protected.
+Other actors may take those technologies and layer additional capability on top of them,” he said.
+In December 2015, the EU updated its export control regulations that apply to blacklisted countries or those that “facilitate gross human rights abuses”, including defining which UAVs are subject to export controls.
+Earlier in April 2016, Italy’s Hacking Team had its global export licence revoked.
+This means it must now apply for special approval to sell its surveillance technology outside Europe.
+Hacking Team has said it has never sold its “lawful intercept technology” to anyone other than legitimate government and law enforcement agencies.
+Gabriel is nonetheless optimistic about the future of technology innovation, although he believes it would be better for the global technology ecosystem if four or five dominant multinationals didn’t hold all the cards.
+“That one’s easy.
+I go back to diversity.
+I don’t think Google has a corner on innovation, I don’t think Facebook has a corner on innovation,” he said.
+“Anything that is an innovation, that is a product, that has value, that falls in the protection of a government patent system – whether US or EU – is legitimate.
+Try it.
+See if you can get a utility patent or provisional patent or whatever it is that you need.
+I myself am an agnostic on whether or not exploits can be patentable.”
+Gabriel also does not believe that export controls stifle innovation, whether based on country blacklisting or purpose limitation.
+“There is a belief that innovation only happens when you are free from any constraints, but actually it’s counter-intuitively the opposite,” he said.

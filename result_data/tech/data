@@ -1,32 +1,58 @@
-WavebreakmediaMicro - Fotolia
-The US Los Alamos National Laboratory has gone into production with around 30PB of object storage powered by Scality Ring software.
-Object storage was chosen for its ability to make use of erasure coding for data resilience and to avoid use of Raid .
-This is due to the increasingly cumbersome nature of Raid, especially during Raid rebuilds of large hard drives following disk failures.
-The Scality tier of object storage forms part of an overall storage infrastructure that supports Los Alamos’s Trinity Cray-supplied supercomputer.
-It is one of the world’s most powerful supercomputers, with 2PB of memory, 200 CPUs and performance of 40 petaFlops (floating point operations per second).
-It is used to manage the US nuclear stockpile and carries out physics modelling and simulation.
-The nature of input/output (I/O) on Trinity poses unique issues, with datasets that can comprise single files of many tens of TB or tens of millions of files in the 10s of Kb size range.
-Kyle Lamb , computer engineer at Los Alamos, said: “We have two extremes of storage I/O to deal with.
-The big question was how we deal with that for the next five years.
-So we started to look at object storage, specifically erasure coding because of data durability and with the performance of data on disk.”
-Trinity’s storage comprises three tiers.
-The highest performing tier, comprising so-called “buffer burst”, is made of 3.7PB of flash in a Cray Datawarp I/O accelerator providing throughput of 3.3TBps.
-Data is expected to be retained for around a day.
-Next is 78PB of data held in a Lustre parallel file system on enterprise hard disk drives (HDD) on Cray/Seagate hardware with throughput of 1.5TBps and an expected lifespan of data measured in weeks.
-The third, Scality-powered, tier is known by Los Alamos as “campaign storage”, which comprises currently around 3PB of capacity (for Trinity – there is 30PB in total, see below) and is for data that has seen initial use but which may lie dormant until re-used for campaigns lasting six months to two or three years.
-Throughput is 3GBps.
-So, why not use tape or disk with Raid?
-“If we wrote to tape we’d be looking at something like 30 hours for recall of for 30TB of data,” said Lamb.
-“Typical Raid systems at the time we began looking were fine and could scale quite expansively, but as HDDs got bigger we needed to look at better data durability.
-With 8TB disks you’re looking at rebuild times of three days and that’s more than we can accept in terms of potential data loss.”
-Therefore, Los Alamos opted for object storage with its erasure coding method of data protection .
-Erasure coding is a method of data protection in which data is broken into fragments that are expanded and encoded with a configurable number of redundant pieces of data and stored across a set of different locations.
-If data is lost or corrupted, it can be reconstructed using information about the data stored elsewhere.
-It works by creating a mathematical function to describe a set of numbers so they can be checked for accuracy and recovered if one is lost.
-“We are paying for resiliency of data rather than performance,” said Lamb.
-Meanwhile, the Scality object storage setup will also support a further 27PB of data in the Los Alamos-developed MarFS.
-This is a parallel file system that provides a Posix interface – via GPFS – to allow file access storage but with Scality object storage on the back end.
-“We needed a Posix interface.
-People are used to it and it wouldn’t cause re-writes for the applications that access the storage,” said Lamb.
-MarFS organises access to object metadata by presenting instances as files in GPFS.
-This metadata then points to many instances of small (1GB) portions of the file, but held as objects in Scality.
+Business Standard
+Copy tiny URL to save and share articles.
+The railway ministry on Thursday sought to allay users' concerns about reports of alleged hacking of the Indian Railway Catering and Tourism Corporation (IRCTC) website.“There has been no hacking of the IRCTC website.
+No such incident has been detected by the technical teams of the Centre for Railway Information Systems (CRIS) and IRCTC.
+Technical investigations have also not indicated any unusual activity with respect to various (e-ticketing) system components,” the ministry said.
+It said the preliminary report of a six-member committee set up to look into the matter has not found any indication of a breach of security in any of the databases of the e-ticketing system.
+The ministry promised to carry out further checks once the “purported leaked data” are made available, even as the committee continues to investigations.
+However, the ministry said “no Denial of Service (DoS) or DDoS attack has been successful”, fuelling suspicion whether a DDoS attack did occur on the IRCTC website on Tuesday.
+A DDoS attack is said to have occurred when hackers sitting at multiple locations or operating from multiple servers or identities launch a simultaneous and coordinated attack on a particular website or machine to bring it down.
+“The main motive of a DDoS attack is to make the chosen machine or website unresponsive through multiple bad requests,” a software engineer who did not wish to be identified explained.
+“This is different from a DoS attack, where it is launched by a hacker from a single location or server,” he added.
+The official statement also said the gaps reported by Standardisation Testing Quality Certification Directorate (STQC), an arm of the Department of Electronics and Information Technology, in their penetration testing have been addressed, implying the presence of such gaps.
+IT security of the e-ticketing system is ensured through security audits conducted by STQC.
+“Audit trails are maintained for access to the system and all sensitive data like passwords are stored in encrypted form.
+In addition, round-the-clock monitoring is done by a team of experts.
+Strict physical checks are already in place in the Data Centre, including restricted access and CCTV cameras,” the rail ministry said.
+Indian Railways’ e-ticketing system stores two kinds of data, sensitive information including credit card details, login id and passwords which can cause financial risk in case of leakage, and other data such as mobile numbers and email ids.
+The ministry said no sensitive data have been leaked and other data sets (mobile number, email ids) are available with multiple electronic service providers, including e-commerce firms and telemarketers.
+So far, leaks through service providers of IRCTC have not been established.
+Experts said the government’s efforts at containing cyber attacks are wanting.
+“The kind of proactive focus the government needs to focus on cyber security breaches is not there.
+Denial of hacking is not a solution.
+IRCTC needs to investigate what sort of due-diligence was done to prevent such an attack.
+The country is sourly missing a dedicated cyber security legislation,” said Pavan Duggal, an advocate who specialises in Cyberlaw and E-Commerce law.
+The latest case began with the Inspector General (IG) of Maharashtra’s Cyber Cell informing the chief commercial manager (CCM)-Western Railways on Tuesday that large volumes of data belonging to users may have been compromised.
+The CCM, in turn, informed the Railway Board, which called an emergency meeting and decided to form the high-level committee.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day.
+The railways’ e-ticketing arm has now requested the IG-Cyber Cell, Maharashtra, to share the data sets or complaints that have triggered the investigation to ascertain the source of the hack.
+IRCTC Managing Director A K Manocha, who attended Tuesday’s emergency meeting, has written to Delhi Police’s Cyber Cell to look into the matter.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day
+The railway ministry on Thursday sought to allay users' concerns about reports of alleged hacking of the Indian Railway Catering and Tourism Corporation (IRCTC) website.“There has been no hacking of the IRCTC website.
+No such incident has been detected by the technical teams of the Centre for Railway Information Systems (CRIS) and IRCTC.
+Technical investigations have also not indicated any unusual activity with respect to various (e-ticketing) system components,” the ministry said.
+It said the preliminary report of a six-member committee set up to look into the matter has not found any indication of a breach of security in any of the databases of the e-ticketing system.
+The ministry promised to carry out further checks once the “purported leaked data” are made available, even as the committee continues to investigations.
+However, the ministry said “no Denial of Service (DoS) or DDoS attack has been successful”, fuelling suspicion whether a DDoS attack did occur on the IRCTC website on Tuesday.
+A DDoS attack is said to have occurred when hackers sitting at multiple locations or operating from multiple servers or identities launch a simultaneous and coordinated attack on a particular website or machine to bring it down.
+“The main motive of a DDoS attack is to make the chosen machine or website unresponsive through multiple bad requests,” a software engineer who did not wish to be identified explained.
+“This is different from a DoS attack, where it is launched by a hacker from a single location or server,” he added.
+The official statement also said the gaps reported by Standardisation Testing Quality Certification Directorate (STQC), an arm of the Department of Electronics and Information Technology, in their penetration testing have been addressed, implying the presence of such gaps.
+IT security of the e-ticketing system is ensured through security audits conducted by STQC.
+“Audit trails are maintained for access to the system and all sensitive data like passwords are stored in encrypted form.
+In addition, round-the-clock monitoring is done by a team of experts.
+Strict physical checks are already in place in the Data Centre, including restricted access and CCTV cameras,” the rail ministry said.
+Indian Railways’ e-ticketing system stores two kinds of data, sensitive information including credit card details, login id and passwords which can cause financial risk in case of leakage, and other data such as mobile numbers and email ids.
+The ministry said no sensitive data have been leaked and other data sets (mobile number, email ids) are available with multiple electronic service providers, including e-commerce firms and telemarketers.
+So far, leaks through service providers of IRCTC have not been established.
+Experts said the government’s efforts at containing cyber attacks are wanting.
+“The kind of proactive focus the government needs to focus on cyber security breaches is not there.
+Denial of hacking is not a solution.
+IRCTC needs to investigate what sort of due-diligence was done to prevent such an attack.
+The country is sourly missing a dedicated cyber security legislation,” said Pavan Duggal, an advocate who specialises in Cyberlaw and E-Commerce law.
+The latest case began with the Inspector General (IG) of Maharashtra’s Cyber Cell informing the chief commercial manager (CCM)-Western Railways on Tuesday that large volumes of data belonging to users may have been compromised.
+The CCM, in turn, informed the Railway Board, which called an emergency meeting and decided to form the high-level committee.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day.
+The railways’ e-ticketing arm has now requested the IG-Cyber Cell, Maharashtra, to share the data sets or complaints that have triggered the investigation to ascertain the source of the hack.
+IRCTC Managing Director A K Manocha, who attended Tuesday’s emergency meeting, has written to Delhi Police’s Cyber Cell to look into the matter.
+Widgets Magazine
