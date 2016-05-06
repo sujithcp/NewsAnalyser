@@ -25,6 +25,7 @@ def Tokenize(text):
     if '' in text:
         text.remove('')
     word_phrase = []
+    textcopy=''
     for line in text:
         tokens = re.findall('[a-zA-Z0-9]+', line)
         #Extracting the tokens using regular expression'''
@@ -34,6 +35,7 @@ def Tokenize(text):
         for token in tokenscopy:
             if token in stopw or token in stopwd or token .isdigit() :
                 tokens.remove(token)
+        textcopy +=' '.join(tokens)
         word_phrase.extend(word_grams(tokens))
 
-    return (word_phrase)
+    return (word_phrase,textcopy )

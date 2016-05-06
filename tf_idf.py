@@ -36,7 +36,7 @@ def tf_idf ( start_date, end_date ):
         news_in_a_day={'text':[],'tokens':[]}
         for news in newsSet [date] :
             text = (news[2] + news[3]) .lower()
-            tokens=Tokenize(text)
+            tokens,text=Tokenize(text)
             news_in_a_day['text'] .append(text)
             news_in_a_day['tokens'] .append(tokens)
         docs_in_a_week.append(news_in_a_day)
@@ -57,4 +57,4 @@ def tf_idf ( start_date, end_date ):
         sorted_score.append(sorted(day['score'].items(), key=operator.itemgetter(1), reverse=True ))
     return sorted_score
 
-#print ( tf_idf( "2016-05-02" , "2016-05-03") )
+#print ( tf_idf( "20018-07-02" , "2016-05-06" ) )
