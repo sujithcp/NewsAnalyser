@@ -4,12 +4,10 @@ You want to train a system with this pre-categorized/pre-classified
 texts. So, you have better call this data your training set.
 """
 import random
-import re
 import sqlite3
 
 import nltk
 from nltk.corpus import stopwords
-from stemming.porter2 import stem
 
 from generals import tokenize
 

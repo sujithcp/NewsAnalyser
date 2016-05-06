@@ -1,10 +1,9 @@
 import codecs
+import os
 import pickle
 import re
-import sys
-import os
-
 import sqlite3
+
 from nltk.corpus import stopwords
 from stemming.porter2 import stem
 

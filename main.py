@@ -1,9 +1,6 @@
 import operator
-import os
 import shutil
-from collections import Counter
 
-import sqlite3
 from nltk.probability import FreqDist
 
 from generals import *
@@ -38,4 +35,7 @@ for tuple in work_data:
         fdist = FreqDist(tokenize(content, en_stem=False).split())
         fdist = sorted(fdist.items(), key=operator.itemgetter(1), reverse=True)
         # print(fdist)
-        createFile(RESULT_ROOT + res + '/', fdist[0][0], content)
+        try:
+            createFile(RESULT_ROOT + res + '/', fdist[0][0] or "NULL", content)
+        except Exception as e:
+            print(str(e))

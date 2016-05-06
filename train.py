@@ -2,15 +2,10 @@
 Train the program with data files
 
 '''
-import codecs
-import os
 import pickle
-import re
+import sqlite3
 
 import nltk
-import sqlite3
-from stemming.porter2 import stem
-
 from naiveBayesClassifier import tokenizer
 from naiveBayesClassifier.trainer import Trainer
 from nltk.corpus import stopwords

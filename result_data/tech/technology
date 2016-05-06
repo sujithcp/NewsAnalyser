@@ -1,30 +1,34 @@
-At the 2016 Innovate Finance summit, Kirby claimed firms should “start playing” if they want to implement blockchain technologies in the near future.
-Kirby said standards for blockchain do not need to be set in stone before the distributed ledger technology is implemented in firms and – just like the internet standards – could take a “decade of play and experimentation” before standards are established from best practice.
-“That is what’s going to teach us what the standards should be,” he added.
-Kirby predicted many systems will be “pieced together” with blockchain technology, as different applications using distributed ledger technology will serve different functions.
-“In the blockchain world, I don’t ever see a time where we’ve got one blockchain,” he said.
-According to Kirby, the technology can be trialled “without a lot of technical knowledge”.
-He said individuals should experiment with using blockchain to enhance the things they enjoy and care about, which then demonstrates how the technology can add value.
-Until businesses and individuals experiment with Blockchain, he added, it will remain in its infancy.
-He also highlighted that using bitcoin is currently the easiest way to understand how to use blockchain technology.
-“You’ve got to figure out how to make money and come up with a business case that saves a lot of money,” said Kirby.
-However, Kirby said standards should not be implemented straight away, and that firms should work on finding internal use cases at financial institutions to find what works.
-He said official bodies in the financial services industry are keen for the adoption of blockchain technology because it provides 100% auditing and accountability as records are instantaneous and cannot be tampered with.
-John McLean, vice-president of global blockchain labs engagement at IBM , said regulators want to be involved because distributed ledger technology can be a tool for “de-risking” the financial services industry.
-But financial services is not the only sector interested in blockchain.
-McLean said use cases outside of finance are surfacing where large volumes of data are being recorded – and not necessarily for monetary value.
-“The next use case we see is reference data.
-We’re starting to see a ton of other industries looking at it,” he said.
-“This is not just your technology from a blockchain perspective, it’s going to be very pervasive.”
-This could apply to industries such as supply chain or initial public offering (IPO) markets and, in some cases, the registration of diamonds is done via distributed ledgers.
-But McLean pointed out that distributed ledger technology is “moving quicker than expected”, and he suggested running experiments in the technology as quickly as possible to speed up adoption.
-“As human beings, we learn best by doing.
-You don’t learn how to ride a bike by reading a book,” he said.
-To begin looking at the adoption of distributed ledger technology, McLean suggested asking the question: “What’s the intrinsic value and business proposition?” This should be done to pinpoint the use of the technology.
-But many are waiting before implementing to see where the industry goes.
-Clive Cooke, securities executive at R3, said playing the waiting game is dangerous as the industry is moving a lot faster than previous technology adoptions.
-“Don’t think just because we’re at the early stage that this isn’t going to deliver,” said Cooke.
-“It’s really important that people have a little bit of patience.
-Things are moving fast – they’re moving in months, not years.”
-“There will be false starts, and the implementation will start occurring in a successful way when financial institutions are confident,” he said.
-“This isn’t an experiment, this is coming and it’s going to happen.”
+Carnegie Mellon researchers have developed a technology that turns the skin on the arm into a touchpad.
+Credit:
+Carnegie Mellon University
+By Sharon Gaudin
+Computerworld|May 5, 2016 12:55 PM
+PT
+A lot of people like the idea of a smart watch but don't like having to use a tiny touch screen.
+Big fingers and a tiny screen can lead to frustration and errant screen commands.
+Researchers at Carnegie Mellon University have developed a wearable technology that enables users to turn the skin on their lower arm into a touchpad, giving them a bigger surface to input information or commands to their smart watch.
+Unlike other solutions that have used flexible overlays or a combination of a projector and camera, the researchers' new technology, called SkinTrack, only requires the user to wear a special ring that produces a low-energy, high-frequency signal through the skin when a finger touches or nears the skin surface.
+"A major problem with smart watches and other digital jewelry is that their screens are so tiny," said Gierad Laput, a Ph.D student in the university's Human-Computer Interaction Institute and a member of the project's research team.
+"Not only is the interaction area small, but your finger actually blocks much of the screen when you're using it.
+Input tends to be pretty basic, confined to a few buttons or some directional swipes."
+The researchers said they have used SkinTrack as a game controller, to scroll through lists on smartwatches, to zoom in and out of onscreen maps, and to use a dial pad.
+When using this new technology, they also could determine when a finger was touching the skin with 99 percent accuracy .
+The signals emitting from the ring connect with electrodes integrated into the strap of the smart watch.
+"It's possible to pinpoint the source of those electromagnetic waves because the phase of the waves will vary," CMU said in a statement.
+"Electrodes corresponding to the 12 o:clock and 6 o:clock positions on the watch, for instance, can detect phase differences that can determine the position of the finger along the width of the arm.
+Electrodes at the 3 o:clock and 9 o:clock positions can determine the finger's position along the length of the arm."
+"The great thing about SkinTrack is that it's not obtrusive," said Yang Zhang, a CMU Ph.D. candidate, who is also on the research team.
+"Watches and rings are items that people already wear every day."
+Ezra Gottheil, an analyst with Technology Business Research, said this kind of technology could give a boost to the smart watch market.
+"I have a hard time typing on even my extra-large iPhone," he told Computerworld .
+"I just got an Apple Watch and I'm unlikely to do very much with the screen … The more ways there are to control these devices, the more useful they can be."
+Gottheil noted that there could be issues with the new technology, such as when the user is wearing long sleeves or the battery life of the ring.
+Carnegie Mellon also said the ring's battery is one of the challenges with the technology.
+"The system has some limitations," the university said.
+"Keeping the ring powered up is a challenge.
+Signals also tend to change as the device is worn for long periods, thanks to factors such as sweat and hydration and the fact that the body is in constant motion."
+CMU also reported that researchers believe the technology, including the high-frequency signals emitted by the ring, are not harmful to the user.
+"The technology is safe," the university said.
+"No evidence suggests that the radio frequency signals used by SkinTrack have any health effects.
+The body is commonly excited by daily appliances -- everything from the tiny amounts of current drawn from the finger by touchscreens to the electromagnetic noise emanating from fluorescent lights -- with no ill effects."
+Sharon Gaudin covers the Internet, social media, cloud computing and emerging technologies for Computerworld.

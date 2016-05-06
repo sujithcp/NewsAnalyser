@@ -6,13 +6,10 @@ texts. So, you have better call this data your training set.
 import os
 import pickle
 
-import sys
 from nltk.corpus import stopwords
-from stemming.porter2 import stem
 
 from train import train
-import nltk
-import re
+
 
 def getClassifier(force_train=False):
     stopw = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection',

@@ -2,7 +2,7 @@
 
 Fetch data from the rss feeds and add it to the news corpus
 This program is to be executed periodically.
-main summery extracted using sumy library
+main summary extracted using sumy library
 
 '''
 import hashlib
@@ -11,11 +11,15 @@ import sqlite3
 import threading
 from datetime import datetime
 import feedparser
-from setuptools.command.sdist import re_finder
-
 from data_fetcher.fetcher import GetTextFromUrl
 from generals import readFile
 
+from sumy.parsers.html import HtmlParser
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lsa import LsaSummarizer as Summarizer
+from sumy.nlp.stemmers import Stemmer
+from sumy.utils import get_stop_words
 '''
 get list of [url,category] from the file urls
 If category is specified returns all such lists,
@@ -84,7 +88,7 @@ def fetchRss(category=None,name = ""):
                 #print(text)
                 id = hashlib.md5(text.encode('utf-8')).hexdigest()
                 print(id)
-                cursor.execute("insert into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
+                cursor.execute("insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
                 connection.commit()
 
                 newCount += 1
