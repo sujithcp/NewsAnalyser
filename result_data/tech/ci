@@ -1,42 +1,74 @@
-A growing need to make datacentres more efficient and easier to manage has driven the use of converged infrastructure (CI) in recent years.
-According to 451 Research’s recent study of adoption trends, 40% of IT buyers said they planned to increase their spending in CI during the final quarter of 2015; just 17% said they plan to invest in traditional servers.
-The trend has prompted a shift in how operators manage their facilities, with 40% of respondents to the survey reporting difficulties while attempting to source staff with CI skills.
-Whereas the older, siloed approach to datacentre design required separate administrators to manage the network, server and storage resources, a facility kitted out with CI appliances often calls for a slightly different approach.
-CI appliances are often marketed as having been tested and configured before installation, which eliminates much of the manual work.
-And with the datacentre’s network, storage and computing elements all housed in a single appliance, the need for separate administrators to manage these resources is reduced.
-While this is great news for operators looking to cut costs by reducing headcount, the trend may require some urgent re-skilling for datacentre-focused IT professionals, to ensure they know how to manage all parts of the CI stack, rather than just the individual components.
-This is the view of Emma Fryer, associate director for climate change programmes at IT sector trade body TechUK, who works closely with the datacentre industry to promote sustainability.
-“At the very commoditised end, the datacentre engineer needs to be able to span power, network, compute, storage and process skills.
-And when it breaks – fast track response and 24/7 availability for an ‘always on’ client base,” she says.
-“Datacentre technicians in many environments will increasingly be expected to be generalists, but the real question is what the balance between them should be – or even whether we are seeking a general requirement or lots of different specific requirements.”
-At present, there is mixed industry opinion about how much demand there is for IT professionals with these types of skills.
-Rick Vanover, senior product strategy manager at virtualisation management software supplier Veeam, claims the demand for IT professionals with CI skills is beginning to rise.
-“Over time, the need for a converged skillset has developed.
-We saw it happen in the virtualisation space, and now a new offering of technologies has come in to address them with hyper-converged technologies,” says Vanover.
-He says the key to success with CI lies in IT staff understanding how the technology can be applied to solve real problems of scaling-out and datacentre performance.
-Market watcher Forrester Research supports this view, based on the contents of its August 2015 Vendor Landscape: Hyperconverged Platforms report, which cites anecdotal evidence as proof of the rising demand for CI-savvy datacentre workers.
-“For several years Forrester has been hearing anecdotal evidence that early adopters of first-generation converged infrastructure – such as Cisco, HP, and IBM – have already collapsed some of their infrastructure and operations silos,” the report states.
-However, Scott McGlinchey, chief operations officer of IT consultancy Exception, says that – with so many enterprises still operating legacy, siloed datacentre setups – demand for CI specialists has not hit its peak just yet.
-“I don’t think we’ve really hit the real demand for converged infrastructure skills yet.
-You can see that, for organisations that have got a handle on their legacy estate, convergence skills could be the next step, though,” he says.
-“What we are seeing is an increased demand for architects.
-However, the skillset expected has moved, from principle formulation, policy, strategy and governance, to that of experienced technical delivery lead with multi-platform experience across several technology silos.
-McGlinchey’s comments seem to suggest time is on the side of IT professionals willing to retrain in anticipation of the rising demand for CI skills.
-Colin Lynch, principal consultant at Computacenter UK, embarked on a supplier-backed training course to build out his CI knowledge, as part of his ongoing push to keep on top of emerging IT trends.
-“You can’t afford to be an analogue person in a digital world, otherwise you’ll go the way of the dodo.
-You have to adapt with the times and the VCE Certified Professional Programme certainly provides you with the skillset you need,” he says.
-The course is not just about learning how to manage what’s inside the CI box – but also how to integrate it with the company’s wider IT strategy.
-“Not only do CI professionals have to manage converged infrastructure, but they also have to manage or at least be aware of the cloud management platforms that bind all these elements together – and that’s where the training comes into its own, because it ticks all these boxes.”
-For IT professionals just starting out, Nigel Moulton, CTO for Europe at CI supplier VCE, says specialising in CI may have to wait until they have completed their university or college courses.
-“Here in the UK, most universities and higher education colleges tend to teach students broader industry skills and then, when graduates enter the industry, employers train them.
-They are often taught the basics of virtualisation and networking – but won’t know specifically how suppliers implement this,“ he says.
-From here, professionals may go on to undertake a supplier-specific course – such as Cisco’s Academy course or VCE’s Certified Professionals Programme – to fine-tune their learning.
-“It’s run this way because all suppliers have different approaches.
-This gives graduates a wider choice of career paths and doesn’t hinder their chances of securing employment,” Moulton adds.
-Robert Rutherford, CEO of IT consultancy Quostar, says IT professionals should look to build out their integration skills.
-“There’s opportunity in the areas for development focusing on hanging different platforms and providers together – moulding and adapting services between datacentres and different suppliers,” he says.
-“This in turn will lead to increased security and compliance requirements, creating demand for in-depth cloud security and compliance skills and experience.”
-Meanwhile, Farida Gibbs, CEO of IT recruitment firm S3 Gibbs, says that – in addition to their technical skills – CI specialists are increasingly expected to be well-versed in business matters too.
-“We tend to look for candidates who can demonstrate a mix of cross-skilling and with experience of more than just technology – candidates who are able to explain and translate technical language and concepts to business stakeholders are always in high demand,” she says.
-“If IT teams cannot communicate effectively with business teams so that they understand the potential benefits, it is likely that many crucial projects will struggle to get off the ground.
-“Strong infrastructure architecture skills will help integration, but we are seeing more and more CI experts being asked to support business analysis, planning and scoping sessions.”
+Datacentres around the world are increasingly hitting processing and connectivity constraints determined by limits in power, cooling and space.
+At the same time, capital expenditure spending restraints are forcing organisations to rethink their datacentre strategy.
+One avenue to explore involves converging infrastructure in a move away from siloed servers, storage, data and processes to more efficient use of the available power and space.
+Converged infrastructure (CI) is still part concept, part smart marketing and part well-defined IT system components .
+It is variously described as: hyper-converged infrastructure, converged systems, unified computing, fabric-based computing, web-scale computing and dynamic infrastructure.
+Essentially, infrastructure convergence is about storage and computing systems that can integrate with hypervisor and networking technologies, providing the ability to abstract services.
+The CI concept originated in large cloud companies such as Amazon, Facebook and Google.
+These companies placed an emphasis on low cost, ease of use and rapid self-service.
+They tried to use existing infrastructure architectures, but quickly realised they were a poor match for their demands.
+They wanted a much cheaper infrastructure to run any application at any scale.
+That required a software-defined system to break dependence on hardware for additional features and upgrades.
+As cloud companies they wanted agility, security and reliability of on-premise systems they could roll out globally.
+In line with cloud thinking, converged datacentre infrastructure can serve as an enabling platform for private and public cloud computing services, be they infrastructure (IaaS), platform (PaaS) or software as a service (SaaS).
+Several characteristics suit on-premise CI to cloud deployments, pooling IT resources in a hybrid environment by automating resource provisioning.
+It also supports agile IT scalability to meet the needs of dynamic computing workloads.
+For example, when launching a branch location with a few hundred users who need locally accessible resources for virtual desktop infrastructure (VDI) applications and a few hosted desktops, IT planners can adopt a CI approach that deploys a multi-node converged system to meet business demands.
+It can reduce deployment time by using a less expensive platform; and simplify management by unifying datacentre controls.
+CI operates by grouping IT components (servers, data storage devices, networking equipment and software) into a single, optimised on-site package for infrastructure management, automation and orchestration.
+CI involves pooling computers, storage and networking resources, to be shared by a wider range of corporate applications; and managing these shared resources using policy-driven processes.
+CI remains an evolving technology, with the ultimate aims of:
+Controlling with software all resources on top of the hypervisor; Application program interface (APIs) and virtual machine (VM) translation technologies allowing CI to be deployed on any hardware and interface with any hypervisor; Convergence software translating the VMs from one hypervisor to another using standardised underlying hardware to deploy hyperconvergence on blades, rack-mount servers etc; Cross-platform integrated automation and orchestration controls developing powerful next-generation datacentre and cloud models.
+APIs integrating on-site CI with public and hybrid cloud platforms, integrating with other hypervisors and extending the corporate datacentre beyond a private architecture;
+When selecting a converged system, the level of automation associated with the management of the whole IT environment is a critical factor.
+Any investment in CI will have an impact on the corporate infrastructure for many years to come – so the IT needs to be adopted with a five- to 10-year investment timeframe in mind.
+There are cost and performance advantages to be gained from converging the corporate infrastructure:
+First, CI can lower capital expenditure and operational expenditure:
+Equipment and software life cycles are extended if the datacentre can increase server use, and reduce the amount of cabling and network connections; Lower operational expenditure comes from reduced staff levels when the network management infrastructure and datacentre management is automated, and storage is consolidated.
+CI can also increase performance:
+Virtualising the networking for internet protocol and Fibre Channel storage; Allowing single-console management.
+CI comes in two main flavours:
+A single system with software and hardware components that are engineered together and identified as a single billable item in a company’s inventory.
+Oracle’s Exadata is virtually all-Oracle technology with very little flexibility from a technology choice standpoint.
+The advantage is like an iPhone – it’s all integrated.
+The disadvantage is that they limit choice in a very dynamic market.
+To provide end-to-end CI, hardware, software and services suppliers need to establish a host of integration agreements.
+But while this ensures their CI offerings can interoperate for the moment, it gives no guarantees as to how long the partners will go on developing their components in lock-step.
+A system that uses a reference architecture.
+This typically provides a list of functions and some indication of their interfaces (defined in APIs) and interactions with each other and with functions located outside of the scope of the reference architecture, notably cloud services.
+The reference architecture provides a template – often based on the generalisation of a set of real-world experiences – to identify CI components that have been observed in a number of successful implementations.
+It shows how to cobble these components together into a system.
+Adopting a reference architecture in an organisation accelerates delivery through the re-use of an effective system and provides a basis for governance to ensure the consistency and applicability of technology use in an organisation.
+Reference architectures – which are proven and tested in the lab and often in the field – are becoming a popular option with the channel and many users who may specify their own reference architectures internally.
+Certainly this is the case with giants such as Google and Facebook but, increasingly, large commercial customers are creating their own reference architectures, working with primary suppliers.
+The marketplace for hyperconverged hardware and software took off in 2011 and has significantly outpaced the growth of legacy, purpose-built infrastructure designed to support a single application.
+IDC estimates that overall spending on converged infrastructure will reach $17bn in 2017.
+All the major infrastructure providers are moving into the CI market, either to attack other suppliers’ legacy installed bases or protect their own turf.
+There are single CI systems from HP ConvergedSystem, IBM PureFlex, Oracle ExaData, Cisco UCS, EMC VBlock, NetApp FlexPod, F5 Big-IP platform and Nutanix Xtreme Computing Platform.
+On the reference architecture side, these come from: HP, Dell, SimpliVity hyperconverged data architecture, Microsoft and Intel’s Cloud Builders Reference Architecture.
+Perhaps one of the best-known converged platforms is from VCE - which started out as a joint partnership between Cisco and EMC.
+VCE’s VBlock uses EMC storage, VMware compute virtualisation software and Cisco networking gear.
+The various infrastructure components are architected to work seamlessly together.
+EMC later bought out Cisco’s stake in the company and so VCE became an EMC subsidiary.
+EMC itself is now itself transitioning to becoming a Dell company.
+Besides adding VCE’s VxRack Node and VxRack System 1000 Flex to its own portfolio, Dell announced a CI reference architecture that integrates EMC’s rack-scale design with Dell’s PowerEdge servers and allows scalability into the thousands of nodes.
+And besides this, the company recently announced several CI offerings of its own.
+The latest additions include Virtual SAN Ready Nodes for the VMware-based hyper-convergence systems, a Dell XC Series of hyper-converged appliances and hybrid cloud support for VMware’s Virtual SAN.
+The momentum CI has achieved over the past five years promises to simplify IT management tasks considerably, while simultaneously lowering equipment spend, shortening implementation time and reducing staff involvement.
+So it is well worth considering, given that several studies of real-world CI implementations demonstrate savings exceeding 20% in the first year alone – as exemplified by Canadian Empire Life Insurance.
+However, CI is still being developed – and perhaps a few cautionary notes are required:
+CI may lower capital and operational costs – but what about business enablement and best-of-breed systems?
+Will a CI system provide the competitive edge the business is looking for?
+Be sure to identify the problems that need to be addressed and then derive measurable success criteria.
+When changing the datacentre paradigm, IT functions need to have clear key performance indicators to document their CI investment decisions.
+Identify both operational and application performance issues that you want CI to alleviate.
+Not all applications may be suited to CI architecture.
+Typically, in vertical industries such as financial trading and banking – where processing and transmission speeds are paramount to business success – to focus on convergence could risk losing competitive advantage.
+Similarly, applications that are extremely sensitive may not live up to the relevant governance requirements if they are located in a converged environment.
+So make sure to test core business applications in a CI environment before deployment.
+Understand the IT organisation’s IT maturity.
+Changes in computing, storage and networking affects the IT team structure.
+Are the right cross-issue competencies available?
+How much training/hiring is required?
+Bringing CI into the corporate computing environment should not be a rip-and-replace event, but introduced as challenges are identified and locations need to come online.
+In an overburdened datacentre, it may be opportune to upgrade the platforms delivering commodity business applications – and green field deployments of VDI in branch locations may generate useful CI experience before adopting CI for core enterprise applications in the datacentre.

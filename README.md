@@ -15,6 +15,9 @@ Python Version: 3+
   <li>pickle<br>
   <li>stemming.porter2<br>
   <li>feedparser<br></p>
+
+
+<b> Dont forget to delete the train_dump file after adding news news data....</b>
   
 
   

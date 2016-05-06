@@ -1,0 +1,21 @@
+Although IPv6, also known as Internet Protocol next generation (IPng), is essential to IoT communications by enabling every device to have its own address on the internet, it is a myth that IPv6 is more secure than IPv4 , he told Computer Weekly.
+“In fact, IPv6 introduces new risks that need to be recognised and understood, especially those relating to availability and confidentiality ,” said Proenen.
+A common misconception, he said, is that IPv6 automatically applies Internet Security Protocol (IPsec), which is built into IPv6, unlike IPv4.
+The reality is, however, that while a conforming IPv6 implementation must support IPsec, IPv6 does not require or guarantee the use of IPsec.
+“Having IPsec built in to IPv6 just means IPsec is an option, but that does not mean it is enabled automatically for all IPv6 traffic,” said Proenen.
+Although he recommended that wherever IPv6 was used, IPsec should be enabled, he pointed out that IPsec could be still used with IPv4, which, in fact, offers a security mechanism that IPv6 does not.
+Network address translation (NAT) was introduced for IPv4 to reduce the number of IP addresses required by an organisation, but it also helps improve security because not every IP address is exposed directly to the internet.
+“Because NAT goes away when you use all IPv6, my recommendation is to use a mixture of IPv4 and IPv6, using IPv6 only where you really have to and staying with IPv4 for the rest,” said Proenen.
+In the context of the IoT, this means using IPv6 only for the devices that need to be reachable via the internet.
+“Using IPv4 for the rest, which only need to be seen within an organisation, means they are effectively hidden from the internet and therefore less open to attack from outside,” said Proenen.
+Where devices need to be exposed to the internet using IPv6, he recommended the use of IPsec, but added that IPsec alone would not make IoT devices secure.
+There are two main areas of vulnerability that did not exist in IPv4, he said.
+The first is that a network vulnerable to attack through rogue router advertisement enables attackers to intercept IPv6 traffic, which can affect both confidentiality and availability.
+“Although encryption is great for ensuring confidentiality, it does not cover the metadata , which will provide attackers with useful information about connections into and out of organisations,” said Proenen.
+The second vulnerability is that IPv6 makes it a lot more difficult for security professionals to observe the organisation’s network.
+“Because there are so many IPv6 IP addresses, it is virtually impossible to do a scan of the network to find rogue devices, which makes securing an IPv6 network a lot more demanding,” said Proenen.
+Over time, he said mechanisms would become available to make it easier to monitor and secure IPv6 networks.
+In the meantime, organisations need to recognise the security risks.
+“Players such as Microsoft, Amazon, Bosch and GE understand that IoT will not work if the security issues are not addressed, and emerging platforms have pretty sophisticated security mechanisms built in, especially authentication of devices and integrity of data,” he said.
+Underlying all of that, however, will increasingly be IPv6, said Proenen, so it is important for all users of IoT to understand what they are getting into and to be aware of the risks and myths.
+“They should research it thoroughly and ensure they fully understand IPv6, the risks and how to address them, rather than going into it trusting the hype and the myth and getting in trouble,” he said.

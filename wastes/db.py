@@ -4,15 +4,15 @@ connection = sqlite3.connect('../data/news_data.db')
 cursor = connection.cursor()
 
 
-data = cursor.execute('''select title,count(title) c from News group by title having c>1''').fetchall()
+data = cursor.execute('''select id,count(id) c from News group by id having c>1''').fetchall()
 
 
 for t in data:
-    titles = t[0].split('\n')
-    for i in titles:
+    ids = t[0].split('\n')
+    for i in ids:
         print(i)
-        data_set = cursor.execute('''select * from News where title = ? limit 1''',(i,))
-        cursor.execute('''delete from News where title = ?''',(i,))
+        data_set = cursor.execute('''select * from News where id = ? limit 1''',(i,))
+        cursor.execute('''delete from News where id = ?''',(i,))
         for j in data_set:
             print(j[0],j[1],j[2],j[4],j[5])
             cursor.execute("insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)",

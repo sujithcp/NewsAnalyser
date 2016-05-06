@@ -1,22 +1,40 @@
-When an organisation is looking to hire the information security professionals it needs, it should start by understanding what it is trying to achieve.
-This will help to prevent one of the perception stumbling blocks and stop organisations from looking at purely IT security professionals.
-Information may be digital, but it may be several other formats too, and the risks to it are not purely digital.
-The competence is around risk management firstly and an understanding of information assets.
-It is also around understanding business imperatives and where risk and risk to information sits in that, as well as a comprehensive grasp of how information needs to be used to best securely serve the organisation.
-Do human sesources (HR) departments and recruiters understand what an information security professional does?
-Infosec professionals themselves might struggle to offer a comprehensive definition of the role.
-Expecting recruiters to instinctively grasp this evolving and highly nuanced role, is clearly going to be a big challenge; if we don’t know what we want, how will we know when we see it?
-Using competency-based schemes – such as those developed by SFIA , IISP and CESG – will give us a good starting point.
-Grass-root style apprenticeships is an option, as there are apprenticeships scheme for cyber security.
-Though the size of the organisation may mean this approach may vary, and how applicable it is to use this approach may flex, the bottom line is that the youth of today are the professionals of tomorrow.
-Plugging into and getting involved with things such as the Cyber Security Challenge is a great way of talent spotting.
-Apprentices can grow and evolve with the business and understanding of the changing threat landscape over a long period; embedding that bespoke knowledge is very valuable and can only contribute to organisational resilience.
-There is, however, a clear reluctance to recruit apprentices.
-This reluctance may be due to businesses not understanding the value proposition they offer, and it may be due to the IT focus that many recruiters still have when it comes to information security or a basic lack of understanding of modern apprenticeships.
-For those organisations seeking more experienced/qualified security professionals, the military resettlement schemes continue to offer fertile fishing grounds, as the military continues to discard well-rounded security practitioners.
-These individuals consistently prove to be knowledgeable and – much like myself – come from a hobbyist-practitioner background.
-Therefore, they are highly motivated by the craft and not just the reward.
-Finally: Retention, retention, retention.
-These valuable assets are a scarce commodity, and businesses need to understand how to improve their psychological contract of employment to capture the nuanced needs that information security professionals have.
-Business must also understand that the correct environment will form a pivotal part of the package and drive the long-term loyalty required to maintain the organisational resilience mentioned earlier.
-In summary, spend time understanding the requirements; have an open mind on how to meet those requirements; build resilience in, and work towards “future-proofing” by considering apprenticeships and making sure you explore the full range of sources, such as the military.
+Sergii Figurnyi - Fotolia
+After the terrorist attacks in Brussels and Zaventem, Belgium’s physical security has been labelled inadequate and in urgent need of improvement.
+But what about cyber security and cyber threats?
+Is Belgium a “failed digital state”?
+There is some good news for the country’s cyber security.
+Belgium is one of the countries least affected by online banking trojans.
+And there is a very good reason for that, according to Eddy Willems, security evangelist at Gdata Software.
+“Most Belgian banks use advanced authentication system, which makes it more difficult for cyber criminals to obtain the required authentication details to get entrance to the victim’s bank account,” he said.
+Willems added that because there are easier targets in other countries, Belgium’s bank customers are generally left in peace.
+He listed the UK, France and the US among countries where banks generally use a less secure authentication process.
+Not such good news for Belgium is that it and the other Benelux countries, the Netherlands and Luxembourg, have seen a dramatic increase in the number of ransomware incidents.
+More incidents have been reported in February 2016 alone than in the last six months of 2015, according to research by security supplier Trend Micro.
+The number of ransomware incidents has increased worldwide, but – for a yet unknown reason – the Benelux countries have suffered more than usual.
+Some 6% of the incidents reported worldwide were located in the Benelux region, whereas before 2016, this figure hovered between 1% and 2%.
+Benelux sees the same type of ransomware infections as the rest of the world, according to Trend Micro.
+It reports a switch from ‘traditional’ ransomware, which blocks entrance to the PC altogether, to crypto-ransomware, which encrypts data to prevent the victims from using it and threatens to expose all data unless a considerable amount of money is paid, usually in Bitcoin.
+This now makes up 98% of all ransomware.
+When it comes to protecting organisations in Belgium, there are two scenarios.
+Brussels is home to several important international organisations, such as the Nato and the European Parliament.
+These bodies are threatened continuously and take appropriate measures to protect themselves.
+But when it comes to private organisations in Belgium, it is a different picture.
+There, most organisations invest cautiously in digital security because they think they are less likely to fall victim to a large international attack than are some of their neighbours.
+“In most cases, this is a correct assumption,” said Gdata’s Willems.
+“But sometimes our organisations become collateral damage in bigger international attacks.”
+Large internet and telecom service providers are still popular targets for international spying organisations, as was shown by the Belgacom (now Proximus) incident.
+This large phone operator fell victim to malware installed by NSA and GCHQ.
+Nevertheless, Belgium’s relatively low cyber security threat has long been the main reason why the country’s government has been very conservative in its number of cyber security initiatives and investment in cyber security experts.
+Like many countries, Belgium has a Computer Emergency Response Team (CERT), but unlike nations such as the Netherlands, its investments in this have been shrinking rather than growing in recent years.
+The same trend has been seen with the country’s high-tech crime units and other government organisations and initiatives concerned with cyber crime.
+The stakes might not be as high as in most neighbouring countries, but after the recent high-profile terrorist attacks, Belgium’s government can no longer afford to economise with its cyber security infrastructure and investments.
+The federal government officially launched the Belgian Centre for Cyber Security late last year by appointing security veteran Miguel De Bruycker as manager.
+One of the organisation’s main missions will be to further educate all individuals and organisations in the importance of cyber security.
+Another aim of the organisation is to streamline and co-ordinate the various government and/or private initiatives around cyber security.
+Another challenge for Belgium is to make sure all its governments know about each other’s organisations and initiatives, ensuring they do not interfere with a proactive and efficient approach to fighting cyber crime.
+“We will be the conductor of the cyber crime-fighting orchestra,” said De Bruycker at the time of his appointment.
+“There are too many players active in enabling a safer and more reliable internet.
+A quartet can function without a conductor, but a larger orchestra definitely needs a conductor, such as our Centre for Cyber Security.”
+But the country’s ambitions remain limited.
+“We aim to reach a level of security that is appropriate for the level of threat,” said De Bruycker.
+“An absolute level of safety is not realistic.”

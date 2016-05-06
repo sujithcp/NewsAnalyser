@@ -1,18 +1,58 @@
-Gareth Cattermole | Getty Images
-Netflix rolls out a new mobile data-saving feature to give users everywhere the power to control video quality and stay within the budget of their plans.
-Right off the bat, the updated app for Android and iOS will have the Cellular Data Usage setting in the mix.
-There, viewers can set their personal preferences — turn off the automatic option and pick between Off (Wi-Fi only), Low, Medium, High and Unlimited.
-The two choices on each end of the selection are pretty straightforward already: Off (Wi-Fi only) doesn't use cellular data, while Unlimited goes to town with it.
-Needless to say, the latter is only recommended for subscribers who doesn't have a ceiling on their plans.
-As for the rest, Low provides four hours' worth of viewing per gigabyte, Medium offers two hours and High goes for one hour.
-According to Netflix, the default setting lets streamers watch about three hours of video for each gigabyte, pointing out that it provides a good balance between quality and regulated data usage.
-To access Cellular Data Usage, just click on the navigation drawer on the upper left corner, tap on App Settings and voila, the control is right at the users' fingertips.
-The takeaway here is that Netflix is handing over the reins to the viewers in terms of video quality.
-That means users on unlimited data plans can go crazy on binge-watching in high definition, and those on caps can also do so in less stellar conditions.
-"Our goal is to give you more control and greater choice in managing your data usage whether you're on an unlimited mobile plan or one that's more restrictive," Eddy Wu, director of product innovation at Netflix, says .
-On that note, it's worth mentioning that Netflix is part of T-Mobile's Binge On shindig, a program that lets subscribers watch videos to their hearts' content.
-However, the streams are limited to 480p under this.
-What do you think of Netflix's new mobile data-saving feature?
-Let us know in the comments section below and feel free to tell us what TV series or movies you're going to binge-watch.
-© 2016 Tech Times, All rights reserved.
-Do not reproduce without permission.
+Business Standard
+Copy tiny URL to save and share articles.
+The railway ministry on Thursday sought to allay users' concerns about reports of alleged hacking of the Indian Railway Catering and Tourism Corporation (IRCTC) website.“There has been no hacking of the IRCTC website.
+No such incident has been detected by the technical teams of the Centre for Railway Information Systems (CRIS) and IRCTC.
+Technical investigations have also not indicated any unusual activity with respect to various (e-ticketing) system components,” the ministry said.
+It said the preliminary report of a six-member committee set up to look into the matter has not found any indication of a breach of security in any of the databases of the e-ticketing system.
+The ministry promised to carry out further checks once the “purported leaked data” are made available, even as the committee continues to investigations.
+However, the ministry said “no Denial of Service (DoS) or DDoS attack has been successful”, fuelling suspicion whether a DDoS attack did occur on the IRCTC website on Tuesday.
+A DDoS attack is said to have occurred when hackers sitting at multiple locations or operating from multiple servers or identities launch a simultaneous and coordinated attack on a particular website or machine to bring it down.
+“The main motive of a DDoS attack is to make the chosen machine or website unresponsive through multiple bad requests,” a software engineer who did not wish to be identified explained.
+“This is different from a DoS attack, where it is launched by a hacker from a single location or server,” he added.
+The official statement also said the gaps reported by Standardisation Testing Quality Certification Directorate (STQC), an arm of the Department of Electronics and Information Technology, in their penetration testing have been addressed, implying the presence of such gaps.
+IT security of the e-ticketing system is ensured through security audits conducted by STQC.
+“Audit trails are maintained for access to the system and all sensitive data like passwords are stored in encrypted form.
+In addition, round-the-clock monitoring is done by a team of experts.
+Strict physical checks are already in place in the Data Centre, including restricted access and CCTV cameras,” the rail ministry said.
+Indian Railways’ e-ticketing system stores two kinds of data, sensitive information including credit card details, login id and passwords which can cause financial risk in case of leakage, and other data such as mobile numbers and email ids.
+The ministry said no sensitive data have been leaked and other data sets (mobile number, email ids) are available with multiple electronic service providers, including e-commerce firms and telemarketers.
+So far, leaks through service providers of IRCTC have not been established.
+Experts said the government’s efforts at containing cyber attacks are wanting.
+“The kind of proactive focus the government needs to focus on cyber security breaches is not there.
+Denial of hacking is not a solution.
+IRCTC needs to investigate what sort of due-diligence was done to prevent such an attack.
+The country is sourly missing a dedicated cyber security legislation,” said Pavan Duggal, an advocate who specialises in Cyberlaw and E-Commerce law.
+The latest case began with the Inspector General (IG) of Maharashtra’s Cyber Cell informing the chief commercial manager (CCM)-Western Railways on Tuesday that large volumes of data belonging to users may have been compromised.
+The CCM, in turn, informed the Railway Board, which called an emergency meeting and decided to form the high-level committee.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day.
+The railways’ e-ticketing arm has now requested the IG-Cyber Cell, Maharashtra, to share the data sets or complaints that have triggered the investigation to ascertain the source of the hack.
+IRCTC Managing Director A K Manocha, who attended Tuesday’s emergency meeting, has written to Delhi Police’s Cyber Cell to look into the matter.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day
+The railway ministry on Thursday sought to allay users' concerns about reports of alleged hacking of the Indian Railway Catering and Tourism Corporation (IRCTC) website.“There has been no hacking of the IRCTC website.
+No such incident has been detected by the technical teams of the Centre for Railway Information Systems (CRIS) and IRCTC.
+Technical investigations have also not indicated any unusual activity with respect to various (e-ticketing) system components,” the ministry said.
+It said the preliminary report of a six-member committee set up to look into the matter has not found any indication of a breach of security in any of the databases of the e-ticketing system.
+The ministry promised to carry out further checks once the “purported leaked data” are made available, even as the committee continues to investigations.
+However, the ministry said “no Denial of Service (DoS) or DDoS attack has been successful”, fuelling suspicion whether a DDoS attack did occur on the IRCTC website on Tuesday.
+A DDoS attack is said to have occurred when hackers sitting at multiple locations or operating from multiple servers or identities launch a simultaneous and coordinated attack on a particular website or machine to bring it down.
+“The main motive of a DDoS attack is to make the chosen machine or website unresponsive through multiple bad requests,” a software engineer who did not wish to be identified explained.
+“This is different from a DoS attack, where it is launched by a hacker from a single location or server,” he added.
+The official statement also said the gaps reported by Standardisation Testing Quality Certification Directorate (STQC), an arm of the Department of Electronics and Information Technology, in their penetration testing have been addressed, implying the presence of such gaps.
+IT security of the e-ticketing system is ensured through security audits conducted by STQC.
+“Audit trails are maintained for access to the system and all sensitive data like passwords are stored in encrypted form.
+In addition, round-the-clock monitoring is done by a team of experts.
+Strict physical checks are already in place in the Data Centre, including restricted access and CCTV cameras,” the rail ministry said.
+Indian Railways’ e-ticketing system stores two kinds of data, sensitive information including credit card details, login id and passwords which can cause financial risk in case of leakage, and other data such as mobile numbers and email ids.
+The ministry said no sensitive data have been leaked and other data sets (mobile number, email ids) are available with multiple electronic service providers, including e-commerce firms and telemarketers.
+So far, leaks through service providers of IRCTC have not been established.
+Experts said the government’s efforts at containing cyber attacks are wanting.
+“The kind of proactive focus the government needs to focus on cyber security breaches is not there.
+Denial of hacking is not a solution.
+IRCTC needs to investigate what sort of due-diligence was done to prevent such an attack.
+The country is sourly missing a dedicated cyber security legislation,” said Pavan Duggal, an advocate who specialises in Cyberlaw and E-Commerce law.
+The latest case began with the Inspector General (IG) of Maharashtra’s Cyber Cell informing the chief commercial manager (CCM)-Western Railways on Tuesday that large volumes of data belonging to users may have been compromised.
+The CCM, in turn, informed the Railway Board, which called an emergency meeting and decided to form the high-level committee.
+IRCTC has a combined user base of 10 million and around 500,000 tickets are sold on its portal every day.
+The railways’ e-ticketing arm has now requested the IG-Cyber Cell, Maharashtra, to share the data sets or complaints that have triggered the investigation to ascertain the source of the hack.
+IRCTC Managing Director A K Manocha, who attended Tuesday’s emergency meeting, has written to Delhi Police’s Cyber Cell to look into the matter.
+Widgets Magazine

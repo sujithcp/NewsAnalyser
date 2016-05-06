@@ -1,34 +1,33 @@
-Carnegie Mellon researchers have developed a technology that turns the skin on the arm into a touchpad.
-Credit:
-Carnegie Mellon University
-By Sharon Gaudin
-Computerworld|May 5, 2016 12:55 PM
-PT
-A lot of people like the idea of a smart watch but don't like having to use a tiny touch screen.
-Big fingers and a tiny screen can lead to frustration and errant screen commands.
-Researchers at Carnegie Mellon University have developed a wearable technology that enables users to turn the skin on their lower arm into a touchpad, giving them a bigger surface to input information or commands to their smart watch.
-Unlike other solutions that have used flexible overlays or a combination of a projector and camera, the researchers' new technology, called SkinTrack, only requires the user to wear a special ring that produces a low-energy, high-frequency signal through the skin when a finger touches or nears the skin surface.
-"A major problem with smart watches and other digital jewelry is that their screens are so tiny," said Gierad Laput, a Ph.D student in the university's Human-Computer Interaction Institute and a member of the project's research team.
-"Not only is the interaction area small, but your finger actually blocks much of the screen when you're using it.
-Input tends to be pretty basic, confined to a few buttons or some directional swipes."
-The researchers said they have used SkinTrack as a game controller, to scroll through lists on smartwatches, to zoom in and out of onscreen maps, and to use a dial pad.
-When using this new technology, they also could determine when a finger was touching the skin with 99 percent accuracy .
-The signals emitting from the ring connect with electrodes integrated into the strap of the smart watch.
-"It's possible to pinpoint the source of those electromagnetic waves because the phase of the waves will vary," CMU said in a statement.
-"Electrodes corresponding to the 12 o:clock and 6 o:clock positions on the watch, for instance, can detect phase differences that can determine the position of the finger along the width of the arm.
-Electrodes at the 3 o:clock and 9 o:clock positions can determine the finger's position along the length of the arm."
-"The great thing about SkinTrack is that it's not obtrusive," said Yang Zhang, a CMU Ph.D. candidate, who is also on the research team.
-"Watches and rings are items that people already wear every day."
-Ezra Gottheil, an analyst with Technology Business Research, said this kind of technology could give a boost to the smart watch market.
-"I have a hard time typing on even my extra-large iPhone," he told Computerworld .
-"I just got an Apple Watch and I'm unlikely to do very much with the screen … The more ways there are to control these devices, the more useful they can be."
-Gottheil noted that there could be issues with the new technology, such as when the user is wearing long sleeves or the battery life of the ring.
-Carnegie Mellon also said the ring's battery is one of the challenges with the technology.
-"The system has some limitations," the university said.
-"Keeping the ring powered up is a challenge.
-Signals also tend to change as the device is worn for long periods, thanks to factors such as sweat and hydration and the fact that the body is in constant motion."
-CMU also reported that researchers believe the technology, including the high-frequency signals emitted by the ring, are not harmful to the user.
-"The technology is safe," the university said.
-"No evidence suggests that the radio frequency signals used by SkinTrack have any health effects.
-The body is commonly excited by daily appliances -- everything from the tiny amounts of current drawn from the finger by touchscreens to the electromagnetic noise emanating from fluorescent lights -- with no ill effects."
-Sharon Gaudin covers the Internet, social media, cloud computing and emerging technologies for Computerworld.
+Technology companies are moving too fast for governments to keep up, according to a former chief of the US Defense Advanced Research Projects Agency (Darpa).
+In an interview with Computer Weekly at the EIT Innovation Forum in Budapest, Gabriel said export controls on certain so-called dual-use tech were sensible and practical.
+“Export control of dual-use technology is a very important area.
+It is a serious issue that we have to be careful very about.
+Yes, the field is level from the point of view of commercial tech, but that doesn’t mean all bets are off and we should just dump all technologies on the marketplace,” he said.
+“I think we are far from that utopia.
+There are certain elements that should be thoughtfully and carefully controlled and restricted by export.
+“One of the things people and governments need to understand is that the private sector is moving [with a lot of] speed, energy and economic power.
+The days when government could leapfrog encryption with federally funded or defence-funded technologies are gone,” Gabriel added.
+“It’s going to be very hard to fight and to push against those trends.
+The reality is that when people, for good or ill, get their hands on a technology, it is very hard to take it away from them.
+Overall, that’s a good thing.
+“It will be a constant escalation – the government will come up with a way to break it and someone else will come up with a way to further encrypt.”
+Gabriel, a former Google executive and now president and CEO of the Charles Stark Draper Laboratory, thinks companies outpacing governments on encryption is no bad thing.
+On the question of the FBI’s attempts to force Apple to hack into an iPhone owned by an alleged terrorist, he said he was firmly on the side of privacy.
+“The reality is that we – as countries and companies – have had the technology to effectively encrypt things to the point where even nation states can’t necessarily decrypt them for some time now.
+In general, that is a good thing,” he said.
+“Even though I make the statement that the commercial world is moving fast, there are certain technologies made by companies such as mine, or others in the defence sector in Europe or the US, that must be protected.
+Other actors may take those technologies and layer additional capability on top of them,” he said.
+In December 2015, the EU updated its export control regulations that apply to blacklisted countries or those that “facilitate gross human rights abuses”, including defining which UAVs are subject to export controls.
+Earlier in April 2016, Italy’s Hacking Team had its global export licence revoked.
+This means it must now apply for special approval to sell its surveillance technology outside Europe.
+Hacking Team has said it has never sold its “lawful intercept technology” to anyone other than legitimate government and law enforcement agencies.
+Gabriel is nonetheless optimistic about the future of technology innovation, although he believes it would be better for the global technology ecosystem if four or five dominant multinationals didn’t hold all the cards.
+“That one’s easy.
+I go back to diversity.
+I don’t think Google has a corner on innovation, I don’t think Facebook has a corner on innovation,” he said.
+“Anything that is an innovation, that is a product, that has value, that falls in the protection of a government patent system – whether US or EU – is legitimate.
+Try it.
+See if you can get a utility patent or provisional patent or whatever it is that you need.
+I myself am an agnostic on whether or not exploits can be patentable.”
+Gabriel also does not believe that export controls stifle innovation, whether based on country blacklisting or purpose limitation.
+“There is a belief that innovation only happens when you are free from any constraints, but actually it’s counter-intuitively the opposite,” he said.

@@ -1,21 +1,22 @@
-X-IO will build storage platforms that use NVMe as an internal fabric in a move that could result in products that provide a step change in storage performance.
-A possible 12 million input/output per second ( IOPS ) in a 2U physical platform is claimed likely by X-IO.
-X-IO’s original equipment manufacturer (OEM) and alliances vice-president Gavin McLaughlin said the company had been working on Project Axellio for around two years.
-The current phase will see it enter beta, in which the physical platform will be tested by customers, but via OEM partners who will use the hardware as a physical platform for hyper-converged flash storage products.
-Axellio comes as a 2U box with four sockets for Intel Broadwell central processing units ( CPUs ) and up to 88 cores.
-It uses NVMe – a subset of PCIe (the standard for server card connections) – to provide a fabric and interconnect for up to 88 flash drives, with every CPU able to see every drive.
-This, it claims, will provide performance of up to 12 million IOPS, 50μs latency and 20GBps throughput.
-X-IO has been working with Intel on the architecture and hopes to get a jump on the rest of the market, said McLaughlin.
-What’s to stop other hardware makers doing the same thing?
-“They could, but it’s not easy to put together to get a balanced system and would probably take nine to 12 months,” said McLaughlin.
-He said X-IO had worked with Intel on the dual ported drives made possible by NVMe, and claimed to be the only storage supplier with such solid state drives (SSDs).
-NVMe is a subest of PCIe and provides advantages over the SAS (serial-attached SCSI) interconnect largely used for storage media to date.
-NVMe communicates natively with the CPU and doesn’t have the overhead of the translation layer in SAS.
-McLaughlin claimed the density possible from Axellio would provide around 0.25PB in 2U and that it would be “a quarter to a half of the price of [EMC’s] DSSD ”.
-Axellio is now in beta and will be available to OEMs as a platform for hyper-converged products in the third quarter.
-Later stages in the roadmap include allowing scale-out architectures that will link all CPUs and all storage in multiple connected nodes.
-McLaughlin said Axellio-based products will be hyper-converged ones targeted at analytics and transactional workloads.
-He added that X-IO have developed a Hadoop engine based on the architecture.
-Hyper-converged infrastructure combines compute, storage and networking in one box.
-This is a trend in part inspired by the modular hyperscale architectures pioneered by web giants such as Google and Facebook.
-X-IO also plans to use Axellio to develop its own storage platform in which it will merge with its ISE product.
+Business Applications Editor
+EMC chair and CEO Joe Tucci ( pictured above left ) and Dell chair and CEO Michael Dell ( pictured above right) fronted the storage supplier’s case for datacentre modernisation at EMC World 2016 in Las Vegas.
+David Goulden, CEO EMC Information Infrastructure, made the detailed case, from the stage in Las Vegas, for a “modernisation” of the datacentre with which the supplier aims to make itself synonymous, characterised by software-defined storage , cloud delivery, flash for persistent storage and scaled out architecture.
+In a press and analyst briefing, Jeremy Burton, president for products at the supplier, said global traditional IT infrastructure investment of $2.7tn was in decline because it was being made more efficiently, and that the money saved is being diverted into new projects “often in IT, but also outside of IT”.
+“Those new applications, to support what is often called digital business, are being architected differently.
+The challenge for IT is to drive more agility and efficiency out of the existing infrastructure, while going as fast as it can on the new business initiatives that often come from the business itself.
+If the IT guys don’t react fast enough, the business will go ahead without them,” he said.
+Tucci, who took an ovation before “passing the baton” to Dell on stage, and Dell both claimed the global economy to be on the cusp of a digital revolution analogous to the industrial revolution that began in Scotland and England in the 18th century.
+Tucci said the “digital revolution will dwarf the industrial” in scale, speed and impact.
+Dell said different societies will undergo digital revolution at different rates, and warned that “technology is somewhat independent of the human ability to adapt.
+It doesn’t pay attention to how ready people are for it”.
+Tucci and Dell agreed there was “very little overlap” between the two suppliers.
+Dell added that a culture survey undertaken at both companies found their values to be well aligned, with customer focus in prime position at both.
+With 170,000 employees, the combined company will be smaller than IBM and HP, but bigger than Oracle, Microsoft and SAP.
+The supplier launched a raft of new products, which it said were aimed at helping customers to modernise their datacentres.
+The product announcements made on the first day of the conference, Monday 2 May, spanned new all-flash storage, cloud storage, copy data management and software-defined storage .
+The Virtustream business that EMC acquired in 2015 has also beefed up its cloud-delivered applications portfolio with a Storage Cloud.
+Michael Hoch, senior vice-president, global systems integrator alliances at Virtustream, said: “This connects easily and directly to on-premise EMC storage environments.
+It is available in the UK and mainland Europe, as well as the US.”
+The Virtustream Storage Cloud is described as a “global cloud storage platform offering enterprise-levels of resiliency and performance combined with true web scale”.
+Meanwhile, the supplier also launched Enterprise Copy Data Management, which is said to help customers reduce the cost of storing and managing multiple copies of the same data.
+It is described as a way of providing companies with a “pan-enterprise solution to monitor, manage and analyse copy data, eliminating the waste organisations will spend storing data on the wrong tier of data or when they no longer need the data altogether”.
