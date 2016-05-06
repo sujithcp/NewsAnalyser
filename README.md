@@ -5,8 +5,7 @@
 
 
 Python Version: 3+
-<p align='left'><img src="https://avatars2.githubusercontent.com/u/13912979?v=3&s=460"></p><br><br>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/UwvYoTww4Ao" frameborder="0" allowfullscreen></iframe>
+<p align='left'><img src="https://avatars2.githubusercontent.com/u/13912979?v=3&s=460" height=150 width=150 ><img src="https://lh3.googleusercontent.com/-pxGd8RYFWAA/VPFVihOYFvI/AAAAAAAAAqQ/xUOpGe4-Bbg74EcAETWECBBUc8YcAOBOwCKgB/w139-h140-p/DSCN1125.JPG" height=150 width=150></p><br><br>
 <u>Main Dependencies:</u><br><p>
   <li>nltk<br>
   <li>sumy<br>
