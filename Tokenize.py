@@ -8,7 +8,7 @@ stopwd = re.split('\n', stopwd)
 
 def word_grams(tokens):
     word_phrase = []
-    n=5
+    n=3
     while n>0:
         for ngram in nltk.ngrams(tokens, n):
             word_phrase .append(' '.join(i for i in ngram))
@@ -37,5 +37,7 @@ def Tokenize(text):
                 tokens.remove(token)
         textcopy +=' '.join(tokens)
         word_phrase.extend(word_grams(tokens))
-
+    #print(word_phrase)
     return (word_phrase,textcopy )
+
+#Tokenize("Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch, but whereas fetching imports commits to local branches, pushing exports commits to remote branches. This has the potential to overwrite changes, so you need to be careful how you use it. These issues are discussed below.")
