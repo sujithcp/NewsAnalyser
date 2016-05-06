@@ -2,320 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f28fd3e-47e9-4bc5-ac9d-d7b4059908e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/air" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/cairn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/capital" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/digital" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/district" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/emerging" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/front" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/gannett" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/goldman" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/hair" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/iron" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/loans" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/may" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/mhz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/mumbai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/opec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/party" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/prime" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/quarter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/reuben" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/seed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/singh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/survey" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/tata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/trading" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/travel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/business/trinamool" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/aircraft" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/artist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/attorney" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/balmain" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/bengali" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/blue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/cannes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/carly" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/challenge" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/corden" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/cricket" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/crisp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/doyle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/dress" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/duvernay" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/dylan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/fallon" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/first" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/goldblum" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/hollywood" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/hospital" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/hough" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/janney" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/jr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kalyan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kasich" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/khan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/kourtney" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/man" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/many" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/maybe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/movie" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/perry" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/pm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/set" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/shroff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/stx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/thani" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/us" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/entertainment/vikander" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/abortion" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/brca1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/bugs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/court" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/cover" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/devices" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/drug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/ebola" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/fed" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/frozen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/gene" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/home" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/new" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/parenthood" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/prostate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/ratings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/regeneron" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/shocking" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/thyroid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/training" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/treatment" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/virus" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/health/work" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/24" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/amond" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/archery" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/beth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/bowling" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/celtic" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/champion" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/champions" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/curran" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/disqualified" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/gold" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/hassani" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/heretic" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/india" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/jan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/kiss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/kohler" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/much" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/northants" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/position" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/premier" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/ranger" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/ranieri" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/rousseff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/rovers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/sevilla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/shahzad" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/six" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/translation" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/uthappa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/wales" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/webb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/williams" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/sports/win" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/4g" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/agenda" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/aircraft" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/also" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/area" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/army" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/assets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/aviation" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/bharat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/brands" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/britain" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/broadcasts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/car" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/cars" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/cent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/charter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/cinemas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/city" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/companies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/consent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/content" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/contracts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/database" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/delivery" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/dementia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/design" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/developing" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/east" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/elkj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/et" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/exchange" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/fair" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/farmers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/federal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/football" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/gmv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/gold" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/gopalakrishnan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/government" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/greece" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/growth" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/gulf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/health" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/hedge" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/hotel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/ice" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/idea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/inflation" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/information" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/insolvency" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/insurance" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/investment" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/isos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/jharkhand" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/keyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/lakh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/laser" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/leicester" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/maps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/markets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/may" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/media" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/met" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/mobilio" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/msmes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/networks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/new" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/notary" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/oil" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/one" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/opportunities" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/oracle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/pakistan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/per" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/petrol" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/plans" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/platform" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/please" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/policy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/portfolio" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/prince" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/push" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/rural" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/sellers" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/start" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/tds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/upi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/whatsapp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/year" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result_data/tech/yourguy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/news_data.db" afterPath="$PROJECT_DIR$/data/news_data.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/bank" afterPath="$PROJECT_DIR$/result_data/business/bank" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/banks" afterPath="$PROJECT_DIR$/result_data/business/banks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/car" afterPath="$PROJECT_DIR$/result_data/business/car" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/case" afterPath="$PROJECT_DIR$/result_data/business/case" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/china" afterPath="$PROJECT_DIR$/result_data/business/china" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/companies" afterPath="$PROJECT_DIR$/result_data/business/companies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/company" afterPath="$PROJECT_DIR$/result_data/business/company" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/court" afterPath="$PROJECT_DIR$/result_data/business/court" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/crore" afterPath="$PROJECT_DIR$/result_data/business/crore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/fed" afterPath="$PROJECT_DIR$/result_data/business/fed" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/flipkart" afterPath="$PROJECT_DIR$/result_data/business/flipkart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/gold" afterPath="$PROJECT_DIR$/result_data/business/gold" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/government" afterPath="$PROJECT_DIR$/result_data/business/government" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/health" afterPath="$PROJECT_DIR$/result_data/business/health" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/india" afterPath="$PROJECT_DIR$/result_data/business/india" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/insurance" afterPath="$PROJECT_DIR$/result_data/business/insurance" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/investment" afterPath="$PROJECT_DIR$/result_data/business/investment" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/issue" afterPath="$PROJECT_DIR$/result_data/business/issue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/khan" afterPath="$PROJECT_DIR$/result_data/business/khan" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/lakh" afterPath="$PROJECT_DIR$/result_data/business/lakh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/life" afterPath="$PROJECT_DIR$/result_data/business/life" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/market" afterPath="$PROJECT_DIR$/result_data/business/market" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/media" afterPath="$PROJECT_DIR$/result_data/business/media" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/oil" afterPath="$PROJECT_DIR$/result_data/business/oil" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/policy" afterPath="$PROJECT_DIR$/result_data/business/policy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/ranbaxy" afterPath="$PROJECT_DIR$/result_data/business/ranbaxy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/rs" afterPath="$PROJECT_DIR$/result_data/business/rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/said" afterPath="$PROJECT_DIR$/result_data/business/said" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/tax" afterPath="$PROJECT_DIR$/result_data/business/tax" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/trump" afterPath="$PROJECT_DIR$/result_data/business/trump" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/business/tyagi" afterPath="$PROJECT_DIR$/result_data/business/tyagi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/2016" afterPath="$PROJECT_DIR$/result_data/entertainment/2016" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/adults" afterPath="$PROJECT_DIR$/result_data/entertainment/adults" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/book" afterPath="$PROJECT_DIR$/result_data/entertainment/book" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/film" afterPath="$PROJECT_DIR$/result_data/entertainment/film" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/freud" afterPath="$PROJECT_DIR$/result_data/entertainment/freud" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/game" afterPath="$PROJECT_DIR$/result_data/entertainment/game" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/getty" afterPath="$PROJECT_DIR$/result_data/entertainment/getty" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/jackson" afterPath="$PROJECT_DIR$/result_data/entertainment/jackson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/like" afterPath="$PROJECT_DIR$/result_data/entertainment/like" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/marvel" afterPath="$PROJECT_DIR$/result_data/entertainment/marvel" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/new" afterPath="$PROJECT_DIR$/result_data/entertainment/new" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/ranbir" afterPath="$PROJECT_DIR$/result_data/entertainment/ranbir" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/says" afterPath="$PROJECT_DIR$/result_data/entertainment/says" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/singh" afterPath="$PROJECT_DIR$/result_data/entertainment/singh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/song" afterPath="$PROJECT_DIR$/result_data/entertainment/song" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/tatum" afterPath="$PROJECT_DIR$/result_data/entertainment/tatum" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/trump" afterPath="$PROJECT_DIR$/result_data/entertainment/trump" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/video" afterPath="$PROJECT_DIR$/result_data/entertainment/video" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/entertainment/war" afterPath="$PROJECT_DIR$/result_data/entertainment/war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/air" afterPath="$PROJECT_DIR$/result_data/health/air" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/care" afterPath="$PROJECT_DIR$/result_data/health/care" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/dengue" afterPath="$PROJECT_DIR$/result_data/health/dengue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/health" afterPath="$PROJECT_DIR$/result_data/health/health" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/listeria" afterPath="$PROJECT_DIR$/result_data/health/listeria" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/may" afterPath="$PROJECT_DIR$/result_data/health/may" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/must" afterPath="$PROJECT_DIR$/result_data/health/must" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/obesity" afterPath="$PROJECT_DIR$/result_data/health/obesity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/percent" afterPath="$PROJECT_DIR$/result_data/health/percent" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/pollution" afterPath="$PROJECT_DIR$/result_data/health/pollution" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/progeria" afterPath="$PROJECT_DIR$/result_data/health/progeria" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/said" afterPath="$PROJECT_DIR$/result_data/health/said" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/teens" afterPath="$PROJECT_DIR$/result_data/health/teens" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/tobacco" afterPath="$PROJECT_DIR$/result_data/health/tobacco" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/health/warfarin" afterPath="$PROJECT_DIR$/result_data/health/warfarin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/bbc" afterPath="$PROJECT_DIR$/result_data/sports/bbc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/final" afterPath="$PROJECT_DIR$/result_data/sports/final" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/freestyle" afterPath="$PROJECT_DIR$/result_data/sports/freestyle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/kohli" afterPath="$PROJECT_DIR$/result_data/sports/kohli" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/leicester" afterPath="$PROJECT_DIR$/result_data/sports/leicester" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/liverpool" afterPath="$PROJECT_DIR$/result_data/sports/liverpool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/may" afterPath="$PROJECT_DIR$/result_data/sports/may" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/sports/world" afterPath="$PROJECT_DIR$/result_data/sports/world" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/air" afterPath="$PROJECT_DIR$/result_data/tech/air" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/br" afterPath="$PROJECT_DIR$/result_data/tech/br" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/china" afterPath="$PROJECT_DIR$/result_data/tech/china" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/company" afterPath="$PROJECT_DIR$/result_data/tech/company" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/data" afterPath="$PROJECT_DIR$/result_data/tech/data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/facebook" afterPath="$PROJECT_DIR$/result_data/tech/facebook" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/financial" afterPath="$PROJECT_DIR$/result_data/tech/financial" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/game" afterPath="$PROJECT_DIR$/result_data/tech/game" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/jio" afterPath="$PROJECT_DIR$/result_data/tech/jio" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/market" afterPath="$PROJECT_DIR$/result_data/tech/market" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/nagaland" afterPath="$PROJECT_DIR$/result_data/tech/nagaland" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/online" afterPath="$PROJECT_DIR$/result_data/tech/online" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/people" afterPath="$PROJECT_DIR$/result_data/tech/people" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/periscope" afterPath="$PROJECT_DIR$/result_data/tech/periscope" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/persona" afterPath="$PROJECT_DIR$/result_data/tech/persona" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/questions" afterPath="$PROJECT_DIR$/result_data/tech/questions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/rs" afterPath="$PROJECT_DIR$/result_data/tech/rs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/said" afterPath="$PROJECT_DIR$/result_data/tech/said" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/services" afterPath="$PROJECT_DIR$/result_data/tech/services" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/technology" afterPath="$PROJECT_DIR$/result_data/tech/technology" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/value" afterPath="$PROJECT_DIR$/result_data/tech/value" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result_data/tech/volkswagen" afterPath="$PROJECT_DIR$/result_data/tech/volkswagen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wastes/db.py" afterPath="$PROJECT_DIR$/wastes/db.py" />
     </list>
     <ignored path="NewsPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -336,14 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="125">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_idf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tf_idf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -436,6 +144,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/data_fetcher/rss_fetcher.py" />
         <option value="$PROJECT_DIR$/wastes/db.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
       </list>
     </option>
   </component>
@@ -787,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462510558123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="None">
+      <created>1462511361722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462511361722</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -800,7 +516,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12539186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09090909" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3354232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -992,11 +708,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="125">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_idf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
