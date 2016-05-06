@@ -4,8 +4,8 @@ import math
 
 import sqlite3
 
-from NewsPro.Tokenize import Tokenize
-from NewsPro.fetchData import fetchNewsFromDb
+from Tokenize import Tokenize
+from fetchData import fetchNewsFromDb
 
 
 def tf(word, text,n):
