@@ -1,7 +1,7 @@
 """
-Suppose you have some texts of news and know their categories.
-You want to train a system with this pre-categorized/pre-classified
-texts. So, you have better call this data your training set.
+Delete the train_dump file and run
+Exact same dataset is used for training and testing
+
 """
 import codecs
 import os

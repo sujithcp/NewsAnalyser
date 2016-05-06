@@ -1,26 +1,37 @@
-By Gregg Keizer
-Computerworld|May 5, 2016 1:26 PM
-PT
-Microsoft today said it would, as it indicated last year, end the free Windows 10 upgrade offer on July 29.
-Today's reiteration shouldn't have come as a surprise: Windows 10 growth, largely spurred by the free upgrade, has slowed since September 2015 and probably has reached a point of diminishing returns.
-In September, Windows 10's global user share as measured by metrics vendor Net Applications, grew 28% over the month prior.
-Since then, 10's month-over-month growth has slowed, first to 21% for October, then to 13% and 10% in November and December, before accelerating again in January 2016 to 20%.
-From January, it's been downhill, with growth rates for February, March and April fluctuating between 8% and 11%.
-( Computerworld ignored the massive growth rate of August 2015, the first full month of Windows 10's availability; August's 1,325% growth over July was due not only to the July 29, 2015, launch, but also to the negligible user share Windows 10 had prior to its release.)
-Windows 10's impressive 20% month-over-month growth in January was likely fueled by new device purchases at the end of 2015, a once-a-year opportunity of gains that, even with slumping PC sales, will probably repeat even without a free upgrade offer.
-What's clear from the data is that the free upgrade has, first, done its job -- today Microsoft announced there were 300 million "active devices" running the OS worldwide -- and second, outlived its usefulness.
-The bulk of those who wanted the upgrade from Windows 7 and Windows 8.1 have taken it.
-Only relatively small percentages of customers will accept the offer in the future, even if it's extended, assuming Microsoft doesn't amp up the aggressive pitches to Windows 7 and Windows 8.1 users to upgrade.
-That does not mean there may not be a bump in growth over the next three months: Laggards will certainly take the upgrade as the deadline nears, trying to make it under the wire.
-But those month-over-month increases will just mask the fact that the offer has served its purpose.
-If Microsoft hasn't paid a price for instituting the free upgrade, its ecosystem has: Analysts from all corners have attributed some of the continued contraction of PC sales to the free deal.
-In other words, Microsoft has reasons, one in particular, to end the offer: Doing so will placate its OEM (original equipment manufacturers) partners, the Lenovos, Dells and HPs of the computer industry, who will have a better chance of selling new hardware with the offer abandoned.
-Microsoft has made it clear that it values its OEM partners: It has, for instance, made a radical change to what hardware it will support in the future, saying in January that only Windows 10, or more specifically, "the latest Windows platform at that time," will support future systems .
-The policy is a strong signal to OEMs that Microsoft will push new hardware as it markets 10.
-It also establishes a precedent if, down the line, Microsoft decides to declare Windows 10 unfit for, and thus unsupported on, older hardware.
-Just as importantly, Microsoft must ensure that its relationships with enterprises -- the core of its business -- remain positive.
-Continuing the free upgrade would, as Directions on Microsoft analyst Wes Miller pointed out in March , put the paid/not-paid contrast into even starker relief for corporate customers, who must continue to pay handsomely for Enterprise edition licenses.
-While anything's possible, and Microsoft could extend the free upgrade offer, even indefinitely, the data hints that doing so would not continue to dramatically boost Windows 10 adoption.
-With inherent negatives in making something free that others -- important others -- must pay for, Microsoft will end the deal.
-Data: Net ApplicationsWindows 10's month-over-month user share growth has slowed over the last eight months, signaling that the free upgrade offer has reached a point of diminishing returns.
-Gregg Keizer covers Microsoft, security issues, Apple, Web browsers and general technology breaking news for Computerworld.
+If you have a computer running Windows 7 or 8, 29 July is the date that marks the very last window of opportunity—that date marks the one-year anniversary of the release of Microsoft’s latest operating system for PCs, Windows 10.
+From 30 July, Microsoft will start charging $120 if you want to upgrade your Windows PC to the latest OS.
+When Microsoft had announced that the latest OS will be available free for one year as an upgrade, it was clearly a move to get as many people to switch, and it seems to have worked.
+The Redmond-based company reports that there are now 300 million active Windows 10 PCs—laptops, computers, tablets and hybrids, including new devices sold with Windows 10 pre-installed and older devices which upgraded from Windows 7 or Windows 8 OSes.
+This number gives Windows 10 the bragging rights for having the fastest adoption rate of any version of Windows, in history.
+If you are running a PC that is still tethered to the past—that is Windows 7 or Windows 8, or even Windows 8.1—you have three months left for a free upgrade.
+And here are five reasons why you should start downloading the upgrade right now.
+With exactly the same specifications, a machine running Windows 10 will boot up faster than Windows 7, and will perform faster during multi-tasking than both Windows 7 and Windows 8.
+This could be great news if you have an ageing PC, and could give a fresh lease of life to it for the time being.
+The benefits are because of a completely new foundation of the entire software.
+The Aero Snap feature makes it easy to use multiple software side by side on the same screen, by simply dragging an app to either the left or the right side of the screen, and it gets automatically resized into half screen space.
+Windows 8 users would understand this pain—Windows 10 solves the rather jarring switch between the conventional desktop and the touch interface, which was almost like running two different operating systems on the same PC.
+Having two sets of the same app (Chrome browser, VLC media player and Plex, for example) was simply confusing for a lot of users.
+Return of the start menu
+Windows 8 and Windows 8.1 users had, for long, shown their displeasure at the disappearance of the start menu from their PCs.
+Microsoft understood that backlash, and responded by adding it back in the latest OS.
+If you use Windows 7, you don’t get an app store from where you can download apps and games.
+Windows 10 has one, which makes it easier to search for and buy software for the PC.
+Microsoft has also loaded Windows 10 with slicker and enhanced apps, including the new Photos, People, Mail, and Calendar apps.
+Microsoft is pushing the developers to make apps using the Universal Apps platform, which would mean that an app written once would run seamlessly on a PC, smartphone and even the Xbox gaming console.
+With the new Edge web browser, Microsoft has managed to bury the ghost of the Internet Explorer.
+It is clean, it is quick, and it just works so much better than Internet Explorer ever did.
+Users seem to be taking notice—Microsoft says that more than 63 billion minutes were spent on Microsoft Edge in March 2016, which is 50% more in terms of minutes, compared to a quarter earlier.
+More space on the workstation
+Apple’s Mac OS X operating system has had this feature for many years now, and Windows adopted it now.
+But better late than never.
+Basically, you can create multiple desktop spaces, which means you can open different apps in different virtual spaces and negate the need of minimizing apps to shift from one to the other.
+For example, you could open the web browser in one desktop window, a Word document in another and the VLC media player in a third window.
+A lot of us have become used to how our smartphone apps pop up notifications for new messages and more.
+Apple added a Notification Center with the Mac OS X Yosemite, something on the lines of how notifications work on an iPhone.
+Microsoft added something similar in Windows 10—called the Action Center—where you will get everything including notifications for new emails, system information, and access to toggles for Wi-Fi, Bluetooth, tablet mode, VPN etc.
+Last Modified: Fri, May 06 2016.
+03 20 PM IST
+Microsoft has announced that the upgrades to the newest operating system will cost $120, from 30 July.
+Here are 5 reasons why you should upgrade now
+First Published: Fri, May 06 2016.
+03 17 PM IST

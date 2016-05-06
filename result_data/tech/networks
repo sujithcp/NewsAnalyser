@@ -1,0 +1,19 @@
+EE has teamed up with Lime Micro and Ubuntu founders Canonical to deploy open source software-defined networking (SDN) technology in support of developing network capabilities and services and addressing rural coverage gaps.
+The fully programmable network capability is based on Lime’s network-in-a-box system LimeSDR , which was launched earlier in 2016.
+LimeSDR was designed to be a flexible and low-cost alternative to traditional mobile base stations.
+It lets users configure it to provide any wireless service, such as 4G, Wi-Fi and Bluetooth, as well as develop applications and services for the network.
+EE plans to deploy the systems that will be created through its work with the Telecom Infrastructure Project , which is aiming to connect remote areas of Scotland to mobile networks
+“The technology could be particularly relevant to our work in remote and rural health and digital innovation,” said the university’s principal and vice-chancellor Clive Mulholland.
+“As a regional university, we aim to have a transformational impact on the Highlands and Islands, so we welcome any initiatives that have the potential to benefit our area.”
+For all other interested developers, the LimeSDR will be made available through a crowd-funding campaign that will let them pre-order boards at a low cost.
+EE director of radio networks Mansoor Hanif said that, just as apps have revolutionised the wider mobile experience, they could also have a similar effect on the inner workings of the network itself.
+“We’re allowing anyone to build an app that can introduce a service or a capability to a mobile network.
+That could be to connect a rural area of the UK for the first time, or to be part of designing how 5G works,” he said.
+Billed as ‘Arduino for telco engineers’, LimeSDR was developed to help operators respond to over-the-top (OTT) services players such as Facebook and Google and, at the same time, help them invest in larger and faster networks more easily.
+“Radio access technology has been the bottleneck in the implementation of programmable and cost-effective networks.
+The wireless industry is poised for a significant change in favour of operators who now have the option to universally and economically deploy networks based on open source hardware,” said Lime Micro CEO Ebrahim Bushehri.
+“Our partnership with Canonical signifies a major step in ensuring the contribution of like-minded developers to provide applications for feature reach networks of the future.”
+“Traditional telecom equipment suppliers are making mobile base stations as proprietary as possible.
+This is good for their margins,” said Maarten Ectors, vice-president of IoT and next-generation networking at Canonical .
+“Telecom operators, however, need lower costs, more innovation, faster time to market, interoperability, manageability and new revenues.
+Open source and app-enablement are the solution,” he added.

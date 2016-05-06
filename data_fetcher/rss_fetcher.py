@@ -10,16 +10,12 @@ import re
 import sqlite3
 import threading
 from datetime import datetime
+
 import feedparser
+
 from data_fetcher.fetcher import GetTextFromUrl
 from generals import readFile
 
-from sumy.parsers.html import HtmlParser
-from sumy.parsers.plaintext import PlaintextParser
-from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lsa import LsaSummarizer as Summarizer
-from sumy.nlp.stemmers import Stemmer
-from sumy.utils import get_stop_words
 '''
 get list of [url,category] from the file urls
 If category is specified returns all such lists,
@@ -49,7 +45,7 @@ def fetchRss(category=None,name = ""):
     global newCount
     connection = sqlite3.connect('../data/news_data.db')
     cursor = connection.cursor()
-    URL_LIST = getUrlList(category)
+    URL_LIST = (getUrlList(category))
     if not URL_LIST:
         print("No URLs found ")
         return False
