@@ -16,7 +16,7 @@ Python Version: 3+
   <li>feedparser<br></p>
 
 
-<b> Dont forget to delete the train_dump file after adding news news data....</b>
+<b> Dont forget to delete the train_dump file after adding new news data....</b>
   
 
   
