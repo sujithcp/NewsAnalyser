@@ -1,0 +1,49 @@
+Family charity Action for Children has moved to an MPLS core network service as part of a wider initiative to transform how its staff go about their day-to-day work, and how it interacts with the vulnerable children in its care.
+Action for Children is well known in the IT industry for its annual Byte Night sleep-out in aid of youth homelessness.
+It is one of the largest charities in the UK, with 5,000 staff working with around 300,000 children and teenagers every year.
+The service delivery charity runs services – such as adoption and fostering – for local authorities.
+It also provides one-on-one care for children with disabilities, and runs day centres and parenting classes at 500 sites across the UK, competing with Virgin Care and Capita.
+It brings in around £170m per annum, with approximately 85% of this from local authority deals.
+According to CIO Alan Crawford – who joined Action for Children in 2013 from a previous role as IT director at AgeUK – the charity’s IT function had grown piecemeal over a number of years.
+It became inefficient, inflexible and expensive, restricting Action for Children’s ability to serve its users as well as it could.
+“Our IT was stable, but well past its sell by date,” he says.
+“All our desktops were running Microsoft Windows XP , which tended to work, but slowly.
+The experience was generally poor, so we wanted to move to a better network and high-performance thin clients to speed things up.”
+Crawford adds that a lot of Action for Children’s staff are mobile and spend their working days out visiting vulnerable families.
+Therefore, as well as supporting, the ability to offer mobile services was also very important.
+Ultimately, he says, the objective was to adapt to new projects, realise time and cost savings, and free staff and volunteers to focus on their primary care-giving roles.
+MPLS works by forwarding most network data packets at the switching level (Layer 2), as opposed to the routing level (Layer 3).
+Packets are labelled on entry into the network and follow pre-determined paths which can be defined by a service provider to meet specific service level agreements, such as latency or downtime.
+This enables the service provider to speed up and shape traffic flowing across the network and deliver a higher quality of service to the user.
+Crawford says he was impressed with the speed and competence of the switchover and the competitive bid Claranet put in.
+One of the main benefits of moving to an MPLS set-up is that it brings a greater degree of flexibility to the network.
+For Action for Children, this was a critical element because it is constantly adding and removing sites as contracts are won and lost, due to the quasi-commercial nature of its business with local authorities.
+“Our contracts turn over every three years, so we are constantly adding and decommissioning sites,” says Crawford.
+“We couldn’t connect 500 sites to Claranet and leave it at that.”
+Action for Children recently won a contract in Buckinghamshire that required providing network connectivity into 20 new sites.
+“We’ve got it down to quite a well-honed process,” says Crawford.
+“We provide all the necessary details to help them figure out the best possible connectivity options – these days that increasingly means fibre-to-the-cabinet [FTTC] – and Claranet arranges to install the equipment on site and work with our IT team.”
+The final part of the jigsaw was to install Cisco Meraki-based Wi-Fi networks – shared between staffers and the public – at more than half of Action for Children’s sites.
+Wi-Fi provision is key to addressing digital exclusion , according to Crawford, as many of the families that the charity works with are unable to afford their own broadband connections.
+“We have found the reason people remain offline these days is actually less to do with a lack of digital skills, and more to do with money,” he says.
+“We see big challenges around low-income families who can’t afford broadband, so Wi-Fi is the part I am most pleased about.”
+The addition of Wi-Fi to the charity’s sites has also paid off for staff, who are increasingly using photos and video on smartphones and tablets as part of their work.
+Having an easy-to-access wireless facility shared across multiple sites helped to make this process as simple as possible, said Crawford, when supporting social care specialists whose priority is not always IT.
+For Paul Andrews, a family support practitioner based in Carmarthenshire in Wales, the service has revolutionised his average working day in the field.
+Andrews typically visits three families a day, some up to 30 miles from his base, with each visit generating a lot of data.
+On an average visit, he will need to record information on the family and service user, take notes, keep track of assessments and scores, and record images and video if needed.
+Under the old regime, this entailed a lot of paperwork and driving, as Andrews frequently had to return to the office to type up and file client notes while they were still fresh in his mind.
+Now, equipped with a Dell tablet, he is able to save notes to the cloud via a 3G mobile connection, meaning he can spend more time visiting families and less time on the road.
+The tablet’s in-built camera facility gives him the option of photographing the interactive art activities he undertakes with the children to add to their case-files, which means the family can save their children’s drawings for posterity.
+Andrews also uses the camera to record video and audio with the families, which the local authority clients say they find especially useful.
+Besides the cost savings around fuel and efficiency gains realised by caseworkers such as Paul Andrews, the changes at Action for Children are paving the way for a wider digitisation process at the charity, says Crawford.
+It is currently in the process of moving its back-office software applications, such as human resources and expense reporting, into the cloud.
+“ We have developed software to enable us to measure difference over time with our children.
+When we first meet a child we will benchmark baseline measures – such as physical and emotional wellbeing, hygiene, healthy eating – and track those over time,” says Crawford.
+“That data can then be sliced and diced by services or geography to produce insightful datasets.”
+The use of more advanced data analytics in Action for Children raises the possibility of moving towards internet of things (IoT) deployments to better monitor vulnerable children.
+However, Crawford is holding out on this one for now, as it raises some ethical questions for the charity that are yet to be satisfactorily addressed.
+“Is the IoT pandering to a parent’s fear of something happening to their child, rather than what is in the child’s best interests?” he says.
+For now, the next steps will be to embrace Office 365, and move towards introducing electronic case files for each child.
+The charity will also be taking advantage of Claranet’s colocation services, moving into its datacentre.
+This will deepen the successful relationship between the two and give the IT professionals taking part in 2016’s Byte Night – registrations for which are now open – an opportunity to talk shop while they bed down for the night.

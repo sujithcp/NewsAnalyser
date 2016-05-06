@@ -1,18 +1,32 @@
-Gareth Cattermole | Getty Images
-Netflix rolls out a new mobile data-saving feature to give users everywhere the power to control video quality and stay within the budget of their plans.
-Right off the bat, the updated app for Android and iOS will have the Cellular Data Usage setting in the mix.
-There, viewers can set their personal preferences — turn off the automatic option and pick between Off (Wi-Fi only), Low, Medium, High and Unlimited.
-The two choices on each end of the selection are pretty straightforward already: Off (Wi-Fi only) doesn't use cellular data, while Unlimited goes to town with it.
-Needless to say, the latter is only recommended for subscribers who doesn't have a ceiling on their plans.
-As for the rest, Low provides four hours' worth of viewing per gigabyte, Medium offers two hours and High goes for one hour.
-According to Netflix, the default setting lets streamers watch about three hours of video for each gigabyte, pointing out that it provides a good balance between quality and regulated data usage.
-To access Cellular Data Usage, just click on the navigation drawer on the upper left corner, tap on App Settings and voila, the control is right at the users' fingertips.
-The takeaway here is that Netflix is handing over the reins to the viewers in terms of video quality.
-That means users on unlimited data plans can go crazy on binge-watching in high definition, and those on caps can also do so in less stellar conditions.
-"Our goal is to give you more control and greater choice in managing your data usage whether you're on an unlimited mobile plan or one that's more restrictive," Eddy Wu, director of product innovation at Netflix, says .
-On that note, it's worth mentioning that Netflix is part of T-Mobile's Binge On shindig, a program that lets subscribers watch videos to their hearts' content.
-However, the streams are limited to 480p under this.
-What do you think of Netflix's new mobile data-saving feature?
-Let us know in the comments section below and feel free to tell us what TV series or movies you're going to binge-watch.
-© 2016 Tech Times, All rights reserved.
-Do not reproduce without permission.
+WavebreakmediaMicro - Fotolia
+The US Los Alamos National Laboratory has gone into production with around 30PB of object storage powered by Scality Ring software.
+Object storage was chosen for its ability to make use of erasure coding for data resilience and to avoid use of Raid .
+This is due to the increasingly cumbersome nature of Raid, especially during Raid rebuilds of large hard drives following disk failures.
+The Scality tier of object storage forms part of an overall storage infrastructure that supports Los Alamos’s Trinity Cray-supplied supercomputer.
+It is one of the world’s most powerful supercomputers, with 2PB of memory, 200 CPUs and performance of 40 petaFlops (floating point operations per second).
+It is used to manage the US nuclear stockpile and carries out physics modelling and simulation.
+The nature of input/output (I/O) on Trinity poses unique issues, with datasets that can comprise single files of many tens of TB or tens of millions of files in the 10s of Kb size range.
+Kyle Lamb , computer engineer at Los Alamos, said: “We have two extremes of storage I/O to deal with.
+The big question was how we deal with that for the next five years.
+So we started to look at object storage, specifically erasure coding because of data durability and with the performance of data on disk.”
+Trinity’s storage comprises three tiers.
+The highest performing tier, comprising so-called “buffer burst”, is made of 3.7PB of flash in a Cray Datawarp I/O accelerator providing throughput of 3.3TBps.
+Data is expected to be retained for around a day.
+Next is 78PB of data held in a Lustre parallel file system on enterprise hard disk drives (HDD) on Cray/Seagate hardware with throughput of 1.5TBps and an expected lifespan of data measured in weeks.
+The third, Scality-powered, tier is known by Los Alamos as “campaign storage”, which comprises currently around 3PB of capacity (for Trinity – there is 30PB in total, see below) and is for data that has seen initial use but which may lie dormant until re-used for campaigns lasting six months to two or three years.
+Throughput is 3GBps.
+So, why not use tape or disk with Raid?
+“If we wrote to tape we’d be looking at something like 30 hours for recall of for 30TB of data,” said Lamb.
+“Typical Raid systems at the time we began looking were fine and could scale quite expansively, but as HDDs got bigger we needed to look at better data durability.
+With 8TB disks you’re looking at rebuild times of three days and that’s more than we can accept in terms of potential data loss.”
+Therefore, Los Alamos opted for object storage with its erasure coding method of data protection .
+Erasure coding is a method of data protection in which data is broken into fragments that are expanded and encoded with a configurable number of redundant pieces of data and stored across a set of different locations.
+If data is lost or corrupted, it can be reconstructed using information about the data stored elsewhere.
+It works by creating a mathematical function to describe a set of numbers so they can be checked for accuracy and recovered if one is lost.
+“We are paying for resiliency of data rather than performance,” said Lamb.
+Meanwhile, the Scality object storage setup will also support a further 27PB of data in the Los Alamos-developed MarFS.
+This is a parallel file system that provides a Posix interface – via GPFS – to allow file access storage but with Scality object storage on the back end.
+“We needed a Posix interface.
+People are used to it and it wouldn’t cause re-writes for the applications that access the storage,” said Lamb.
+MarFS organises access to object metadata by presenting instances as files in GPFS.
+This metadata then points to many instances of small (1GB) portions of the file, but held as objects in Scality.

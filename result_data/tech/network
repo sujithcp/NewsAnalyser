@@ -1,16 +1,16 @@
-Andrey Armyagov - Fotolia
-Manx Telecom , the incumbent telecoms and broadband supplier on the Isle of Man, has switched on an extended mobile network (EMN) delivering integrated cellular and satellite connectivity as part of a trial to offer ubiquitous coverage.
-The system aims to be the world’s first communications service that is able to switch between multiple cellular networks and a direct-to-user (DtU) mobile satellite network provided by Globalstar .
-“First responders face an ever-growing array of operational challenges,” said Globalstar CEO Jay Monroe.
-“The EMN system, incorporating our reliable satellite network, will help ensure first responders can continuously communicate and help them perform their significant roles more effectively.”
-The EMN will use Globalstar’s low-Earth orbit satellites to provide a system that will allow users to communicate as normal with existing smartphone devices in any situation.
-This will be done by using smart SIM technology provided by Manx Telecom to hand over connectivity to either another mobile network or the satellite service, should the primary signal be disrupted.
-The system will support a new first responder auxiliary network (Fran) for blue light services, set to be trialled later in 2016.
-It is hoped Fran will offer communications continuity across the UK – not just on the Isle of Man – allowing emergency services teams in the field to continue making and receiving calls under testing cirucmstances.
-This may save lives in fast-developing emergency situations – such as the recent winter floods – where a combination of network overload and infrastructure damage saw mobile networks cut off in parts of the country.
-The ability to switch between networks will be even more important once the emergency services begin to switch onto the Emergency Services Network (ESN) – an enhanced public mobile network supplied by EE – in the next few years.
-Previous attempts to offer ubiquitous mobile communications using satellite backhaul have come up short because they still depend on terrestrial infrastructure.
-This is a problem that DtU is able to circumvent because the satellites are orbiting much closer to the Earth’s surface and so do not perform as a backhaul network.
-Low-Earth orbit satellites also have much lower latency – simply because they are closer in – and are considered more reliable because there are one or more of them visible from any given point.
-“We intend to show that satellite communications, combined with Manx Telecom’s flexible Strongest Signal SIM technology, can provide much-needed balance and backup to the emergency communications architecture and dramatically increase overall reliability,” said Manx Telecom CEO Gary Lamb.
-“Our firm view is that Fran can uniquely provide emergency services personnel with communications networks they can rely on, wherever they are, 24/7.”
+Virgin Media has announced the largest UK roll-out of fibre-to-the-premises (FTTP) broadband technology to date, pledging to connect one million properties in the UK by the end of the decade as part of its Project Lightning network expansion.
+Up to now, Virgin’s network roll-out has deployed a hybrid fibre coaxial (HFC) network consisting of a combination of optical fibre and co-axial cable technology.
+This is arguably not a true fibre network, as the fibre component is only providing the network backhaul, the same as it does on BT’s Openreach network.
+However, the use of HFC has meant Virgin has been able to establish the fastest widely available service in the UK, clocking in at between 150Mbps and 200Mbps.
+Having trialled FTTP in parts of Cambridgeshire and Leicestershire, Virgin’s new approach will see it bring FTTP to around a quarter of the four million homes and businesses it had previously said it would add to its network under Project Lightning .
+Virgin claimed this would make it the largest FTTP provider in the UK, and that the project as a whole could bring up to £8bn worth of wider economic benefits to the UK economy.
+“While some companies talk a good game, Virgin Media is putting its money where its mouth is and laying fibre to the premises alongside our superior HFC network – delivering the fastest widely available broadband speeds,” said Virgin Media CEO Tom Mockridge.
+“Our £3bn investment to bring ultrafast connectivity to more parts of the UK is not just about better broadband, it’s about future-proofing the country’s network infrastructure with the best and most modern technology.”
+Work on the roll-out is set to begin later in 2016 in Devon, East Sussex and West Yorkshire.
+A technique known as narrow trenching will be used, where fibre cable is deployed mere centimetres below the surface of the pavement, bringing down the cost of deployment.
+Virgin said it would also create 500 new jobs, on top of 2,100 created under Project Lightning so far, to support its revised goals.
+Chancellor George Osborne commented: “Backing firms that grow and create jobs is a key part of our plan to boost productivity and deliver economic security for working people.”
+As part of this it is attempting to make it easier for network builders to get access to BT Openreach’s existing duct and pole infrastructure, although Virgin is not going down this path for now.
+A spokesperson told Computer Weekly it was focused on delivering expansion through building and using its own infrastructure.
+Ofcom CEO Sharon White said she hoped that enabling other providers to deploy FTTP more easily, BT Openreach, which has resisted FTTP in favour of fibre-to-the-cabinet (FTTC) and G.fast , could be shocked into action.
+“If we can get to that position where others are laying fibre, that’s going to be the biggest incentive BT has to match them,” she said.
