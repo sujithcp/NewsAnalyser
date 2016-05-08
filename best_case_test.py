@@ -78,7 +78,7 @@ if input('want to delete wrong data from db ? [yes i am sure/NO] \n>>> ')=='yes 
     cursor = connection.cursor()
     print(len(falseSet))
     for wrongItem in falseSet:
-        print('deleting : ',wrongItem[1])
+        print('deleting : ', wrongItem[1])
         try:
             cursor.execute('''delete from News where title = ?''', (wrongItem[1],))
         except Exception as e:
