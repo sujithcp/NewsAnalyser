@@ -57,4 +57,4 @@ def tf_idf ( start_date, end_date ):
         sorted_score.append(sorted(day['score'].items(), key=operator.itemgetter(1), reverse=True ))
     return sorted_score
 
-#print ( tf_idf( "20018-07-02" , "2016-05-06" ) )
+print ( tf_idf( "2016-05-06" , "2016-05-06" ) )
