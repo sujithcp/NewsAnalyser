@@ -25,6 +25,8 @@ cursor = connection.cursor()
 
 dates = set([item[4] for item in data])
 newsSet = {date:[item for item in data if item[4]==date] for date in dates}
+
+'''
 for date in dates:
     dateData = newsSet[date]
     dayWords = [item[2] for item in dateData]
@@ -44,7 +46,20 @@ for date in dates:
         tdif_list = sorted(tfidf_list,key = itemgetter('tfidf'),reverse=True)
         tdif_list = [item for item in tdif_list if item['tfidf']>=(tdif_list[0]['tfidf']/2)]
         for i in tdif_list:
-            cursor.execute('''insert or ignore into tfidf(date,word,tfidf) values(?,?,?)''',(date," ".join(i['word']),i['tfidf'],))
+            cursor.execute("insert or ignore into tfidf(date,word,tfidf) values(?,?,?)",(date," ".join(i['word']),i['tfidf'],))
         print(tdif_list)
         connection.commit()
-    #print(dayWords)
+
+
+'''
+ngrams = cursor.execute('''select distinct word from tfidf order by word''').fetchall()
+
+for tuple in ngrams:
+    tfidf_sums = cursor.execute('''select date, word, sum(tfidf) s from tfidf where word = ? group by date order by s desc''', (tuple[0],))
+    tfidf_sums = [item[2] for item in tfidf_sums]
+    diff = max(tfidf_sums)-min(tfidf_sums)
+    print(tuple[0]," - ",diff)
+    if diff<=0:
+        continue
+    cursor.execute('''insert into final_tfidf(word, tfidf) values(?,?)''',(tuple[0],diff,))
+connection.commit()
