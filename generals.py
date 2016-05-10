@@ -36,7 +36,7 @@ def readFile(path):
         return None
 
 
-def tokenize(data,en_stem=True):
+def tokenize(data,en_stem=True,en_stopword_removal=True):
     word_forms = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection','article']
     stopw =list(set(word_forms+[stem(item) for item in word_forms ])) + stopwords.words('english')
 
@@ -44,11 +44,12 @@ def tokenize(data,en_stem=True):
     # print(words)
     words = [item.lower() for item in words]
     tmp = words.copy()
-    for i in words:
-        if (i.lower() in stopw) or (len(i) < 2):
-            # print(i)
-            tmp.remove(i)
-            # print(len(tmp)," ",tmp)
+    if en_stopword_removal:
+        for i in words:
+            if (i.lower() in stopw) or (len(i) < 2):
+                # print(i)
+                tmp.remove(i)
+                # print(len(tmp)," ",tmp)
     if en_stem:
         words = [stem(item) for item in tmp]
     else:

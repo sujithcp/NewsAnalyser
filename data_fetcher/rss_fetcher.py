@@ -27,9 +27,9 @@ def getUrlList(category=None):
     lines = [line.strip() for line in readFile('./urls').strip().split('\n')]
     #print(lines)
     if not category:
-        return [[i for i in line.split()] for line in lines]
+        return [[i for i in line.split()] for line in lines if line]
     else:
-        line = [[i for i in line.split()] for line in lines]
+        line = [[i for i in line.split()] for line in lines if line]
         line = [i for i in line if i[1] == category]
         print(line)
         return line
