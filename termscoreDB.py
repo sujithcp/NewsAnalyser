@@ -13,3 +13,5 @@ def createTermScoreDB():
 
 
     storeTermScore("2008-01-01","2016-05-05" , "TermScore")
+
+createTermScoreDB()
