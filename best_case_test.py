@@ -25,8 +25,6 @@ else:
     with open('train_dump', 'rb') as dump:
         classifier = pickle.load(dump)
 
-
-
 resSet = []
 cats = ['sports', 'health', 'entertainment', 'tech', 'business']
 root = './test_data/'
