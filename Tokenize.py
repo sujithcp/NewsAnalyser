@@ -13,6 +13,17 @@ def word_grams(tokens):
         for ngram in nltk.ngrams(tokens, n):
             word_phrase .append(' '.join(i for i in ngram))
         n-=1
+
+        word_phrase_copy = word_phrase .copy()
+        for ngram in word_phrase_copy :
+            word=ngram.strip().split(' ')
+            i=0
+            correct=0
+            for i in range(len(word)):
+                if word[i] not in stopwd :
+                    correct+=1
+            if correct<2 or word[0] in stopwd or word [-1] in stopwd :
+                word_phrase .remove(ngram )
     return word_phrase
 
 
@@ -25,19 +36,18 @@ def Tokenize(text):
     if '' in text:
         text.remove('')
     word_phrase = []
-    textcopy=''
+    #textcopy=''
     for line in text:
-        tokens = re.findall('[a-zA-Z0-9]+', line)
+        tokens = re.findall('[a-zA-Z0-9]+', line.replace("'",''))
         #Extracting the tokens using regular expression'''
         #    '''stopw = stopwords in nltk '''
-        stopw = set(stopwords.words('english'))
-        tokenscopy = tokens.copy()
-        for token in tokenscopy:
-            if token in stopw or token in stopwd or token .isdigit() :
-                tokens.remove(token)
-        textcopy +=' '.join(tokens)
+        #stopw = set(stopwords.words('english'))
+        #tokenscopy = tokens.copy()
+        #for token in tokenscopy:
+        #    if token in stopw or token in stopwd or token .isdigit() :
+        #        tokens.remove(token)
+        #textcopy +=' '.join(tokens)
         word_phrase.extend(word_grams(tokens))
-    #print(word_phrase)
-    return (word_phrase,textcopy )
+    return (word_phrase)
 
-#Tokenize("Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch, but whereas fetching imports commits to local branches, pushing exports commits to remote branches. This has the potential to overwrite changes, so you need to be careful how you use it. These issues are discussed below.")
+#Tokenize("")

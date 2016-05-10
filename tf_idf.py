@@ -29,32 +29,37 @@ def score(term, n,text, docs):
 def tf_idf ( start_date, end_date ):
     data=fetchNewsFromDb(start_date ,end_date )
     dates = set([item[4] for item in data])
+    print(dates)
     newsSet = {date: [item for item in data if item[4] == date] for date in dates}
 
     docs_in_a_week=[]
     for date in dates  :
         news_in_a_day={'text':[],'tokens':[]}
         for news in newsSet [date] :
-            text = (news[2] + news[3]) .lower()
-            tokens,text=Tokenize(text)
+            text = (news[2]) .lower()
+            tokens=Tokenize(text)
+            #print (tokens)
             news_in_a_day['text'] .append(text)
             news_in_a_day['tokens'] .append(tokens)
         docs_in_a_week.append(news_in_a_day)
 
-
+    token_score={}
     for day in docs_in_a_week :
+        day['score'] = {}
         for tokens in day['tokens']:
-            day['score']={}
+
+            n = len(tokens)
             for token in set(tokens ):
-                n=len(tokens)
                 score_of_token=score(token, n,day['text'][day['tokens'].index(tokens)].replace("'", ''), docs_in_a_week )
-                if token in day['score']:
-                    day['score'][token] += score_of_token
-                else:
-                    day['score'][token] = score_of_token
-    sorted_score = []
-    for day in docs_in_a_week :
-        sorted_score.append(sorted(day['score'].items(), key=operator.itemgetter(1), reverse=True ))
+                if score_of_token > 0 :
+                    if token in token_score :
+                        token_score [token] += score_of_token
+                    else:
+                        token_score [token] = score_of_token
+                    print("Token : ",token," \t, Score : ",score_of_token )
+
+    sorted_score=sorted(token_score.items(), key=operator.itemgetter(1), reverse=True )
+
     return sorted_score
 
-print ( tf_idf( "2016-05-06" , "2016-05-06" ) )
+#tf_idf( "2016-05-05" , "2016-05-06" )
