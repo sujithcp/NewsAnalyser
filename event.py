@@ -98,25 +98,29 @@ for date in dates:
         trigrams = zip(unigrams, unigrams[1:], unigrams[2:])
         fileWords = list(bigrams)+list(trigrams)
         fileWordsSet = list(set(fileWords))
-
-
         tfidf_list = []
         #print(fileWordsSet)
         for word in fileWordsSet:
-            tfidf = (0.5 + 0.5 * fileWords.count(word) / max([fileWords.count(i) for i in fileWords])) * math.log(
-                len(dateData) / (1 + sum([1 for f in dateFiles if word in f])), 2)
+            '''
+            tfidf = (0.5 + 0.5 * fileWords.count(word) / max([fileWords.count(i) for i in fileWords])) * ((math.log(
+                len(dateData) / (1 + sum([1 for f in dateFiles if word in f])), 2))*100/ math.log(
+                len(dateData) / (1 + len(dateFiles)), 2))
+
+                '''
+            tfidf = (0.5+0.5*fileWords.count(word) / max([fileWords.count(i) for i in fileWords]))*(math.log((len(dateData)/(1+sum([1 for f in dateFiles if word in f]))))/math.log((len(dateData)/1)))*100
             #print(remSet)
             tfidf_list.append({'word': word, 'tfidf': tfidf})
             #print(len(tfidf_list))
 
         max_tfidf = max(tfidf_list or [{'tfidf':0}],key=lambda x:x['tfidf'])['tfidf']
+        #print(max_tfidf)
         #print("max tfidf , ",max_tfidf)
-        tdif_list = [item for item in tfidf_list if item['tfidf'] >= (max_tfidf / 4)]
-        for i in tdif_list:
+        tfdif_list = [item for item in tfidf_list if item['tfidf'] >= (max_tfidf / 4)]
+        for i in tfdif_list:
             cursor.execute("insert or ignore into tfidf(date,word,tfidf) values(?,?,?)",
                            (date, " ".join(i['word']), i['tfidf'],))
-        connection.commit()
 
+    connection.commit()
 
 
 
@@ -124,7 +128,6 @@ ngrams = cursor.execute('''select distinct word from tfidf order by word''').fet
 
 cursor.execute('''delete from final_tfidf''')
 connection.commit()
-print(ngrams)
 for tuple in ngrams:
     tfidf_sums = cursor.execute('''select date, word, sum(tfidf) s from tfidf where word = ? group by date order by s desc''', (tuple[0],))
     tfidf_sums = [item[2] for item in tfidf_sums]
