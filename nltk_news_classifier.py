@@ -24,4 +24,5 @@ print("Data >>>")
 text = sys.stdin.read().lower()
 text = [stem(item) for item in text.split()]
 dict = {item: 0 for item in text}
-print(classifier.classify(dict))
+cat = classifier.classify(dict)
+print(cat,classifier.prob_classify(dict).prob(cat))
