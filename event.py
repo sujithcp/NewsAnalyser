@@ -10,10 +10,15 @@ def fetchNewsFromDb(start_date=None, end_date=None):
     connection = sqlite3.connect('./data/news_data.db')
     cursor = connection.cursor()
     if not start_date or not end_date:
-        data = cursor.execute('''select * from News''').fetchall()
+        data = []
     else:
-        data = cursor.execute('''select * from News where ? <= date and date <= ?  order by date asc,time asc''',
-                              (start_date, end_date,)).fetchall()
+        data = cursor.execute('''select * from News where ? <= date and date <= ?
+        union
+        select * from General_News where ? <= date and date <= ?
+        order by date asc,time asc
+
+        ''',
+                              (start_date, end_date,start_date, end_date,)).fetchall()
     return data
 
 
@@ -34,8 +39,6 @@ def addEvents(start_date=None, end_date=None):
 
     # dates = set([item[4] for item in data])
     window_data = [item[2] for item in data]
-    stopw = stopwords.words('english')
-
     cursor.execute('''delete from final_tfidf''')
     connection.commit()
     window_data = [getNgrams(item) for item in window_data if item]
@@ -47,7 +50,7 @@ def addEvents(start_date=None, end_date=None):
     count = len(window_data)
     if(count>0):
         print("\n", start_date, " --- ", end_date)
-        print("No of files: ",count,"\t","No of wordgrams: ",len(wordSet),"\n")
+        print("No. of files: ",count,"\t","No of wordgrams: ",len(wordSet),"\n")
     tfidf_list = []
 
     def getTfidf(word):
@@ -71,7 +74,7 @@ def addEvents(start_date=None, end_date=None):
     connection.commit()
 
     events = cursor.execute('''
-    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*25/100)
+    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
      union
      select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>10
      order by t desc
