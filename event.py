@@ -44,21 +44,20 @@ def addEvents(start_date=None, end_date=None):
         l.extend(item)
     wordSet = list(set(l))
     count = len(window_data)
-    if(count<1):
-        return
-    print("\n", start_date, " --- ", end_date)
-    print("No of files:\t",count,"No of wordgrams:\t",len(wordSet),"\n")
+    if(count>0):
+        print("\n", start_date, " --- ", end_date)
+        print("No of files: ",count,"\t","No of wordgrams: ",len(wordSet),"\n")
     tfidf_list = []
 
     def getTfidf(word):
-        idf = math.log(len(window_data) / (1 + sum([1 for item in window_data if word in item])), 2)
+        idf = math.log(len(window_data) / (1 + sum([1 for item in window_data if word in item])), 10)
         tf_list = [0.5 + 0.5 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
                    word in file]
         tf = sum(tf_list)
         '''
         Normalize to 100 file equivalent.
         '''
-        tfidf = tf * idf * 100 / len(window_data)
+        tfidf = tf * idf * 1000 / len(window_data)
         return tfidf
 
 
@@ -82,7 +81,7 @@ def addEvents(start_date=None, end_date=None):
     connection.commit()
 
 
-def findTrendingEvents(start_date=None, end_date=None, window_size=2):
+def findTrendingEvents(start_date=None, end_date=None, window_size=1):
     connection = sqlite3.connect('./data/news_data.db')
     cursor = connection.cursor()
     if not start_date or not end_date:
@@ -99,4 +98,4 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
     connection.commit()
 
 
-findTrendingEvents('2010-05-01', '2016-05-12', 2)
+findTrendingEvents('2016-05-01', '2016-05-12', 2)
