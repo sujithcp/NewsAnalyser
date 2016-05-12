@@ -1,7 +1,7 @@
 import re
 import sqlite3
 from _operator import itemgetter
-
+import numpy as np
 from nltk.corpus import stopwords
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -54,24 +54,32 @@ def addEvents(start_date = None,end_date=None):
     tfidf_matrix = tfidf_vectorizer.fit_transform(newsSet)
     terms = tfidf_vectorizer.get_feature_names()
     # print(terms)
-    idf = tfidf_vectorizer.idf_
+    #idf = tfidf_vectorizer.idf_
+    sparse_list = np.array(tfidf_matrix.todense()).tolist()
+    tfidf_list = []
+    for i in range(0,len(terms)):
+        list = [item[i] for item in sparse_list if item[i]>0]
+        tmp = (max(list)-min(list))
+        tfidf_list.append({'term':terms[i],'score':tmp})
+    tfidf_list = sorted(tfidf_list,key=lambda x:x['score'],reverse=True)
+    #response = tfidf_vectorizer.transform(newsSet)
     # print(idf)
-    dist = 1 - cosine_similarity(tfidf_matrix)
+    #dist = 1 - cosine_similarity(tfidf_matrix)
     # print(dist)
-    tfidf_list = zip(terms, idf)
-    tfidf_list = [{'term': i[0], 'idf': i[1]} for i in tfidf_list]
-    tfidf_list = sorted(tfidf_list, key=lambda x: x['idf'])
+    #print(idf)
+    #tfidf_list = zip(terms, idf)
+    #tfidf_list = [{'term': i[0], 'idf': i[1]} for i in tfidf_list]
+    #tfidf_list = sorted(tfidf_list, key=lambda x: x['idf'])
     cursor.execute("delete from New_Events")
-    for i in tfidf_list[:50]:
-        #print(i)
-        cursor.execute("insert or replace into New_Events(term,score) values(?,?)", (i['term'], i['idf'],))
+    for i in tfidf_list[:100]:
+        cursor.execute("insert or replace into New_Events(term,score) values(?,?)", (i['term'], i['score'],))
     events = cursor.execute('''
-    select Events.term t,New_events.score s2 from Events,New_Events where Events.term=New_events.term and  (Events.score-s2)>=1
+    select Events.term t,New_events.score s2 from Events,New_Events where Events.term=New_events.term and  (New_Events.score-Events.score)>=0.2
 union
-select term t,score s2 from New_Events where t not in (select term  from Events) and s2<7
+select term t,score s2 from New_Events where t not in (select term  from Events) and s2>0.3
     ''')
     print("\nEvents ------------- \n")
-    events = sorted(events,key=itemgetter(1))
+    events = sorted(events,key=itemgetter(1),reverse=True)
     for i in events[:15]:
         print(i[0],i[1])
     cursor.execute("insert or replace into Events select * from New_Events")
@@ -95,4 +103,4 @@ def findTrendingEvents(start_date = None,end_date=None,window_size=2):
     connection.commit()
 
 
-findTrendingEvents(start_date='2010-05-01',end_date='2016-05-11',window_size=5)
+findTrendingEvents(start_date='2016-04-01',end_date='2016-05-11',window_size=5)
