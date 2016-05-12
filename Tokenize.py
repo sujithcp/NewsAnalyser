@@ -9,7 +9,7 @@ stopwd = re.split('\n', stopwd)
 def word_grams(tokens):
     word_phrase = []
     n=3
-    while n>0:
+    while n>1:
         for ngram in nltk.ngrams(tokens, n):
             word_phrase .append(' '.join(i for i in ngram))
         n-=1
@@ -19,10 +19,13 @@ def word_grams(tokens):
             word=ngram.strip().split(' ')
             i=0
             correct=0
+            digit=0
             for i in range(len(word)):
-                if word[i] not in stopwd :
+                if word [i].isdigit():
+                    digit+=1
+                elif word[i] not in stopwd :
                     correct+=1
-            if correct<2 or word[0] in stopwd or word [-1] in stopwd :
+            if correct+digit<2 or word[0] in stopwd or word [-1] in stopwd or correct<digit:
                 word_phrase .remove(ngram )
     return word_phrase
 
@@ -38,7 +41,7 @@ def Tokenize(text):
     word_phrase = []
     #textcopy=''
     for line in text:
-        tokens = re.findall('[a-zA-Z0-9]+', line.replace("'",''))
+        tokens = re.findall("[a-zA-Z0-9]+|[a-zA-Z0-9]+['.,-][a-zA-Z0-9]+", line.replace("'",''))
         #Extracting the tokens using regular expression'''
         #    '''stopw = stopwords in nltk '''
         #stopw = set(stopwords.words('english'))
@@ -50,4 +53,4 @@ def Tokenize(text):
         word_phrase.extend(word_grams(tokens))
     return (word_phrase)
 
-#Tokenize("")
+#print(Tokenize("ipl 2016 ipl 2016 ipl 2016"))
