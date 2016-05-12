@@ -1,15 +1,8 @@
-import os
+import datetime
+import math
 import sqlite3
 
-import math
-import threading
-from _operator import itemgetter
-
-import itertools
-import nltk
-import sys
 from nltk.corpus import stopwords
-
 from generals import tokenize
 
 
@@ -19,121 +12,91 @@ def fetchNewsFromDb(start_date=None, end_date=None):
     if not start_date or not end_date:
         data = cursor.execute('''select * from News''').fetchall()
     else:
-        data = cursor.execute('''select * from News where ? <= date and date <= ?  order by date asc,time asc''', (start_date, end_date,)).fetchall()
+        data = cursor.execute('''select * from News where ? <= date and date <= ?  order by date asc,time asc''',
+                              (start_date, end_date,)).fetchall()
     return data
 
-data = fetchNewsFromDb(start_date='2016-05-08',end_date='2016-05-10')
 
-connection = sqlite3.connect('./data/news_data.db')
-cursor = connection.cursor()
+def getNgrams(data):
+    unigrams = tokenize(data, en_stem=False, en_stopword_removal=True).split()[:25]
+    bigrams = zip(unigrams, unigrams[1:])
+    trigrams = zip(unigrams, unigrams[1:], unigrams[2:])
+    grams = list(bigrams)+list(trigrams)
+    return grams
 
 
-dates = set([item[4] for item in data])
-newsSet = {date:[item for item in data if item[4]==date] for date in dates}
-stopw = ['noun','verb','adjective','adverb','pronoun','preposition','conjunction','interjection','article']+stopwords.words('english')
+def addEvents(start_date=None, end_date=None):
+    data = fetchNewsFromDb(start_date=start_date, end_date=end_date)
 
-cursor.execute('''delete from tfidf''')
-connection.commit()
-count = len(data)
-print(count)
-
-'''
-def analyse_tfidf(date):
     connection = sqlite3.connect('./data/news_data.db')
     cursor = connection.cursor()
-    global count
-    dateData = newsSet[date]
-    #dayWords = [item[2] for item in dateData]
-    #tmpWords = ""
-    #for item in dayWords:
-    #    tmpWords = tmpWords + " " + tokenize(item, en_stem=False)
-    #dayWords = tmpWords.split()
-    dateFiles = [list(nltk.bigrams(tokenize(item[2] , en_stem=False).split())) + list(
-        nltk.trigrams(tokenize(item[2] , en_stem=False).split())) for item in dateData]
-    for file in dateData:
-        count -= 1
-        print(count, "more/ Analysing  : ", file[2])
-        fileWords = list(nltk.bigrams(tokenize(file[2] , en_stem=False).split())) + list(
-            nltk.trigrams(tokenize(file[2] , en_stem=False).split()))
-        tfidf_list = []
-        fileWordsSet = list(set(fileWords))
-        for word in fileWordsSet:
-            tfidf = (0.5 + 0.5 * fileWords.count(word) / max([fileWords.count(i) for i in fileWords])) * math.log(
-                len(dateData) / (1 + sum([1 for f in dateFiles if word in f])), 2)
-            tfidf_list.append({'word': word, 'tfidf': tfidf})
-            # print(word," -- ",tfidf)
-        tdif_list = sorted(tfidf_list, key=itemgetter('tfidf'), reverse=True)
-        tdif_list = [item for item in tdif_list if item['tfidf'] >= (tdif_list[0]['tfidf'] / 2)]
-        for i in tdif_list:
-            cursor.execute("insert or ignore into tfidf(date,word,tfidf) values(?,?,?)",
-                           (date, " ".join(i['word']), i['tfidf'],))
-        connection.commit()
-'''
+
+    # dates = set([item[4] for item in data])
+    window_data = [item[2] for item in data]
+    stopw = stopwords.words('english')
+
+    cursor.execute('''delete from final_tfidf''')
+    connection.commit()
+    window_data = [getNgrams(item) for item in window_data if item]
+    window_data = [item for item in window_data if item]
+    l = []
+    for item in window_data:
+        l.extend(item)
+    wordSet = list(set(l))
+    count = len(window_data)
+    if(count<1):
+        return
+    print("\n", start_date, " --- ", end_date)
+    print("No of files:\t",count,"No of wordgrams:\t",len(wordSet),"\n")
+    tfidf_list = []
+
+    def getTfidf(word):
+        idf = math.log(len(window_data) / (1 + sum([1 for item in window_data if word in item])), 2)
+        tf_list = [0.5 + 0.5 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
+                   word in file]
+        tf = sum(tf_list)
+        '''
+        Normalize to 100 file equivalent.
+        '''
+        tfidf = tf * idf * 100 / len(window_data)
+        return tfidf
 
 
-for date in dates:
-    connection = sqlite3.connect('./data/news_data.db')
-    cursor = connection.cursor()
-    global count
-    dateData = newsSet[date]
-    # dayWords = [item[2] for item in dateData]
-    # tmpWords = ""
-    # for item in dayWords:
-    #    tmpWords = tmpWords + " " + tokenize(item, en_stem=False)
-    # dayWords = tmpWords.split()
-    dateFiles = []
-    for item in dateData:
-        unigrams = tokenize(item[2], en_stem=False, en_stopword_removal=True).split()
-        bigrams = zip(unigrams,unigrams[1:])
-        trigrams = zip(unigrams,unigrams[1:],unigrams[2:])
-        dateFiles.append(list(bigrams)+list(trigrams))
+    for word in wordSet:
+        tfidf = getTfidf(word)
+        tfidf_list.append({'word':word,'score':tfidf})
+    tfidf_list = sorted(tfidf_list,key=lambda x:x['score'],reverse=True)
+    for i in tfidf_list[:20]:
+        cursor.execute("insert into final_tfidf(word,tfidf) values(?,?)",(" ".join(i['word']),i['score'],))
+    connection.commit()
 
-    for file in dateData:
-        count -= 1
-        print(count, "more/ Analysing  : ", file[2])
-
-
-        unigrams = tokenize(file[2], en_stem=False, en_stopword_removal=True).split()
-        bigrams = zip(unigrams, unigrams[1:])
-        trigrams = zip(unigrams, unigrams[1:], unigrams[2:])
-        fileWords = list(bigrams)+list(trigrams)
-        fileWordsSet = list(set(fileWords))
-        tfidf_list = []
-        #print(fileWordsSet)
-        for word in fileWordsSet:
-            '''
-            tfidf = (0.5 + 0.5 * fileWords.count(word) / max([fileWords.count(i) for i in fileWords])) * ((math.log(
-                len(dateData) / (1 + sum([1 for f in dateFiles if word in f])), 2))*100/ math.log(
-                len(dateData) / (1 + len(dateFiles)), 2))
-
-                '''
-            tfidf = (0.5+0.5*fileWords.count(word) / max([fileWords.count(i) for i in fileWords]))*(math.log((len(dateData)/(1+sum([1 for f in dateFiles if word in f]))))/math.log((len(dateData)/1)))*100
-            #print(remSet)
-            tfidf_list.append({'word': word, 'tfidf': tfidf})
-            #print(len(tfidf_list))
-
-        max_tfidf = max(tfidf_list or [{'tfidf':0}],key=lambda x:x['tfidf'])['tfidf']
-        #print(max_tfidf)
-        #print("max tfidf , ",max_tfidf)
-        tfdif_list = [item for item in tfidf_list if item['tfidf'] >= (max_tfidf / 4)]
-        for i in tfdif_list:
-            cursor.execute("insert or ignore into tfidf(date,word,tfidf) values(?,?,?)",
-                           (date, " ".join(i['word']), i['tfidf'],))
-
+    events = cursor.execute('''
+    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
+     union
+     select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and t>=5
+     order by t desc
+    ''').fetchall()
+    for i in events[:10]:
+        print(i[0],i[1])
+        cursor.execute("insert or replace into tmp_tfidf(word,tfidf) values(?,?)",(i[0],i[1],))
     connection.commit()
 
 
+def findTrendingEvents(start_date=None, end_date=None, window_size=2):
+    connection = sqlite3.connect('./data/news_data.db')
+    cursor = connection.cursor()
+    if not start_date or not end_date:
+        return None
+    cursor.execute("delete from tmp_tfidf")
+    cursor.execute("delete from final_tfidf")
+    connection.commit()
+    current_date = datetime.datetime.strptime(start_date, '%Y-%m-%d')
+    final_date = datetime.datetime.strptime(end_date, '%Y-%m-%d')
+    while current_date <= final_date:
+        next_date = (current_date + datetime.timedelta(days=window_size))
+        addEvents(current_date.strftime('%Y-%m-%d'), next_date.strftime('%Y-%m-%d'))
+        current_date = next_date + datetime.timedelta(days=1)
+    connection.commit()
 
-ngrams = cursor.execute('''select distinct word from tfidf order by word''').fetchall()
 
-cursor.execute('''delete from final_tfidf''')
-connection.commit()
-for tuple in ngrams:
-    tfidf_sums = cursor.execute('''select date, word, sum(tfidf) s from tfidf where word = ? group by date order by s desc''', (tuple[0],))
-    tfidf_sums = [item[2] for item in tfidf_sums]
-    diff = max(tfidf_sums)-min(tfidf_sums)
-    if diff<=0:
-        continue
-    print(tuple[0], " - ", diff)
-    cursor.execute('''insert into final_tfidf(word, tfidf) values(?,?)''',(tuple[0],diff,))
-connection.commit()
+findTrendingEvents('2010-05-01', '2016-05-12', 2)
