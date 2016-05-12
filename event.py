@@ -26,6 +26,7 @@ def getNgrams(data):
 
 
 def addEvents(start_date=None, end_date=None):
+    NULL = '____-__-__'
     data = fetchNewsFromDb(start_date=start_date, end_date=end_date)
 
     connection = sqlite3.connect('./data/news_data.db')
@@ -51,7 +52,7 @@ def addEvents(start_date=None, end_date=None):
 
     def getTfidf(word):
         idf = math.log(len(window_data) / (1 + sum([1 for item in window_data if word in item])), 10)
-        tf_list = [0.5 + 0.5 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
+        tf_list = [0.6 + 0.4 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
                    word in file]
         tf = sum(tf_list)
         '''
@@ -66,22 +67,23 @@ def addEvents(start_date=None, end_date=None):
         tfidf_list.append({'word':word,'score':tfidf})
     tfidf_list = sorted(tfidf_list,key=lambda x:x['score'],reverse=True)
     for i in tfidf_list[:20]:
-        cursor.execute("insert into final_tfidf(word,tfidf) values(?,?)",(" ".join(i['word']),i['score'],))
+        cursor.execute("insert into final_tfidf(date,word,tfidf) values(?,?,?)",(NULL," ".join(i['word']),i['score'],))
     connection.commit()
 
     events = cursor.execute('''
-    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
+    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*25/100)
      union
-     select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and t>=5
+     select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>10
      order by t desc
     ''').fetchall()
     for i in events[:10]:
         print(i[0],i[1])
-        cursor.execute("insert or replace into tmp_tfidf(word,tfidf) values(?,?)",(i[0],i[1],))
+        cursor.execute("insert or replace into tmp_tfidf(date,word,tfidf) values(?,?,?)",(NULL,i[0],i[1],))
     connection.commit()
 
 
-def findTrendingEvents(start_date=None, end_date=None, window_size=1):
+def findTrendingEvents(start_date=None, end_date=None, window_size=2):
+    window_size-=1
     connection = sqlite3.connect('./data/news_data.db')
     cursor = connection.cursor()
     if not start_date or not end_date:
@@ -98,4 +100,4 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=1):
     connection.commit()
 
 
-findTrendingEvents('2016-05-01', '2016-05-12', 2)
+findTrendingEvents('2016-05-01', '2016-05-12', 4)
