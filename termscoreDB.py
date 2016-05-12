@@ -10,7 +10,7 @@ def createTermScoreDB():
     cursor.execute('drop table TermScore')
     cursor.execute('drop table TempTermScore')
     cursor .execute('''create table TermScore ('term' TEXT, 'score' REAL)''')
-    cursor.execute('''create table TempTermScore ('term' TEXT, 'score' REAL, )''')
+    cursor.execute('''create table TempTermScore ('term' TEXT, 'score' REAL )''')
     connection.commit()
 
 
