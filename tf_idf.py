@@ -43,7 +43,9 @@ def tf_idf ( start_date, end_date ):
             news_in_a_day['tokens'] .append(tokens)
         docs_in_a_week.append(news_in_a_day)
 
-    token_score={}
+    token_score = {}
+    max_score = {}
+    min_score = {}
 
     for day in docs_in_a_week :
         #day['score'] = {}
@@ -52,7 +54,7 @@ def tf_idf ( start_date, end_date ):
             n = len(tokens)
             for token in set(tokens ):
                 score_of_token=score(token, n,day['text'][day['tokens'].index(tokens)].replace("'", ''), docs_in_a_week )
-                '''
+
                 if score_of_token > 0 :
                     if token in token_score :
                         token_score [token] += score_of_token
@@ -66,27 +68,27 @@ def tf_idf ( start_date, end_date ):
                         min_score [token ] = score_of_token
 
                     print("Token : ",token," \t, Score : ",score_of_token )
-                '''
 
-                if score_of_token > 0:
-                    if token in token_score:
-                        token_score[token] .append (score_of_token)
 
-                    else:
-                        token_score[token] = [score_of_token ]
-                print("Token : ", token, " \t, Score : ", score_of_token)
-
-    max_score = {}
-    avg_score = {}
-
-    for token in token_score :
-        max_score [token ] =max( token_score [token ])
-        n=sum(1 for i in token_score[token ] )
-        token_score [token ] = sum(i for i in token_score [token ])
-        avg_score [token ] = token_score [token ] /n
+#                if score_of_token > 0:
+#                    if token in token_score:
+#                        token_score[token] .append (score_of_token)
+#
+#                    else:
+#                        token_score[token] = [score_of_token ]
+#                print("Token : ", token, " \t, Score : ", score_of_token)
+#
+#    max_score = {}
+#    avg_score = {}
+#
+#    for token in token_score :
+#        max_score [token ] =max( token_score [token ])
+#        n = len( token_score[token ] )
+#        token_score [token ] = sum(i for i in token_score [token ])
+#        avg_score [token ] = token_score [token ] /n
 
     sorted_score=sorted(token_score.items(), key=operator.itemgetter(1), reverse=True )
 
-    return sorted_score , max_score , avg_score
+    return sorted_score , max_score , min_score
 
 #tf_idf( "2016-05-05" , "2016-05-06" )
