@@ -41,4 +41,4 @@ def detectEvent(start_date , end_date):
             print(' '+term)
 
 
-detectEvent("2016-05-08","2016-05-10")
+detectEvent("2016-05-01","2016-05-12")

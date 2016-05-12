@@ -6,11 +6,11 @@ main summary extracted using sumy library
 
 '''
 import hashlib
+import logging
 import re
 import sqlite3
 import threading
 from datetime import datetime
-
 import feedparser
 
 from data_fetcher.fetcher import GetTextFromUrl
@@ -91,7 +91,8 @@ def fetchRss(category=None,name = ""):
             print(name, " - Done")
         except Exception as e:
             print("Exception occured for ",link or "")
-            print(e)
+            print(str(e))
+            logging.exception("Error *** ")
     print("Finished....","New Documents = ",newCount)
 
 

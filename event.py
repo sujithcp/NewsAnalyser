@@ -71,7 +71,7 @@ def addEvents(start_date=None, end_date=None):
     connection.commit()
 
     events = cursor.execute('''
-    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*25/100)
+    select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
      union
      select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>10
      order by t desc
@@ -100,4 +100,4 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
     connection.commit()
 
 
-findTrendingEvents('2016-05-01', '2016-05-12', 4)
+findTrendingEvents('2016-05-05', '2016-05-12', 3)
