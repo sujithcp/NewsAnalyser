@@ -44,8 +44,8 @@ def tf_idf ( start_date, end_date ):
         docs_in_a_week.append(news_in_a_day)
 
     token_score = {}
-    max_score = {}
-    min_score = {}
+    #max_score = {}
+    #min_score = {}
 
     for day in docs_in_a_week :
         #day['score'] = {}
@@ -58,14 +58,14 @@ def tf_idf ( start_date, end_date ):
                 if score_of_token > 0 :
                     if token in token_score :
                         token_score [token] += score_of_token
-                        if score_of_token >max_score [token ]:
-                            max_score [token ]= score_of_token
-                        if score_of_token <min_score [token ] :
-                            min_score [token ] =score_of_token
+                        #if score_of_token >max_score [token ]:
+                        #    max_score [token ]= score_of_token
+                        #if score_of_token <min_score [token ] :
+                        #    min_score [token ] =score_of_token
                     else:
                         token_score [token] = score_of_token
-                        max_score [token ] = score_of_token
-                        min_score [token ] = score_of_token
+                        #max_score [token ] = score_of_token
+                        #min_score [token ] = score_of_token
 
                     print("Token : ",token," \t, Score : ",score_of_token )
 
@@ -89,6 +89,6 @@ def tf_idf ( start_date, end_date ):
 
     sorted_score=sorted(token_score.items(), key=operator.itemgetter(1), reverse=True )
 
-    return sorted_score , max_score , min_score
+    return sorted_score
 
 #tf_idf( "2016-05-05" , "2016-05-06" )

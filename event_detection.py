@@ -34,8 +34,11 @@ def detectEvent(start_date , end_date):
     event = [term for term in data1 if term in data2 ]
 
     print('<<< New Trending Event >>>')
-    for term in event:
-        print(' '+term)
+    if event==[]:
+        print('No new trending event')
+    else:
+        for term in event:
+            print(' '+term)
 
 
-detectEvent("2016-05-05","2016-05-12")
+detectEvent("2016-05-08","2016-05-10")
