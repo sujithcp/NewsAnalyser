@@ -1,0 +1,43 @@
+With the majority of the world’s population having shifted from rural to urban living the notion of a “ smart city ” has become firmly embedded in the thought processes of millions of people around the globe.
+So, what’s the objective of a smart city?
+To harness information and communications technology to exploit local government assets, resources and data more efficiently, with the ultimate aim of raising the standards, and lowering the costs, of public service provision.
+By that definition, the Middle East has its fair share of candidate smart cities, either on their way to being fully established, or in the making.
+Israel’s capital city, Tel Aviv, has a distinctly modern outlook.
+The Tel Aviv-Jaffa Municipality has deployed data-harvesting sensors in smart street cameras, street lighting and traffic lights, as well as developing irrigation systems that monitor the region’s relatively scarce water supply.
+However, Tel Aviv’s “DigiTel” smart city initiative has chosen an alternative definition of “smart”.
+In operation since April 2013, DigiTel’s focus is less on technology-led efficiency and more on improving communication and engagement between the municipality and its 415,000 citizens.
+It’s an emphasis unusual enough to have won the attention of other cities around the world – and a World Smart Cities Award at the 2014 Smart City Expo World Congress in Barcelona.
+DigiTel is an information services platform, with the intention being that it becomes the primary interface through which targeted online communication between the municipality and its citizens takes place.
+After taking a year to develop, DigiTel essentially works as a citizens’ online loyalty club through which its 126,000 registered members can carry out their civic business – from applying for city-wide permits to registering for school places, all using their online device of choice – without visiting city hall.
+Members create secure profiles during sign-up, including their personal and social preferences.
+DigiTel then pushes out relevant, personalised and timely city-related notifications (such as roadworks alerts) via SMS, email or post.
+It makes offers and incentives to registered constituents, in exchange for their personal data .
+Members are rewarded with various subscriber benefits, including free or discounted tickets to cultural events.
+They are also afforded the ability to pass opinions and suggestions into the municipal decision-making process.
+That could be by taking part in “town square” discussions online or by crowdsourcing opinions.
+DigiTel also acts as a repository for details of all the municipal resources available to citizens at any one time, ranging from available parking spaces to public meeting rooms in municipal buildings.
+However, getting to this stage was not easy or straightforward for the city’s administration.
+“Frankly, we were shocked by the results.
+The majority of residents really loved the city, but hated the municipality,” he said.
+The most negative perceptions were that the city administration was bureaucratic and grasping, with a substantial proportion of that feedback coming from the city’s thriving 700-strong technology startup scene.
+One insight from the survey revealed a certain level of expectation among residents to be able to interact with the municipality in a digital, always-on capacity, to match their interactions with everyone else.
+And it was also from this corner of the city populace that Sharon and his team got their impetus “to start thinking about how to bridge that gap and raise the level of engagement with citizens”.
+They launched DigiTel as a startup within the municipality, tasked with overhauling all online interaction with Tel Aviv’s residents.
+Tel Aviv Municipality’s CIO Liora Shechter , who shares responsibility for DigiTel and the city’s IT operations, said the project was designed, developed and maintained in-house by around 400 staff.
+“This has been the municipality’s approach to enterprise technology for the last 30 years,” she added.
+DigiTel was created from Microsoft enterprise platforms, which were already the basis for Tel Aviv Municipality’s IT infrastructure.
+DigiTel was essentially built using Microsoft SharePoint Server collaborative working software, Dynamics CRM customer relationship management software and Azure big data and cloud technologies.
+The suites were delivered as part of Microsoft’s CityNext services, specifically bundled for the burgeoning smart city marketplace.
+Shechter said the municipality was keen to avoid problems in integrating disparate platforms, hence developing DigiTel from Microsoft tools was a forgone conclusion.
+“When we started DigiTel, we didn’t have a unified database for Tel Aviv’s citizens.
+We had different systems for taxes, education, and so on,” she said.
+Sharon also confirmed a culture of secrecy and information silos within the municipality that had to be eradicated before DigiTel could stand any chance of becoming a reality.
+The use of Dynamics CRM at the heart of DigiTel corresponded to the municipality’s desire to alter its civic relationship with residents to a business-oriented model, recasting citizens as “clients”.
+Using the package, DigiTel was able to bring in an element of business intelligence to the city’s interaction with citizens.
+The municipality also used DigiTel’s development as an opportunity to move certain back-office IT operations to the cloud.
+Through DigiTel, the municipality has extended its strategy of openness across government departments to its relationship with its citizens, with an open data policy that gives public access to its databases and datasets.
+The local government is also encouraging entrepreneurial residents to exploit this freely available data for their own (and the city’s) gain.
+In March 2016, Tel Aviv ran the most recent of its public hackathons , challenging the residents to use the publicly available datasets to come up with ideas and ultimately applications that can enhance the quality of living in the city.
+There are also plans to introduce and incorporate a local virtual currency into DigiTel with which residents would be able to carry out transactions with local government, businesses and individuals.
+A pilot scheme is planned for later in 2016.
+Tel Aviv is also capitalising on the international interest garnered from DigiTel by taking on consultancy work and selling the concept to other cities, with a number of cities in India revealing interest in adopting DigiTel for their own urban landscapes, said Sharon.

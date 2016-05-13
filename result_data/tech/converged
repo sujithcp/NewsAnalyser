@@ -1,0 +1,13 @@
+The use of hyper-converged infrastructure systems will reach mainstream levels of adoption in datacentres within the next five years, Gartner predicts.
+The IT market watcher said it expects the market for hyper-converged appliances to grow by 79% and hit almost $2bn this year.
+By 2019, Gartner reckons the hyper-converged market will be worth about $5bn, accounting for 24% of the overall integrated systems sector.
+The emergence of hyper-converged systems can be traced back to the release of the first tranche of integrated storage, compute and networking bundles from the likes of VCE about five years ago .
+These offerings are essentially seen as a way of fast-tracking the deployment of private cloud environments within datacentres by giving operators everything they need to stand one up in a single, preconfigured box of converged infrastructure.
+Over time, such products have evolved to include more software-defined elements and commodity hardware, which is largely how Gartner differentiates between hyper- and converged types of infrastructure.
+The use cases for hyper-converged infrastructures have proved limited to date, said Gartner, but this will change as enterprises ramp up their use of software-defined technologies and networks.
+Andrew Butler, vice-president and distinguished analyst at Gartner, said the move towards hyper-converged systems supports the view that the integrated systems market is beginning to mature, as enterprises move to upgrade and expand on their early converged infrastructure deployments.
+“This evolution presents IT infrastructure and operations leaders with a framework to evolve their implementations and architectures,” he said.
+The increased use of hyper-converged infrastructures in the datacentre is likely to pave the way for more enterprises to begin continuous delivery and microservices initiatives between now and 2016 and 2025, Gartner added.
+This will be made easier by the fact that the underlying hardware components of these hyper-converged infrastructure stacks will become increasingly automated and commoditised, allowing enterprises to deliver IT-as-a-service (ITaaS) capabilities to their developers and line-of-business employees.
+However, Butler cautioned that existing integrated and converged infrastructure deployments could hinder the roll-out of hyper-converged systems in some cases.
+“While we fully expect the use cases [for hyper-converged systems] to embrace mission-critical applications in the future, current implementations could still pose constraints on rapid growth toward the end of the decade,” he said.

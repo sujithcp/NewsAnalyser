@@ -1,0 +1,27 @@
+Nationwide Building Society is investigating how behavioural biometrics could be used instead of passwords to make it easier for its customers to use multi-channel banking.
+Behavioural biometrics technology can recognise the unique features of an individual’s actions and interactions with a device, from the way they type to how they touch and swipe between screens, and even the way they hold a phone or tablet.
+While security is clearly a top priority for online banking, James Smith, head of innovation at Nationwide Building Society , said behavioural biometrics could also be important in branches because it would strike a balance between security and ease of use.
+“You can make things very secure.
+It is all too easy to target tech-savvy individuals, but we have 15 million members,” he said.
+The building society is exploring how to apply the appropriate level of security based on what the customer wants to do.
+For example, a mobile phone recognised by the building society provides a certain level of security, he said, providing users with the ability to check an account balance without a PIN or passcode as the phone is used to identify the customer.
+But to perform a transaction, an additional layer of authentication is required.
+This is where behavioural biometrics could be used.
+Nationwide’s prototype, developed in the building society’s Innovation Lab in partnership with BehavioSec and Unisys, explores how a customer’s natural interaction with their smartphone or tablet could provide an additional level of security in the future.
+Benjamin Horan, Unisys account manager for Nationwide Building Society, said: “Behaviour authentication uses accelerometers to analyse how you handle the device, how quickly you tap keys, how hard you tap the keys.”
+He said these activities enable the banking application to calculate a confidence score to ascertain whether the user is genuine.
+This can be used alongside other forms of biometrics .
+Unisys has worked with government agencies such as US immigration and port authorities to implement iris scanners in passports and palm vein biometrics.
+According to Horan, the technology has matured over a period of time, and workable biometrics is now readily available on smartphones .
+Nationwide’s Smith said behavioural biometrics is one of many techniques the building society could use to authenticate its customers.
+The sensors built into mobile devices are able to provide telemetry, a device’s camera can be used as a retina scanner to recognise vascular eye patterns, and the heart rate monitors available in some smartphones can even provide electrocardiogram-based authentication.
+These all offer the potential for more secure authentication than passwords and PINs.
+A key measure of success for Nationwide is ease of use of biometric authentication and what happens when a genuine customer cannot be recognised accurately by the biometrics technology.
+So far, the building society has developed a proof of concept based on Unisys integration with its mobile banking app.
+Smith said the proof of concept showed that behavioural biometrics is able to stop a person from pretending to be someone else.
+“The next stage is to look at how to take this technology and roll it out to other channels.”
+The building society needs to ensure that what it does is consistent across different banking channels, he said.
+“Whether our customers are online, on the phone or in our branches, meeting their needs for every type of transaction is a complex business,” said Smith.
+“We believe that using a range of biometrics, such as fingerprint, facial, behavioural and voice recognition, can give customers choice in how they interact with Nationwide in the future, with implications that go far beyond simply logging into our mobile app.
+“As authentication technology and customer preferences evolve, we will continue to work with our members, Nationwide’s Innovation Lab and technology partners to provide safe, simple and secure access to our services for generations to come.”
+In 2015, Nationwide Building Society introduced support for the Apple Pay digital wallet service from Apple, enabling its customers to make contactless payments using their mobile phones.

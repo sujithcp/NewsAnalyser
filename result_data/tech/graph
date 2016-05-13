@@ -1,0 +1,26 @@
+The recent breach of 2.6TB of data from Panamanian law firm Mossack Fonseca has generated a slew of revelations about how the world’s rich and powerful channel their wealth into offshore companies in a bid to avoid tax, prompting high-profile political resignations and public demands for a clampdown.
+But the stories would have been a lot less detailed, and taken far longer to surface, without the help of a very old technology that’s currently making a comeback – the graph database.
+Graph databases pre-date the relational database (RDB) model that has dominated business IT for more than 40 years.
+Instead of storing and manipulating data in tabular rows and columns, graph databases are structured more like the scribbled “mind maps” used for freeform note-taking – bubbles of information joined by a tangle of labelled lines that reveal the connections and relationships between them.
+In a graph database, information is stored in the form of nodes (items such as businesses or individuals), properties (information about, or relating to, nodes) and edges (the lines connecting nodes to one another or to properties, where much of the important information resides).
+They typically don’t require data to be in a rigidly structured format and are often faster and easier to scale than RDBs.
+Matt Aslett, research director at 451 Research responsible for data platforms and analytics, says: “This means they’re very well-suited to applications like social networking, mapping, route planning and logistics, asset management, loyalty schemes, fraud detection, recommendation engines, master data management systems and more.”
+They are also perfect for the task of uncovering hidden connections in a mountain of legal and financial data such as the Panama Papers.
+The graph database renaissance is perhaps not surprising given how well the model mirrors the linked, non-hierarchical structure of the web itself, and the growing popularity of networked and social applications.
+Indeed, it was social web giants like Twitter, Facebook and Google that prompted the comeback in the first place, since they needed more efficient ways to manage and understand the relationships among their vast networks of users.
+And as networked smart cities and the internet of things (IoT) take hold, we’re likely to see many more use cases for the technology.
+Already, businesses beyond the high-tech giants are increasingly turning to graph databases.
+Lufthansa, for example is using graph databases to store relationships between the content it offers on flights and the different devices people use to access that content.
+“To deliver, say, a movie or in-flight offer to a passenger’s personal device, the airline needs to understand the devices people are using – their screen sizes, performance and so on – then map that onto the content delivered to the individual user, as well as knowing details about passengers such as whether they’re frequent flyers or members of any of the company’s loyalty schemes,” says Aslett.
+There are plenty of other examples.
+Mobile operator Telenor uses the technology to understand its users – where they are, what devices they’re using and what they’re permitted to access.
+Many banks and financial institutions use it for fraud detection.
+Royal Bank of Scotland is using it in a change management tool called Dart that continually tracks the implication of changes on its core Agile Markets trading system.
+Online gambling provider Gamesys is using it to manage a referral system and Facebook integration for its customers.
+The list goes on.
+We’re not, however, likely to see graph databases taking over from relational databases any time soon.
+They still only represent a minuscule fraction of the total database market, although precise figures are hard to come by.
+451’s Aslett estimates the market currently represents around $200m of the $286bn sector – which equates to a share of about 0.07%.
+But he notes the whole NoSQL market (which includes key value and document stores as well as graph databases) is nonetheless growing at an impressive rate.
+“We’re seeing a compound annual growth rate of 43%, compared with 11% for the market overall.
+The dominance of the relational model means things will naturally take a long time to change, but we’re at the beginning of a potentially significant shift,” Aslett concludes.

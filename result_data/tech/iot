@@ -1,0 +1,61 @@
+The Internet of Things is growing so fast, it’s an obvious place to look for career growth.
+IoT is already a reality at 29 percent of enterprises, according to a Gartner survey taken late last year.
+Fourteen percent said they would implement it this year, and 64 percent said they plan to use some form of IoT eventually.
+Yet, like a lot of IoT technology, jobs in this vast field are still evolving out of what's been in place for years.
+Instead of aiming for a whole new job, the best strategy may be to add some skills to the ones you already have.
+There will be plenty of new things to do in enterprises that adopt IoT systems, which can make companies more efficient and generate new sources of revenue.
+And some people are working on IoT full time.
+But for now, most companies heading in that direction are still scouting it out.
+A recent survey by job market analytics company Burning Glass found that out of more than 800,000 IT job listings in the U.S., only about 1,000 were for IoT-specific positions.
+Still, there are certain skills and areas of knowledge that are likely to be in demand as the new technology takes shape.
+One is analytics , a field of growing importance for all sorts of IT projects that are generating more data, including IoT.
+But specifically in the enterprise Internet of Things, the big winners are likely to be workers who can bridge the gap between IT and a sometimes overlooked field called OT (operational technology).
+“We need the IT skills to come into the OT side of the house,” Gartner analyst Chet Geschickter said.
+It works the other way, too.
+OT includes everyone in a company who sets up and manages real-world objects.
+That means things like HVAC (heating, ventilation and air conditioning) technicians, fleet managers, and people who make assembly-line robots do their jobs.
+The IT and OT worlds have built up separate bodies of knowledge that they haven’t shared with each other, Geschickter said.
+That was fine until the ones and zeroes of the digital world met the wheels and presses of the physical.
+In IoT, things like computing and data networking are now entwined with devices running in the physical world.
+This new combination will require new skills.
+For example, IT people – unlike most OT folks -- know how to track down software updates and deploy them across complex collections of systems made by multiple vendors.
+However, they just do this for desktops, laptops, servers and networks, where only data and applications are at stake.
+IoT is different.
+What happens if a delivery truck needs a software update, and it’s speeding down the highway?
+Should you distribute and install it immediately?
+Or send out the software and have it automatically install after the truck is parked?
+Could the new code put the driver at risk if it started working en route?
+Questions like these, about things like moving parts and worker safety, are where OT experts shine.
+But they have their own blind spots.
+Most of them are used to working with a vast, top-to-bottom system that’s all sourced from one vendor, Geschickter said.
+They know the ins and outs of that platform but don’t have much experience integrating it with other things.
+The manufacturer handles upgrades and fixes for them.
+Few job descriptions span both IT and OT today, but some employees will be thrust into such roles.
+“There will certainly be some new job titles and new roles, but we will probably also see a lot of expansion of existing roles and responsibilities,” said Tim Herbert, senior VP for research and market intelligence at the Computing Technology Industry Association (CompTIA), an IT industry group.
+For example, if an oil company decides to deploy sensors on a pipeline, the network administrator may find herself learning how to connect new endpoints that have a bare-bones embedded OS, only battery power, and no human user.
+That’s likely to call for new skills.
+Companies look to IT employees to solve a lot of these problems, even though facilities or operations departments are more often in charge , according to a March survey of IoT workers by research company Technalysis Resarch.
+Forty-four percent of survey respondents worked in an IT department.
+The next biggest department was facilities, with 17 percent.
+On average, respondents said they spend about half their time on IoT, Technalysis founder Bob O'Donnell said.
+Because most companies are just starting to explore this area, now is a good time to get your foot in the door.
+Making that happen may be a matter of both what you know and who you know.
+A good place to start is to get onto an internal project team or “center of excellence” where a core group of employees shape the organization’s use of IoT, Geschickter said.
+These teams will be looking for well-rounded technical people, so it may be time to study up a little.
+“The best bet is for people to learn about the underlying component technologies and have some base understanding of each, so you can ... help orchestrate an overall IoT solution,” he said.
+For example, IT specialists could study machine-to-machine communications, which OT has been using like IoT for years.
+An OT staffer could learn Java and the latest programming languages.
+It might also help to learn more about cloud computing, or about Arduino boards that could be turned into IoT devices.
+Because IoT projects may pull in people from many departments, get ready for a meeting of minds that may not think alike.
+“A lot of it is more organizational and political than it is technical,” O’Donnell said.
+“Some of it is just making friends and influencing people.”
+For example, a company that wants to monitor and maintain its products in the field might call on marketing and business strategy folks to figure out how to promote the most-used features or make money from after-sale services.
+There are also growing job opportunities outside enterprises for those who understand IoT.
+Operational technology vendors, many still making decades-old proprietary systems, want to enter the new age.
+Big communications providers like AT&T and Vodafone already have systems for operating connected devices, and enterprises are turning to them for a quick entry into IoT, Gartner’s Geschickter said.
+Even there, it’s not too late to get in on developing the IoT platforms of the future.
+“Frankly, they’re building them as they go,” he said.
+For people starting from scratch, unfortunately it’s too early to run out and sign up for a course that will teach you all about IoT.
+Universities are catching up with the demand for data scientists, but not so much for other roles.
+That will take time, Geschickter said.
+“The education tends to trail the market need.”

@@ -1,0 +1,21 @@
+A hardcore fetish forum has been hacked, exposing more than 100,000 user account details, according to a prominent security researcher.
+Image copyrightThinkstockImage caption
+Users to the site may not want to be exposed publicly
+A hardcore fetish web forum has been hacked, with more than 100,000 accounts exposed, according to a prominent security researcher.
+Troy Hunt runs Have I Been Pwned?
+, a database of stolen user accounts dedicated to informing victims.
+The data from the latest breach, which includes email addresses, usernames, IP addresses and passwords, reveals sexual proclivities people may not want known.
+It included government and military email addresses, Mr Hunt said.
+The site had been using out-of-date software that had made the hack attack fairly simple, he said.
+"It took advantage of a common vulnerability using an SQL injection," Mr Hunt said.
+A SQL injection is a type of security exploit in which an attacker adds structured query language (SQL) code to a web form, allowing them to send requests to databases that could allow them to download the entire database.
+According to Mr Hunt, 37% of the accounts were already listed on Have I Been Pwned?
+The Have I Been Pwned?
+database currently contains more than 345 million hacked accounts from more than 100 websites.
+None of them is publicly viewable.
+Instead, it acts as a notification site for users who think their data may have been breached.
+They enter their email address to find out whether their account is among those hacked.
+In this particular case, Mr Hunt said the exposure of data could be particularly sensitive because of the nature of the site.
+"This is a forum where you would think people would want to stay private, but people were using traceable emails or even corporate emails," Mr Hunt told the BBC.
+He advised people who wanted to visit such sites to consider taking steps to remain anonymous.
+"Create an email account and make up a name and use something like the Tor browser so the IP address can't be traced back to you," he added.

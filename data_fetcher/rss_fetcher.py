@@ -11,6 +11,7 @@ import re
 import sqlite3
 import threading
 from datetime import datetime
+
 import feedparser
 
 from data_fetcher.fetcher import GetTextFromUrl
@@ -58,11 +59,13 @@ def fetchRss(category=None,name = ""):
                 title = fp['entries'][i]['title']
                 link = fp['entries'][i]['link']
                 datetime_var = fp['entries'][i]['published']
+                description = fp['entries'][i]['description']
+                description = re.sub('[<].+[>]',' ',description)
                 date = "NULL"
                 time = "NULL"
 
                 if datetime_var:
-                    datetime_var = re.sub('[ ][0-9A-Z+-]+$', '', datetime_var, 1)
+                    datetime_var = re.sub('[ ][0-9A-Z+-:]+$', '', datetime_var, 1)
                     #print(datetime_var)
                     date_object = datetime.strptime(datetime_var, '%a, %d %b %Y %X')
                     date = str(date_object.date())
@@ -80,19 +83,24 @@ def fetchRss(category=None,name = ""):
                     continue
 
                 print("Adding to database ",title)
-                text = GetTextFromUrl(link).getText()
+                text = description+"\n"+GetTextFromUrl(link).getText()
                 #print(text)
                 id = hashlib.md5(text.encode('utf-8')).hexdigest()
                 print(id)
-                cursor.execute("insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
+                if category !='general':
+                    cursor.execute("insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
+                else:
+                    cursor.execute(
+                        "insert or ignore into General_News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)",
+                        (id, title, text, category, date, time, link,))
+
                 connection.commit()
 
                 newCount += 1
             print(name, " - Done")
         except Exception as e:
             print("Exception occured for ",link or "")
-            print(str(e))
-            logging.exception("Error *** ")
+            logging.exception("Error : "+str(e))
     print("Finished....","New Documents = ",newCount)
 
 
@@ -119,6 +127,7 @@ thealth = threading.Thread(target=fetchRss,args=("health","t_health"))
 tentertainment = threading.Thread(target=fetchRss,args=("entertainment","t_entertainment"))
 ttech = threading.Thread(target=fetchRss,args=("tech","t_tech"))
 tbusiness = threading.Thread(target=fetchRss,args=("business","t_business"))
+tgeneral = threading.Thread(target=fetchRss,args=("general","t_general"))
 
 
 tsports.daemon = True
@@ -126,15 +135,18 @@ thealth.daemon = True
 tentertainment.daemon = True
 ttech.daemon = True
 tbusiness.daemon = True
+tgeneral.daemon = True
 
 tsports.start()
 thealth.start()
 tentertainment.start()
 ttech.start()
 tbusiness.start()
+tgeneral.start()
 
 tsports.join()
 thealth.join()
 tentertainment.join()
 ttech.join()
 tbusiness.join()
+tgeneral.join()

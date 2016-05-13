@@ -66,7 +66,6 @@ http://www.business-standard.com/rss/economy-policy-102.rss business
 http://www.business-standard.com/rss/economy-policy-news-10201.rss business
 http://www.cnbc.com/id/20910258/device/rss/rss.html business
 http://www.cnbc.com/id/10001147/device/rss/rss.html business
-http://economictimes.indiatimes.com/rssfeedsdefault.cms business
 http://economictimes.indiatimes.com/rssfeedstopstories.cms business
 http://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms business
 http://economictimes.indiatimes.com/markets/bonds/rssfeeds/2146846.cms business
@@ -81,6 +80,15 @@ http://feeds.feedburner.com/NDTV-Cricket?format=xml sports
 http://indiatoday.intoday.in/rss/article.jsp?sid=41 sports
 http://www.news18.com/rss/sports.xml sports
 http://www.oneindia.com/rss/news-sports-fb.xml sports
+http://feeds.reuters.com/reuters/INtopNews general
+http://feeds.reuters.com/reuters/topNews general
+http://feeds.bbci.co.uk/news/rss.xml general
+http://feeds.bbci.co.uk/news/world/rss.xml general
+http://feeds.bbci.co.uk/news/politics/rss.xml general
+http://feeds.foxnews.com/foxnews/latest?format=xml general
+
+
+
 
 
 
