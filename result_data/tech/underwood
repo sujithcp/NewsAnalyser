@@ -1,0 +1,55 @@
+Australian academic institute uses the technology to help it deal with huge – and still growing – storage demands
+It’s a common problem in academic computing.
+Researchers generate vast amounts of data, and they want to store their output as conveniently and cost-efficiently as possible.
+Moreover, they also need on-demand access to the data to try to make sense of it.
+The eResearch Centre at Monash University, which services scientists at five campuses in Melbourne, Australia, as well as other sites overseas, is a prime example.
+To store data efficiently and ensure it is easy to access, the centre is using software-defined storage, with the design incorporating Dell technology and OpenStack software.
+There are also options for both Ceph and Lustre -based storage to meet specific research requirements.
+Andrew Underwood, high-performance computing manager at Dell Asia-Pacific, one of the project leaders, said organisations often choose software-defined storage because it’s cost-effective.
+“When we looked at the options we saw that we can tailor it for the usage models Monash’s researchers need,” he added.
+There’s no question Monash researchers generate a lot of data – Underwood stated that each year the total runs to petabytes.
+The centre’s main focus is on life sciences, and its researchers often work with genome data, using files that can each run to 4TB.
+There is also some physics research.
+Underwood said the centre work fits the definition of “big science”, where researchers work with large chunks of data and large file sets, with the underlying needs being like those of high-profile institutions, such as European Organization for Nuclear Research (Cern), where physicists plough through data from the Large Hadron Collider (LHC).
+Underwood said the LHC is a perfect example of what’s happened in science.
+“There has been an explosion in the amount of data collected, creating what has been called “21st century microscopes”.
+The idea is that the centre provides researchers with a tool that brings together all the information technology elements they need to get a fast, clear picture of the results of their experiments.
+In this way, the system does for modern scientists what glass lens microscopes did for researchers during the earlier life science discovery boom 100 years ago.
+It’s no coincidence that one of the most innovative ways researchers use the technology Monash has put at their disposal is to view data from an electron microscope, using 81 high-definition screens arranged in a circle to display images of bacteria, providing what Underwood said is a perspective that wouldn’t be possible any other way.
+There are two components to the software-defined storage system.
+Underwood said the hardware uses open standards throughout.
+“Tried and tested x86 architecture underpins the hardware.
+Everything is software-defined.
+It all sits on Dell rack servers that use either Intel or AMD processors,” he said.
+“We chose to use commodity x86 architecture because it is far more cost-effective than going down the proprietary path.
+Our hardware is vanilla throughout,” he added.
+The physical scale is large by any standard, in effect a small datacentre.
+In terms of size, the entire software-defined environment exceeds 10 normal server racks.
+Underwood said the second component turns the servers into storage devices.
+“We optimise the commodity servers for storage using solid-state drives, high-end processors and large-capacity hard drives.
+They are all connected by a high-speed network,” said Underwood.
+“We use 40GB Ethernet and that gives us high bandwidth and low latency, so we can move data fast.
+We then use OpenStack so we can orchestrate the entire environment on demand.
+The open source software is the real intelligence in the system,” he added.
+Essentially, all this gives Monash a private cloud with on-demand storage that is scalable and it is accessible from anywhere at any time.
+So why build this kind of environment in-house?
+Its functional description resembles many public cloud offerings.
+Underwood said by building its own, on-premise research computing facility, Monash is able to optimise the services to meet the specific demands of researchers.
+“In 2016, we’re seeing much bigger demand for private cloud systems.
+There’s something of a move back to on-premise systems with optimised infrastructure.
+Customers can push some workloads out to the public cloud, but they often find it better to build optimised infrastructures for key tasks,” said Underwood.
+With this approach, researchers can get a complex storage environment up and running in moments.
+Underwood said a wide variety of people are able to use the storage and they can build exactly what they need to handle their own data.
+One aspect of the software-defined storage system is that everything is fully encrypted.
+This means researchers in remote locations can get secure access and decide who they want to use the data and tools.
+There are two storage systems.
+Dell worked with Red Hat to implement Ceph, which provides the cloud-like object storage cluster.
+This runs on Dell PowerVault MD arrays – there’s a total of 5PB capacity.
+There is also a 300TB Lustre-based storage cluster.
+This is a parallel system used to handle files and is based on Dell PowerEdge servers.
+The challenge Dell faced working with Monash on the eResearch Centre system was finding a platform that was able to scale, according to Underwood.
+“It didn’t just have to scale in terms of user numbers, but also offer timely scale in capacity and performance.
+The centre plans to have more researchers use the system over time and we’re confident that as more come on-board we’ll be able to scale to meet their needs,” said Underwood.
+In theory there is no limit to the scale of both systems.
+Underwood said both are designed to go beyond an exabyte.
+“Intel and RedHat are already working on the next generation that will get us there,” said Underwood.

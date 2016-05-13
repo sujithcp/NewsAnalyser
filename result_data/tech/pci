@@ -1,0 +1,18 @@
+Previously, the standard called for the use of multifactor authentication only for remote access to the cardholder data environment from untrusted networks.
+To prepare for this change, the PCI Council said organisations should review how they are currently managing authentication into their cardholder data environment, and review the current administrator roles and access to identify where changes to authentication may likely be affected by the new requirement.
+PCI DSS version 3.2 also introduces a requirement for services providers to:
+Detect and report on failures of critical security control systems; Maintain a documented description of the cryptographic architecture; Change control processes to include verification of PCI DSS requirements affected by a change; Perform penetration testing on segmentation controls at least every six months, rather than annually; Establish responsibilities for the protection of cardholder data and a PCI DSS compliance programme; Perform reviews at least quarterly, to confirm personnel are following security policies and operational procedures.
+All other changes in version 3.2 are clarifications or additional guidance.
+Although the new version replaces version 3.1, which expires on 31 October 2016, the Security Standards Council, which administers the PCI DSS, said companies that accept, process or receive payments should adopt it as soon as possible to prevent, detect and respond to cyber attacks that could lead to breaches.
+All requirements introduced in version 3.2 will be effective from 1 February 2018, which gives merchants nine months to make any necessary changes to remain PCI DSS compliant.
+“The payments industry recognises PCI DSS as a mature standard, so the primary changes in version 3.2 are clarifications on requirements that help organisations confirm that critical data security controls remain in place throughout the year, and that they are effectively tested as part of the ongoing security monitoring process,” said PCI Council general manager Stephen Orfei.
+“This includes new requirements for administrators and service providers, and the cardholder data environments they are responsible to protect.
+PCI DSS 3.2 advocates that organisations focus on people, process and policy, with technology playing an important role in reducing the overall cardholder data footprint.”
+The update to the standard is part of the regular process for ensuring the PCI DSS addresses current challenges and threats.
+This process factors in industry feedback from the PCI Council’s more than 700 global participating organisations, as well as data breach report findings and changes in payment acceptance.
+“We’ve seen an increase in attacks that circumvent a single point of failure, allowing criminals to access systems undetected, and to compromise card data,” said PCI Council chief technology officer Troy Leach.
+“A significant change in PCI DSS 3.2 includes multifactor authentication as a requirement for any personnel with administrative access into environments handling card data.
+A password alone should not be enough to verify the administrator’s identity and grant access to sensitive information,” he said.
+Service providers, specifically those that aggregate large amounts of card data, continue to be at risk, said Leach.
+“PCI DSS 3.2 includes a number of updates to help these entities demonstrate that good security practices are active and effective,” he said.
+Looking ahead, Leach said the PCI Council expects incremental revisions like those in version 3.2 to address evolving threats to the payment landscape, with a focus on helping companies use this standard as a good framework for everyday security and business best practice.

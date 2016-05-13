@@ -1,0 +1,10 @@
+Salesforce has reportedly struck a deal with infrastructure-as-a-service (IaaS) giant Amazon Web Services (AWS) that will see it underpin the cloud CRM firm’s internet of things (IoT) efforts.
+According to a report by the Wall Street Journal (WSJ) , Salesforce is planning to use AWS to test some of the underlying software for its IoT cloud, which is expected to go live sometime in 2016.
+Adam Bosworth, executive vice-president of Salesforce’s IoT cloud, confirmed in the WSJ report that a limited number of customers are in the throes of testing the setup ahead of launch.
+Salesforce previously opted to host its services directly from its own fleet of private datacentres, and its decision to partner with AWS could be considered a marked departure from this strategy.
+However, Bosworth said the large amounts of data its IoT initiatives will need to process made drawing on the capacity of the public cloud a must.
+“We did it because we were growing very fast.
+These are big and so you’re using a lot of resources.
+We had to have the safety valve of a public cloud to what we were doing,” he said.
+Computer Weekly contacted AWS and Salesforce for comment on this story, but was still awaiting a response from both at the time of publication.
+How long Salesforce intends to use AWS for is unclear at this time, as some cloud firms – such as Dropbox – have previously used the firm’s services until they achieve a scale of operations that makes building out their own infrastructure more financially viable.

@@ -1,0 +1,26 @@
+Manchester-based legal support firm Lawlords has moved directly from servers with direct-attached storage to hyper-converged infrastructure from Simplivity.
+The move came as Lawlords found its ageing IT systems lagged behind requirements in the legal sector, particularly those stipulating adequate disaster recovery planning and provision.
+Lawlords has its main IT department in Manchester, with a secondary site in Carlisle, plus offices in London and Liverpool that connect via Terminal Services .
+The firm had been running physical servers with direct-attached storage (DAS) .
+Backup was by tape with servers restored from bare metal, which took around two days.
+IT manager Stuart Taylor said: “We had a single point of failure and, with the company growing at a fast rate, the IT wasn’t [up to scratch].
+We needed to change and we wanted some form of virtualisation .”
+“We had no disaster recovery provision, but were getting tenders from the public sector for which it was a major requirement.
+They would ask, ‘If you lost a site how long would it take to get it back up?’”
+Taylor considered traditional storage from the likes of EMC, NetApp and Dell, but concluded that buying discrete elements of the IT stack – servers, storage, networking and WAN optimisation, for example – was likely to cost a lot more than getting it all in one package.
+Hyper-converged products combine compute and storage in one box with virtualisation capability.
+They have emerged in recent years as competition to discrete server and storage products, with key suppliers including Nutanix, Scale Computing, Simplivity and Vmware’s EVO:Rail .
+Simplivity deploys as a virtual machine on commodity x86 server hardware, either as an OmniCube appliances or as OmniStack software pre-installed on approved server hardware.
+The hardware supports VMware, Hyper-V and KVM hypervisors.
+Lawlords opted to deploy Simplivity’s hyper-converged hardware after seeing it at a VMware users group meeting.
+It implemented two Omnicubes at its Manchester office with a total of 7TB of storage and one Omnicube at Carlisle with 4TB.
+Backup is hourly at each site to local disk.
+In the evening, Manchester then backs up to Carlisle and Carlisle to Manchester.
+Hyper-converged infrastructure is a relatively new phenomenon.
+Did Taylor see it as a leap in the dark at all?
+“Yes, we had concerns.
+It was almost a risk.
+I was concerned about the on-board compression.
+Would there be corruption to restores?
+Also, cache is provided via SD cards and I was concerned about the use of SD for large amounts of data and the potential for corruption.
+“But I sought assurances from Simplivity, and was given examples of organisations that had run their products successfully,” he said.

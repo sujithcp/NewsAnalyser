@@ -1,0 +1,35 @@
+Ransomware attacks on the House of Representatives have increased so much through third-party email providers that Yahoo Mail has been blocked until further notice.
+The House’s Technology Service Desk sent an email, obtained by Gizmodo , to House of Representatives staff members.
+The email, sent on April 30, warned that “the House Information Security Office has seen an increase of attacks on the House Network using third party, web-based mail applications such as Yahoo Mail, Gmail, etc.
+The attacks are focused on putting ‘ransomware’ on users’ computers.”
+While the notice does not specify which ransomware variant was used, it does mention that attacks “focused on using .js files attached as zip files to email that appear to come from known senders.
+The primary focus appears to be through Yahoo Mail at this time.”
+A spokesperson for the House Chief Administrative Officer would not tell TechCrunch if any of the ransomware attacks succeeded in locking up any staffer’s files, but an unnamed congressional staffer told Gizmodo that “at least one of the ransomware attacks was successful.
+Once the computer was affected, House IT was able to remotely shut down the machine within 20 minutes.
+The staffer eventually had to reformat their computer.”
+TechCrunch added that the anonymous chat app Cloakroom, which is like “ Whisper but for Capitol Hill ,” has also been blocked.
+The app works by staffers logging in with their email address or by using Capitol Hill Wi-Fi.
+Additionally, Ted Henderson, former Congressional staffer and founder of Cloakroom, told The Intercept, all “Google Cloud services hosted by Google’s appspot.com” also appear to be “completely blocked.” He said, “This is the first time I’ve seen this happen at a scale like this in five years.”
+The House’s IT department told staffers that it “will be blocking access to Yahoo Mail on the House Network until further notice.
+We are making every effort to put other mitigating protections in place so that we can restore full access as soon as possible.”
+Ransomware doesn’t care if you are a church, library, hospital or home user
+One day before the House sent the email, the FBI posted a warning about ransomware, which has targeted a wide variety of victims ranging from “hospitals, school districts, state and local governments, law enforcement agencies,” as well as large and small businesses.
+Despite that ransomware is becoming an “epidemic,” too many people are blissfully unaware of the threat.
+Using a small town in Virginia’s Shenandoah Valley as an example, James Scott, a senior fellow at the Institute of Critical Infrastructure Technology, told Newsweek , “I can go to a public computer right now and take down a local hospital in a day.”
+Some people don’t seem to pay attention to the threat because they don’t believe they have anything especially valuable that a bad guy would target; it doesn’t work that way.
+If you think that because you are a home user, a church, or a library, ransomware is a topic that doesn’t affect you, then please think again.
+When a church in Oregon was hit with ransomware, it converted PowerPoint presentations to MP3s; about $500 in bitcoin was the ransom for a decryption key.
+Pastor David Eppelsheimer told Newsweek, “My theology is…love my neighbor even if he steals from me.
+But I was angry at the moment.
+It felt like a faceless, nameless evil from the other side of the world descended on me and my church.”
+If you are connected to the Internet, then you could potentially become a victim of ransomware.
+It’s time to get serious and take precautions.
+It would be wise to keep an eye out for good deals on an external hard drive, one that you can disconnect from your machine when you are not using it to back up your data, or to start using the cloud.
+Even then, if you have a backup and don’t pay the ransom, you could still incur other costs.
+When Rhinelander District Library in Wisconsin became a ransomware victim , it didn’t pay the ransom but it “still had to pay to have the ransomware scraped off the library’s laptop.”
+Helpful ransomware resources
+If you are trying to protect your network and users from ransomware, then you might be interested in a “ ransomware overview ” document which includes a list of names, extensions, prevention tips and decryptors.
+Prevention measures are broken down in low, medium and high for complexity of implementation, effectiveness and impact.
+The very first measure listed is backup and restore.
+The sysadmin subreddit also pointed toward Ransomware Tracker which includes a tracker, mitigation, blocklist, statistics and more.
+While it does provide specific mitigation suggestions for enterprise and for home users, please note this advice: “No matter if you are a home user or an enterprise, the golden rule when it comes to Ransomware is: Make backups frequently!”
