@@ -24,4 +24,4 @@ def final(start_date, end_date,window_size):
             for i in window [2]:
                 print(' ',i)
 
-final("2016-05-01","2016-05-12",5)
+final("2016-05-01","2016-05-12",2)
