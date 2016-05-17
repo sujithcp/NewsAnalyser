@@ -1,4 +1,5 @@
 import codecs
+import logging
 import os
 import pickle
 import re
@@ -31,8 +32,9 @@ def readFile(path):
     try:
         with codecs.open(path, "r", encoding='utf-8', errors='ignore') as rfile:
             return rfile.read()
-    except:
-        print("Could not read file")
+    except Exception as e:
+        print("Could not read file ",path)
+        logging.exception(str(e))
         return None
 
 

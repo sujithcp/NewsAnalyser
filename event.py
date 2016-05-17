@@ -103,4 +103,4 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
     connection.commit()
 
 
-findTrendingEvents('2016-05-01', '2016-05-13', 6)
+findTrendingEvents('2016-05-01', '2016-05-18', 2)

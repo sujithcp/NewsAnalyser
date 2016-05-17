@@ -39,7 +39,6 @@ train_set = newsSet[:int((len(newsSet)/2))]
 test_set = newsSet[int((len(newsSet)/2)):]
 cls = nltk.NaiveBayesClassifier.train(train_set)
 print(nltk.classify.accuracy(cls,test_set),len(train_set),len(test_set))
-
 #cls = nltk.NaiveBayesClassifier.train(train_set)
 
 
