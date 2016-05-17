@@ -1,18 +1,20 @@
-import operator
-import os
 import math
+import operator
 
 import sqlite3
 
-from Tokenize import Tokenize
-from fetchData import fetchNewsFromDb
+from general_functions import fetchNewsFromDb, Tokenize
 
+connection = sqlite3.connect('data/news_data.db')
+cursor = connection.cursor()
 
 def tf(word, text,n):
     return text.count(word)/n
 
+
 def n_containing(term, docs):
     return sum(1 for doc in docs if term in doc['tokens'] )
+
 
 def idf(term , docs):
     n=0
@@ -38,17 +40,14 @@ def tf_idf ( start_date, end_date ):
         for news in newsSet [date] :
             text = (news[2]) .lower()
             tokens=Tokenize(text)
-            #print (tokens)
             news_in_a_day['text'] .append(text)
             news_in_a_day['tokens'] .append(tokens)
         docs_in_a_week.append(news_in_a_day)
 
     token_score = {}
-    #max_score = {}
-    #min_score = {}
+
 
     for day in docs_in_a_week :
-        #day['score'] = {}
         for tokens in day['tokens']:
 
             n = len(tokens)
@@ -58,37 +57,42 @@ def tf_idf ( start_date, end_date ):
                 if score_of_token > 0 :
                     if token in token_score :
                         token_score [token] += score_of_token
-                        #if score_of_token >max_score [token ]:
-                        #    max_score [token ]= score_of_token
-                        #if score_of_token <min_score [token ] :
-                        #    min_score [token ] =score_of_token
                     else:
                         token_score [token] = score_of_token
-                        #max_score [token ] = score_of_token
-                        #min_score [token ] = score_of_token
-
                     print("Token : ",token," \t, Score : ",score_of_token )
-
-
-#                if score_of_token > 0:
-#                    if token in token_score:
-#                        token_score[token] .append (score_of_token)
-#
-#                    else:
-#                        token_score[token] = [score_of_token ]
-#                print("Token : ", token, " \t, Score : ", score_of_token)
-#
-#    max_score = {}
-#    avg_score = {}
-#
-#    for token in token_score :
-#        max_score [token ] =max( token_score [token ])
-#        n = len( token_score[token ] )
-#        token_score [token ] = sum(i for i in token_score [token ])
-#        avg_score [token ] = token_score [token ] /n
 
     sorted_score=sorted(token_score.items(), key=operator.itemgetter(1), reverse=True )
 
     return sorted_score
 
-#tf_idf( "2016-05-05" , "2016-05-06" )
+
+def storeTermScore(start_date, end_date , tablename):
+    term_Score_list = tf_idf (start_date , end_date )
+
+    if tablename =='TermScore':
+        for term in term_Score_list :
+            cursor.execute('INSERT OR IGNORE INTO TermScore(term,score) VALUES(?,?)',term  )
+        connection.commit()
+    else:
+        cursor.execute('delete from {tn}'.format(tn=tablename))
+        for term in term_Score_list:
+            cursor.execute('INSERT OR IGNORE INTO TempTermScore(term,score) VALUES(?,?)',term)
+        connection.commit()
+
+
+def createTermScoreDB():
+    cursor.execute('drop table TermScore')
+    cursor.execute('drop table TempTermScore')
+    cursor.execute('drop table tfidf')
+    cursor.execute('drop table final_tfidf')
+    cursor .execute('''create table TermScore ('term' TEXT, 'score' REAL)''')
+    cursor.execute('''create table TempTermScore ('term' TEXT, 'score' REAL )''')
+    cursor.execute('''create table tfidf ('date' TEXT,'word' TEXT, 'tfidf' REAL)''')
+    cursor.execute('''create table final_tfidf ('date' TEXT,'word' TEXT, 'tfidf' REAL)''')
+    connection.commit()
+
+
+    storeTermScore("2008-01-01","2016-05-05" , "TermScore")
+
+
+#createTermScoreDB()

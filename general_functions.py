@@ -1,10 +1,24 @@
 import re
 import nltk
-from nltk.corpus import stopwords
+import sqlite3
+
 
 with open('stopwords.txt', 'r') as stopwd_ref:
     stopwd = stopwd_ref.read()
 stopwd = re.split('\n', stopwd)
+
+
+
+def fetchNewsFromDb(start_date=None, end_date=None):
+    connection = sqlite3.connect('data/news_data.db')
+    cursor = connection.cursor()
+    if not start_date or not end_date:
+        data = cursor.execute('''select * from News''').fetchall()
+    else:
+        data = cursor.execute('''select * from News where ? <= date and date <= ?  order by date asc,time asc''', (start_date, end_date,)).fetchall()
+    return data
+
+
 
 def word_grams(tokens):
     word_phrase = []
@@ -30,10 +44,8 @@ def word_grams(tokens):
     return word_phrase
 
 
+
 def Tokenize(text):
-    '''Opening the file to tokenize the content'''
-   # with open(fname,'r', encoding='utf-8', errors='ignore') as file_ref:
-    #    text=file_ref .read().lower()
     text=text.replace('\n','')
     text=text.split('.')
     if '' in text:
@@ -42,15 +54,5 @@ def Tokenize(text):
     #textcopy=''
     for line in text:
         tokens = re.findall("[a-zA-Z0-9]+|[a-zA-Z0-9]+['.,-][a-zA-Z0-9]+", line.replace("'",''))
-        #Extracting the tokens using regular expression'''
-        #    '''stopw = stopwords in nltk '''
-        #stopw = set(stopwords.words('english'))
-        #tokenscopy = tokens.copy()
-        #for token in tokenscopy:
-        #    if token in stopw or token in stopwd or token .isdigit() :
-        #        tokens.remove(token)
-        #textcopy +=' '.join(tokens)
         word_phrase.extend(word_grams(tokens))
     return (word_phrase)
-
-#print(Tokenize("ipl 2016 ipl 2016 ipl 2016"))
