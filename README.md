@@ -1,4 +1,4 @@
-# NewsPro
+# NewsAnalyser
 
 <i>Dynamic feed fetching,classification and event detecting</i>
 
