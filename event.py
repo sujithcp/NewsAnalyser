@@ -38,7 +38,7 @@ def addEvents(start_date=None, end_date=None):
     cursor = connection.cursor()
 
     # dates = set([item[4] for item in data])
-    window_data = [item[2] for item in data]
+    window_data = [item[2]+"\n"+item[3] for item in data]
     cursor.execute('''delete from final_tfidf''')
     connection.commit()
     window_data = [getNgrams(item) for item in window_data if item]
@@ -58,20 +58,19 @@ def addEvents(start_date=None, end_date=None):
         tf_list = [0.6 + 0.4 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
                    word in file]
         tf = sum(tf_list)
-        '''
-        Normalize to 1000 file equivalent.
-        '''
-        tfidf = tf * idf * 1000 / len(window_data)
+        tfidf = tf * idf
         return tfidf
 
 
     for word in wordSet:
         tfidf = getTfidf(word)
         tfidf_list.append({'word':word,'score':tfidf})
+    norm = (sum([item['score']**2 for item in tfidf_list]))**0.5
+    tfidf_list = [{'word':item['word'],'score':item['score']*100/norm} for item in tfidf_list]
     tfidf_list = sorted(tfidf_list,key=lambda x:x['score'],reverse=True)
-    for i in tfidf_list[:20]:
+
+    for i in tfidf_list:
         cursor.execute("insert into final_tfidf(date,word,tfidf) values(?,?,?)",(NULL," ".join(i['word']),i['score'],))
-    connection.commit()
 
     events = cursor.execute('''
     select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
@@ -79,8 +78,9 @@ def addEvents(start_date=None, end_date=None):
      select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>(select max(tfidf) from final_tfidf)*25/100
      order by t desc
     ''').fetchall()
-    for i in events[:10]:
-        print(i[0]," : ",i[1])
+    for i in events:
+        if i <= 10:
+            print(i[0]," : ",i[1])
         cursor.execute("insert or replace into tmp_tfidf(date,word,tfidf) values(?,?,?)",(NULL,i[0],i[1],))
     connection.commit()
 
@@ -99,8 +99,8 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
     while current_date <= final_date:
         next_date = (current_date + datetime.timedelta(days=window_size))
         addEvents(current_date.strftime('%Y-%m-%d'), next_date.strftime('%Y-%m-%d'))
-        current_date = next_date + datetime.timedelta(days=1)
+        current_date = current_date + datetime.timedelta(days=1)
     connection.commit()
 
 
-findTrendingEvents('2016-05-01', '2016-05-18', 3)
+findTrendingEvents('2016-05-01', '2016-05-18', 7)
