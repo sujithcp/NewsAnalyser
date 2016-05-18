@@ -11,7 +11,7 @@ import sys
 
 from stemming.porter2 import stem
 
-from news_classifier import getClassifier
+from generals import getClassifier
 
 choice = input("Want to teach [Y/n]\n")
 
