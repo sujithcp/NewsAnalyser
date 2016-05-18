@@ -8,7 +8,7 @@ def plotDB():
     connection=sqlite3.connect('../data/news_data.db')
     cursor = connection .cursor()
 
-    data= cursor.execute('''select date, count(title) as count from News group by date''')
+    data= cursor.execute('''select date, count(title) as count from News where date>="2016-04-01" group by date''')
 
     data=[i for i in data if i[0] != 'NULL']
 
