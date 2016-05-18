@@ -45,7 +45,7 @@ def fetchNews():
                 text_stem = [stem(item) for item in text.split()]
                 dict = {item: 0 for item in text_stem}
                 cat = classifier.classify(dict)
-                print(title[:50] + " ... ", "  :  ", cat, " Prob. : ", classifier.prob_classify(dict).prob(cat))
+                print(title[:50] + " ... ", "  :  ", cat)
                 createFile('./OUTPUT/' + cat, title[:30], text)
         except Exception as e:
             logging.exception(str(e))
