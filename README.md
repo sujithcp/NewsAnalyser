@@ -1,6 +1,6 @@
 # NewsPro
 
-<i>Dynamic feed fetching,classification and event detecting (Coming soon)</i>
+<i>Dynamic feed fetching,classification and event detecting</i>
 
 
 
