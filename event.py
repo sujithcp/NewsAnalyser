@@ -80,7 +80,7 @@ def addEvents(start_date=None, end_date=None):
      order by t desc
     ''').fetchall()
     for i in events[:10]:
-        print(i[0],i[1])
+        print(i[0]," : ",i[1])
         cursor.execute("insert or replace into tmp_tfidf(date,word,tfidf) values(?,?,?)",(NULL,i[0],i[1],))
     connection.commit()
 

@@ -18,27 +18,26 @@ def detectEvent(start_date , end_date):
     print('------')
     print('------')
     print('------')
-    data1=cursor.execute('select temp.term from TempTermScore as temp, TermScore as ts where temp.term = ts.term and temp.score >= 4*ts.score').fetchall()
-    data2=cursor.execute('select term from TempTermScore where term not in (select term from TermScore) and score > 20').fetchall()
+    data1=cursor.execute('select temp.term, temp.score from TempTermScore as temp, TermScore as ts where temp.term = ts.term and temp.score >= 6*ts.score').fetchall()
+    data2=cursor.execute('select term,score from TempTermScore where term not in (select term from TermScore) and score > 20').fetchall()
     #data = cursor.execute('''select temp.term from TempTermScore as temp,TermScore as ts where (temp.term=ts.term and temp.score>=(2*ts.score)) or temp.term not in (select distinct term from TermScore)''').fetchall()
 
-    data1=data1[:10]
-    data1.extend( data2[:10])
-    data1 = [i[0] for i in data1]
+    event=data1[:5]
+    event.extend( data2[:5])
+    #data1 = [i[0] for i in data1]
 
-    event_in_week(start_date , end_date )
-
-    data2 = cursor.execute('select word from final_tfidf order by tfidf desc limit 20').fetchall()
-    data2 = [i[0] for i in data2]
+    #event_in_week(start_date , end_date )
+    #data2 = cursor.execute('select word from final_tfidf order by tfidf desc limit 20').fetchall()
+    #data2 = [i[0] for i in data2]
     print(data1)
     print('----------x----------')
-    print(data2)
-    print('----------x----------')
-    event = [term for term in data1 if term in data2 ]
+    #print(data2)
+    #print('----------x----------')
+    #event = [term for term in data1 if term in data2 ]
 
     return [start_date, end_date ,event]
 
-
+'''
 def event_in_week(start_date, end_date) :
     data = fetchNewsFromDb(start_date, end_date)
 
@@ -99,7 +98,7 @@ def event_in_week(start_date, end_date) :
         print(tuple[0], " - ", diff)
         cursor.execute('insert into final_tfidf(word, tfidf) values(?,?)', (tuple[0], diff,))
     connection.commit()
-
+'''
 
 def final(start_date, end_date,window_size):
     window_size-=1
@@ -120,6 +119,6 @@ def final(start_date, end_date,window_size):
             print('  No new trending events in news')
         else:
             for i in window [2]:
-                print(' ',i)
+                print(' ',i[0],'-',i[1])
 
-final("2016-05-08", "2016-05-17", 3)
+final("2016-05-07", "2016-05-17", 3)
