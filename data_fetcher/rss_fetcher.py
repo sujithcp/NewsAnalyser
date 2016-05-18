@@ -84,6 +84,9 @@ def fetchRss(category=None,name = ""):
 
                 print("Adding to database ",title)
                 text = description+"\n"+GetTextFromUrl(link).getText()
+                if len(text)<300:
+                    print("Too short text.. SKIPPING")
+                    continue
                 #print(text)
                 id = hashlib.md5(text.encode('utf-8')).hexdigest()
                 print(id)
