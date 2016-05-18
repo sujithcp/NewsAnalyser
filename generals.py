@@ -5,8 +5,10 @@ import pickle
 import re
 import sqlite3
 
+import nltk
 from nltk.corpus import stopwords
 from stemming.porter2 import stem
+
 
 
 def createFile(dir, filename, content,replace = True):
@@ -74,6 +76,22 @@ def getFileList(dir):
 
     return list
 
+def train(cats):
+    connection = sqlite3.connect('data/news_data.db')
+    cursor = connection.cursor()
+    newsSet = []
+    for cat in cats:
+        db_out = cursor.execute('''select * from News where category = ?''',(cat,)).fetchall()
+        for item in db_out:
+            print(item[2]," ----> ",item[0])
+            words = tokenize(item[3],en_stem=True).split()
+            data_set = {item: 0 for item in words}
+            newsSet.append((data_set, cat))
+    classifier = nltk.NaiveBayesClassifier.train(newsSet)
+    with open('train_dump', 'wb') as output:
+        pickle.dump(classifier, output, pickle.HIGHEST_PROTOCOL)
+    #print(classifier.classify({'gain':0,'profit':0,'interest':0}))
+    return classifier
 
 def fetchNewsFromDb(start_date=None, end_date=None):
     connection = sqlite3.connect('data/news_data.db')
@@ -85,3 +103,16 @@ def fetchNewsFromDb(start_date=None, end_date=None):
     data = cursor.execute(query).fetchall()
     return data
 
+def getClassifier(force_train=False):
+    stopw = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection',
+             'article'] + stopwords.words('english')
+    # Now you have a classifier which can give a try to classifiy text of news whose
+    # category is unknown, yet.
+    cats = ['sports', 'health', 'entertainment', 'tech', 'business']
+    root = './train_data/'
+    if not os.path.isfile('train_dump') or force_train:
+        classifier = train(cats)
+    else:
+        with open('train_dump', 'rb') as dump:
+            classifier = pickle.load(dump)
+    return classifier

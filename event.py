@@ -78,8 +78,8 @@ def addEvents(start_date=None, end_date=None):
      select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>(select max(tfidf) from final_tfidf)*25/100
      order by t desc
     ''').fetchall()
-    for i in events:
-        if i <= 10:
+    for num,i in enumerate(events):
+        if num <= 10:
             print(i[0]," : ",i[1])
         cursor.execute("insert or replace into tmp_tfidf(date,word,tfidf) values(?,?,?)",(NULL,i[0],i[1],))
     connection.commit()
