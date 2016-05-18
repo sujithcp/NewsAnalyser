@@ -36,7 +36,7 @@ cursor = connection.cursor()
 
 for cat in cats:
     dict = {}
-    db_out = cursor.execute('''select * from News where category = ?''',(cat,)).fetchall()
+    db_out = cursor.execute('''select * from News where category = ? order by title''',(cat,)).fetchall()
     for tuple in db_out:
         print("Testing : ",tuple[2]," --- ",tuple[0])
         data = tokenize(tuple[3],en_stem=True)
