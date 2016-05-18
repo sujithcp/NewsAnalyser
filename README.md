@@ -15,9 +15,9 @@ Python Version: 3+<br><br>
   <li>pickle<br>
   <li>stemming.porter2<br>
   <li>feedparser<br></p>
-
-<h2><b>Tests</b></h2><br>
 <hr>
+<h2><b>Tests</b></h2><br>
+
 <li>Best case test<br>
     Gives same dataset to train and test modules<br>
     <i>python3 best_case_test.py</i><br>
