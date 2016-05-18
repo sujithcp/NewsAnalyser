@@ -59,7 +59,7 @@ def addEvents(start_date=None, end_date=None):
                    word in file]
         tf = sum(tf_list)
         '''
-        Normalize to 100 file equivalent.
+        Normalize to 1000 file equivalent.
         '''
         tfidf = tf * idf * 1000 / len(window_data)
         return tfidf
@@ -76,7 +76,7 @@ def addEvents(start_date=None, end_date=None):
     events = cursor.execute('''
     select new.word,new.tfidf t from final_tfidf as new,tmp_tfidf as old where old.word=new.word and (new.tfidf-old.tfidf)>=(old.tfidf*50/100)
      union
-     select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>10
+     select word,tfidf t from final_tfidf where word not in (select word from tmp_tfidf) and final_tfidf.tfidf>(select max(tfidf) from final_tfidf)*30/100
      order by t desc
     ''').fetchall()
     for i in events[:10]:

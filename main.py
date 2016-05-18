@@ -2,7 +2,6 @@ import operator
 import shutil
 
 from nltk.probability import FreqDist
-
 from generals import *
 from news_classifier import getClassifier
 
@@ -16,7 +15,7 @@ def cleanDir(path):
 connection = sqlite3.connect('data/news_data.db')
 cursor = connection.cursor()
 
-work_data = cursor.execute('''select * from News''').fetchall()
+work_data = cursor.execute('''select * from News order by title''').fetchall()
 
 RESULT_ROOT = 'result_data/'
 cleanDir(RESULT_ROOT)

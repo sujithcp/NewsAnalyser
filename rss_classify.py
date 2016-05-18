@@ -9,19 +9,24 @@ from generals import readFile, createFile
 from news_classifier import getClassifier
 
 classifier = getClassifier()
+
+
 def cleanDir(path):
     if os.path.exists(path):
         shutil.rmtree(path)
     os.makedirs(path)
 
+
 def getUrlList(url):
     try:
         lines = [line.strip() for line in readFile(url).strip().split('\n')]
-        #print(lines)
+        # print(lines)
     except Exception as e:
         logging.exception(str(e))
         return []
     return lines
+
+
 def fetchNews():
     cleanDir('./OUTPUT/')
     URL_LIST = (getUrlList('url_list'))
@@ -40,9 +45,10 @@ def fetchNews():
                 text_stem = [stem(item) for item in text.split()]
                 dict = {item: 0 for item in text_stem}
                 cat = classifier.classify(dict)
-                print(title[:50]+" ... ","  :  ",cat," Prob. : ",classifier.prob_classify(dict).prob(cat))
-                createFile('./OUTPUT/'+cat,title[:30], text)
+                print(title[:50] + " ... ", "  :  ", cat, " Prob. : ", classifier.prob_classify(dict).prob(cat))
+                createFile('./OUTPUT/' + cat, title[:30], text)
         except Exception as e:
             logging.exception(str(e))
+
 
 fetchNews()

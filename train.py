@@ -4,13 +4,7 @@ Train the program with data files
 '''
 import pickle
 import sqlite3
-
 import nltk
-from naiveBayesClassifier import tokenizer
-from naiveBayesClassifier.trainer import Trainer
-from nltk.corpus import stopwords
-
-# You need to train the system passing each text one by one to the trainer module.
 from generals import tokenize
 
 '''newsSet =[
@@ -30,28 +24,19 @@ cursor = connection.cursor()
 
 
 def train(cats):
-    newsTrainer = Trainer(tokenizer)
     newsSet = []
-    stopw = set(stopwords.words('english'))
-    # print(stopw)
     for cat in cats:
-        data_set = {}
         db_out = cursor.execute('''select * from News where category = ?''',(cat,)).fetchall()
         for item in db_out:
             print(item[2]," ----> ",item[0])
             words = tokenize(item[3],en_stem=True).split()
             data_set = {item: 0 for item in words}
-            #print(string_words)
             newsSet.append((data_set, cat))
     classifier = nltk.NaiveBayesClassifier.train(newsSet)
     with open('train_dump', 'wb') as output:
         pickle.dump(classifier, output, pickle.HIGHEST_PROTOCOL)
     #print(classifier.classify({'gain':0,'profit':0,'interest':0}))
     return classifier
-
-
-# Now you have a classifier which can give a try to classifiy text of news whose
-# category is unknown, yet.
 
 
 #train(['health','sports','tech','entertainment','business'])

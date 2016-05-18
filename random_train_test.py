@@ -5,17 +5,15 @@ texts. So, you have better call this data your training set.
 """
 import random
 import sqlite3
-
 import nltk
 from nltk.corpus import stopwords
-
 from generals import tokenize
 
 cats = ['sports', 'health', 'entertainment', 'tech', 'business']
 connection = sqlite3.connect('data/news_data.db')
 cursor = connection.cursor()
 
-work_data = cursor.execute('''select * from News''').fetchall()
+work_data = cursor.execute('''select * from News order by title''').fetchall()
 newsSet = []
 stopw = set(stopwords.words('english'))
 # print(stopw)
