@@ -21,7 +21,7 @@ Python Version: 3+<br><br>
 <li>Best case test<br>
     Gives same dataset to train and test modules<br>
     <i>python3 best_case_test.py</i><br>
-<li>Random 50% test
+<li>Random 50% test<br>
     Gives 50% mutually exclusive dataset to train and test<br>
     <i>python3 random_train_test.py</i><br><br>
 
