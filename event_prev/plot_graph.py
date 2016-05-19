@@ -45,7 +45,7 @@ def plotDB():
     plt.ylabel('Article Count')
     plt.title('Graph - Date vs Article-Count')
     plt.grid(True)
-
+    plt.savefig('Article_count.png')
     plt.show()
 
 plotDB()
