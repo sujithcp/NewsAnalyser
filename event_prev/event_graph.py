@@ -134,6 +134,7 @@ def plotgraph():
         fig = plt.figure()
 
         graph = fig.add_subplot(111)
+        max_value = max( graph1 [ind])
         graph.plot(x1, graph1 [ind], 'b-o',linewidth=1.5,dash_joinstyle='round')
 
         # Set the xtick locations to correspond to just the dates you entered.
@@ -158,7 +159,8 @@ def plotgraph():
         plt.ylabel('TF-IDF Weight')
         plt.title('Event - '+ind)
         plt.grid(True)
-        plt.ylim((0, 20))
+        limit= max_value + max_value * .3
+        plt.ylim((0, limit ))
         plt.savefig(ind+'.png')
         #j+=1
 
