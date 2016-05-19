@@ -2,7 +2,6 @@ import datetime
 import math
 import sqlite3
 
-from nltk.corpus import stopwords
 from generals import tokenize
 
 
@@ -17,8 +16,7 @@ def fetchNewsFromDb(start_date=None, end_date=None):
         select * from General_News where ? <= date and date <= ?
         order by date asc,time asc
 
-        ''',
-                              (start_date, end_date,start_date, end_date,)).fetchall()
+        ''',(start_date, end_date,start_date, end_date,)).fetchall()
     return data
 
 
@@ -38,7 +36,7 @@ def addEvents(start_date=None, end_date=None):
     cursor = connection.cursor()
 
     # dates = set([item[4] for item in data])
-    window_data = [item[2]+"\n"+item[3] for item in data]
+    window_data = [item[2] for item in data]
     cursor.execute('''delete from final_tfidf''')
     connection.commit()
     window_data = [getNgrams(item) for item in window_data if item]
@@ -58,7 +56,7 @@ def addEvents(start_date=None, end_date=None):
         tf_list = [0.6 + 0.4 * file.count(word) / max([file.count(w) for w in file]) for file in window_data if
                    word in file]
         tf = sum(tf_list)
-        tfidf = tf * idf
+        tfidf =(1+ tf) * idf
         return tfidf
 
 
@@ -102,5 +100,4 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
         current_date = current_date + datetime.timedelta(days=1)
     connection.commit()
 
-
-findTrendingEvents('2016-05-01', '2016-05-18', 7)
+findTrendingEvents('2016-05-01', '2016-05-19', 4)
