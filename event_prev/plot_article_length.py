@@ -23,7 +23,7 @@ def plotLength():
     graph = fig.add_subplot(111)
 
     # Plot the data as a red line with round markers
-    graph.plot(x, y1,'r-o',x,y2, 'b-o')
+    graph.plot(x, y1,'r-o',x,y2, 'b-o',linewidth=1.5)
 
     # Set the xtick locations to correspond to just the dates you entered.
     graph.set_xticks(x)
@@ -42,6 +42,10 @@ def plotLength():
 
     graph.set_xticklabels([date for date in datacopy])
 
+    plt.xlabel('Date')
+    plt.ylabel('Article Length')
+    plt.title('Graph - Date vs Article-Length')
+    plt.grid(True)
     plt.show()
 
 plotLength()

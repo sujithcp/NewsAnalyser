@@ -23,7 +23,7 @@ def plotDB():
     graph = fig.add_subplot(111)
 
 # Plot the data as a red line with round markers
-    graph.plot(x, y, 'b-o')
+    graph.plot(x, y, 'b-o', linewidth=1.5)
 
 # Set the xtick locations to correspond to just the dates you entered.
     graph.set_xticks(x)
@@ -41,6 +41,10 @@ def plotDB():
     #graph.set_xticklabels( [date.strftime("%Y-%m-%d") for (date, value) in data])
 
     graph.set_xticklabels([date for date in datacopy ])
+    plt.xlabel('Date')
+    plt.ylabel('Article Count')
+    plt.title('Graph - Date vs Article-Count')
+    plt.grid(True)
 
     plt.show()
 
