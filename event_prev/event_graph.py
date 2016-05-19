@@ -119,19 +119,21 @@ def findTrendingEvents(start_date=None, end_date=None, window_size=2):
     connection.commit()
 
 
-findTrendingEvents('2016-05-03', '2016-05-09',1)
+findTrendingEvents('2016-05-01', '2016-05-19',1)
 
 
 
 def plotgraph():
     x1 = [date2num(date) for date in x]
 
-    fig = plt.figure()
 
-    graph = fig.add_subplot(111)
     #j=0
     #colour=['b-o', 'r-o', 'g-o', 'c-o', 'm-o']
     for ind in graph1 :
+        plt.clf()
+        fig = plt.figure()
+
+        graph = fig.add_subplot(111)
         graph.plot(x1, graph1 [ind], 'b-o',linewidth=1.5,dash_joinstyle='round')
 
         # Set the xtick locations to correspond to just the dates you entered.
@@ -150,13 +152,13 @@ def plotgraph():
 
         # graph.set_xticklabels( [date.strftime("%Y-%m-%d") for (date, value) in data])
 
-        graph.set_xticklabels([date.strftime("%m-%d") for date in x])
+        graph.set_xticklabels([date.strftime("%d") for date in x])
 
-        plt.xlabel('Date (Year : 2016)')
+        plt.xlabel('Date (Year, Month : 2016, May)')
         plt.ylabel('TF-IDF Weight')
         plt.title('Event - '+ind)
         plt.grid(True)
-
+        plt.ylim((0, 20))
         plt.savefig(ind+'.png')
         #j+=1
 

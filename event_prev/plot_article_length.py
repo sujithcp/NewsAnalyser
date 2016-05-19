@@ -46,6 +46,7 @@ def plotLength():
     plt.ylabel('Article Length')
     plt.title('Graph - Date vs Article-Length')
     plt.grid(True)
+    plt.ylim(0,30000)
     plt.savefig('Article_len.png')
     plt.show()
 
