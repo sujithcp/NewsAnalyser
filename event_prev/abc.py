@@ -80,6 +80,15 @@ def plot_accuracy():
     graph = fig.add_subplot(111)
     graph.plot(x, y, 'b-', linewidth=1.5)
     graph.set_xticks(x)
+    xlabel=[]
+    for i in range(0,len(x)-1):
+        if i%2==0:
+            xlabel.append(str(x[i]))
+        else:
+            xlabel.append('')
+
+    graph.set_xticklabels(xlabel)
+
     plt.xlabel('Total no. of articles')
     plt.ylabel('Accuracy')
     plt.title('Graph - Article count vs Accuracy')
