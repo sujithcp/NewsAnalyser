@@ -23,7 +23,7 @@ def plotDB():
     graph = fig.add_subplot(111)
 
 # Plot the data as a red line with round markers
-    graph.plot(x, y, 'b-o', linewidth=1.5)
+    graph.plot(x, y, 'b-', linewidth=2)
 
 # Set the xtick locations to correspond to just the dates you entered.
     graph.set_xticks(x)
