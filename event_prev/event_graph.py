@@ -8,7 +8,7 @@ from matplotlib.dates import date2num
 from generals import tokenize
 
 
-graph1={'mother day':[],'rio olympics':[], 'cannes review' : [],'akshaya tritiya' : []}
+graph1={'mother day':[],'rio olympics':[], 'met gala' : [],'assembly polls' : [],'cannes review': [],'italian open':[]}
 
 x=[]
 

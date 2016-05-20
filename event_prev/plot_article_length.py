@@ -8,22 +8,23 @@ def plotLength():
     connection=sqlite3.connect('../data/news_data.db')
     cursor = connection .cursor()
 
-    data= cursor.execute(''' select date,max(length(news)) as maxlen, min(length(news)) as minlen from News where date>="2016-04-01" group by date''').fetchall()
+    data= cursor.execute(''' select date,max(length(news)) as maxlen, min(length(news)) as minlen,avg(length(news)) from News where date>="2016-04-01" group by date''').fetchall()
 
     data = [i for i in data if i[0] != 'NULL']
 
-    data = [(DT.datetime.strptime(i[0], "%Y-%m-%d"), i[1], i[2]) for i in data]
+    data = [(DT.datetime.strptime(i[0], "%Y-%m-%d"), i[1], i[2],i[3]) for i in data]
 
-    x = [date2num(date) for (date, value1, value2) in data]
-    y1 = [value1 for (date, value1, value2) in data]
-    y2 = [value2 for (date, value1, value2) in data]
+    x = [date2num(date) for (date, value1, value2,avg) in data]
+    y1 = [value1 for (date, value1, value2, avg) in data]
+    y2 = [value2 for (date, value1, value2, avg) in data]
+    mean = [avg for (date, value1, value2, avg) in data]
 
     fig = plt.figure()
 
     graph = fig.add_subplot(111)
 
     # Plot the data as a red line with round markers
-    graph.plot(x, y1,'r-o',x,y2, 'b-o',linewidth=1.5)
+    graph.plot(x, y1,'ro',x,y2, 'bo', x, mean, 'g-o', linewidth=2)
 
     # Set the xtick locations to correspond to just the dates you entered.
     graph.set_xticks(x)
