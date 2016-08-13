@@ -76,13 +76,18 @@ def fetchRss(category=None,name = ""):
                 '''
 
                 print(name, " --> ", title,link,date,time)
-                cursor.execute("select count(*) from News where title = ?", (title,))
+                if category=='general':
+                	cursor.execute("select count(*) from General_News where title = ? and (julianday('now')-julianday(date))<3", (title,))
+                elif category=='malayalam':
+                	cursor.execute("select count(*) from Malayalam where title = ? and (julianday('now')-julianday(date))<3", (title,))
+                else:
+                	cursor.execute("select count(*) from News where title = ? and (julianday('now')-julianday(date))<3", (title,))
                 count = int(cursor.fetchone()[0])
                 if count != 0:
                     print("Skipping >>> ")
                     continue
 
-                print("Adding to database ",title)
+                print("Adding to database: ",title)
                 text = description+"\n"+GetTextFromUrl(link).getText()
                 if len(text)<300:
                     print("Too short text.. SKIPPING")
@@ -90,16 +95,18 @@ def fetchRss(category=None,name = ""):
                 #print(text)
                 id = hashlib.md5(text.encode('utf-8')).hexdigest()
                 print(id)
-                if category !='general':
-                    cursor.execute("insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
+                if category =='general':
+                    cursor.execute("insert or ignore into General_News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
+                    
+                elif category== 'malayalam':
+                	cursor.execute("insert or ignore into Malayalam(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)", (id, title, text, category, date, time,link,))
                 else:
                     cursor.execute(
-                        "insert or ignore into General_News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)",
+                        "insert or ignore into News(id,title,news,category,date,time,link) values(?,?,?,?,?,?,?)",
                         (id, title, text, category, date, time, link,))
-
-                connection.commit()
-
+                        
                 newCount += 1
+                connection.commit()
             print(name, " - Done")
         except Exception as e:
             print("Exception occured for ",link or "")
@@ -131,7 +138,7 @@ tentertainment = threading.Thread(target=fetchRss,args=("entertainment","t_enter
 ttech = threading.Thread(target=fetchRss,args=("tech","t_tech"))
 tbusiness = threading.Thread(target=fetchRss,args=("business","t_business"))
 tgeneral = threading.Thread(target=fetchRss,args=("general","t_general"))
-
+tmalayalam = threading.Thread(target=fetchRss,args=("malayalam","t_malayalam"))
 
 tsports.daemon = True
 thealth.daemon = True
@@ -139,6 +146,7 @@ tentertainment.daemon = True
 ttech.daemon = True
 tbusiness.daemon = True
 tgeneral.daemon = True
+tmalayalam.daemon = True
 
 tsports.start()
 thealth.start()
@@ -146,6 +154,7 @@ tentertainment.start()
 ttech.start()
 tbusiness.start()
 tgeneral.start()
+tmalayalam.start()
 
 tsports.join()
 thealth.join()
@@ -153,3 +162,4 @@ tentertainment.join()
 ttech.join()
 tbusiness.join()
 tgeneral.join()
+tmalayalam.join()
